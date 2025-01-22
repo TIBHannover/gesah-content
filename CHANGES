@@ -1,32 +1,980 @@
-5193a5194
-> <http://ontology.tib.eu/gesah/Copper_Engraving> <http://ontology.tib.eu/gesah/used_in> <https://sah.tib.eu/individual/n37428> <http://vitro.mannlib.cornell.edu/default/vitro-kb-2> .
-22922a22924
-> <http://ontology.tib.eu/gesah/Flemish> <http://ontology.tib.eu/gesah/geographic_assignment_of> <https://sah.tib.eu/individual/composite_volume_samvokua_1869125207> <http://vitro.mannlib.cornell.edu/default/vitro-kb-2> .
-68495a68498
-> <http://ontology.tib.eu/gesah/Paper> <http://ontology.tib.eu/gesah/incorporated_in> <https://sah.tib.eu/individual/n37428> <http://vitro.mannlib.cornell.edu/default/vitro-kb-2> .
-112812a112816
-> <https://sah.tib.eu/individual/06af9d4644cf4b14ac2f670ef5065618> <http://ontology.tib.eu/gesah/order_number> "4"^^<http://www.w3.org/2001/XMLSchema#integer> <http://vitro.mannlib.cornell.edu/default/vitro-kb-2> .
-112816c112820
-< <https://sah.tib.eu/individual/06af9d4644cf4b14ac2f670ef5065618> <http://ontology.tib.eu/gesah/secondary_literature> "Christian Hülsen, Das Speculum Romanae Magnificentiae des Antonio Lafreri, in: Collectanea variae doctrinae Leoni S. Olschki, München 1921, S. 121-170 "^^<http://www.w3.org/2000/01/rdf-schema#Literal> <http://vitro.mannlib.cornell.edu/default/vitro-kb-2> .
+2139a2140
+> <http://ontology.tib.eu/gesah/Brush> <http://ontology.tib.eu/gesah/used_in> <https://sah.tib.eu/individual/2ba9a300f76844108dcaad8f63aef8a5> <http://vitro.mannlib.cornell.edu/default/vitro-kb-2> .
+4508a4510
+> <http://ontology.tib.eu/gesah/Copper_Engraving> <http://ontology.tib.eu/gesah/used_in> <https://sah.tib.eu/individual/7d55e6c201064069972e27de0c1df02a> <http://vitro.mannlib.cornell.edu/default/vitro-kb-inf> .
+4547a4550
+> <http://ontology.tib.eu/gesah/Copper_Engraving> <http://ontology.tib.eu/gesah/used_in> <https://sah.tib.eu/individual/a1dc22e6415d45bc9d7143b38db1c152> <http://vitro.mannlib.cornell.edu/default/vitro-kb-inf> .
+4635a4639
+> <http://ontology.tib.eu/gesah/Copper_Engraving> <http://ontology.tib.eu/gesah/used_in> <https://sah.tib.eu/individual/f81687b9cb2c4da0b07ef9cc50c447c1> <http://vitro.mannlib.cornell.edu/default/vitro-kb-inf> .
+4638a4643
+> <http://ontology.tib.eu/gesah/Copper_Engraving> <http://ontology.tib.eu/gesah/used_in> <https://sah.tib.eu/individual/ff5010b765674ad78a47af9f61658ec4> <http://vitro.mannlib.cornell.edu/default/vitro-kb-inf> .
+7519a7525
+> <http://ontology.tib.eu/gesah/Detail> <http://ontology.tib.eu/gesah/depiction_type_of> <https://sah.tib.eu/individual/4431d9be6d9e423286f67b7cd63c5b7b> <http://vitro.mannlib.cornell.edu/default/vitro-kb-2> .
+7520a7527,7528
+> <http://ontology.tib.eu/gesah/Detail> <http://ontology.tib.eu/gesah/depiction_type_of> <https://sah.tib.eu/individual/7cae7f255c684e81a3fce792e8c55cd3> <http://vitro.mannlib.cornell.edu/default/vitro-kb-2> .
+> <http://ontology.tib.eu/gesah/Detail> <http://ontology.tib.eu/gesah/depiction_type_of> <https://sah.tib.eu/individual/7cb3d7432cae443e8c2a963398e17623> <http://vitro.mannlib.cornell.edu/default/vitro-kb-2> .
+7524a7533,7534
+> <http://ontology.tib.eu/gesah/Detail> <http://ontology.tib.eu/gesah/depiction_type_of> <https://sah.tib.eu/individual/d05fb109799141fe834ac7e1f8d8f830> <http://vitro.mannlib.cornell.edu/default/vitro-kb-2> .
+> <http://ontology.tib.eu/gesah/Detail> <http://ontology.tib.eu/gesah/depiction_type_of> <https://sah.tib.eu/individual/da61bb8c7dfa404788b9dc7762b76271> <http://vitro.mannlib.cornell.edu/default/vitro-kb-2> .
+7542a7553
+> <http://ontology.tib.eu/gesah/Detail> <http://ontology.tib.eu/gesah/depiction_type_of> <https://sah.tib.eu/individual/n4664> <http://vitro.mannlib.cornell.edu/default/vitro-kb-2> .
+19040a19052
+> <http://ontology.tib.eu/gesah/Engraver> <http://ontology.tib.eu/gesah/is_role_type_of> <https://sah.tib.eu/individual/7d55e6c201064069972e27de0c1df02a_n116700> <http://vitro.mannlib.cornell.edu/default/vitro-kb-inf> .
+19076a19089
+> <http://ontology.tib.eu/gesah/Engraver> <http://ontology.tib.eu/gesah/is_role_type_of> <https://sah.tib.eu/individual/a1dc22e6415d45bc9d7143b38db1c152_n116700> <http://vitro.mannlib.cornell.edu/default/vitro-kb-inf> .
+19161a19175
+> <http://ontology.tib.eu/gesah/Engraver> <http://ontology.tib.eu/gesah/is_role_type_of> <https://sah.tib.eu/individual/f81687b9cb2c4da0b07ef9cc50c447c1_n116700> <http://vitro.mannlib.cornell.edu/default/vitro-kb-inf> .
+19164a19179
+> <http://ontology.tib.eu/gesah/Engraver> <http://ontology.tib.eu/gesah/is_role_type_of> <https://sah.tib.eu/individual/ff5010b765674ad78a47af9f61658ec4_n116700> <http://vitro.mannlib.cornell.edu/default/vitro-kb-inf> .
+22921a22937,22940
+> <http://ontology.tib.eu/gesah/Flemish> <http://ontology.tib.eu/gesah/geographic_assignment_of> <https://sah.tib.eu/individual/11c57e788e6145a999a73739f615ec52> <http://vitro.mannlib.cornell.edu/default/vitro-kb-inf> .
+> <http://ontology.tib.eu/gesah/Flemish> <http://ontology.tib.eu/gesah/geographic_assignment_of> <https://sah.tib.eu/individual/49ee783a4d484da6ae48678ad09aa33c> <http://vitro.mannlib.cornell.edu/default/vitro-kb-inf> .
+> <http://ontology.tib.eu/gesah/Flemish> <http://ontology.tib.eu/gesah/geographic_assignment_of> <https://sah.tib.eu/individual/a83bcebd056a454f8748263852e286c5> <http://vitro.mannlib.cornell.edu/default/vitro-kb-inf> .
+> <http://ontology.tib.eu/gesah/Flemish> <http://ontology.tib.eu/gesah/geographic_assignment_of> <https://sah.tib.eu/individual/b4ee8e9eedf54cc1ada59b6f48774fe0> <http://vitro.mannlib.cornell.edu/default/vitro-kb-inf> .
+50404a50424
+> <http://ontology.tib.eu/gesah/Graphite_Pencil> <http://ontology.tib.eu/gesah/used_in> <https://sah.tib.eu/individual/5d110f6909a64d6c9f4716b10225e4a7> <http://vitro.mannlib.cornell.edu/default/vitro-kb-2> .
+50596a50617
+> <http://ontology.tib.eu/gesah/Graphite_Pencil> <http://ontology.tib.eu/gesah/used_in> <https://sah.tib.eu/individual/692a2ae20b8f4f15803e39bd5deaf816> <http://vitro.mannlib.cornell.edu/default/vitro-kb-2> .
+51130a51152
+> <http://ontology.tib.eu/gesah/Graphite_Pencil> <http://ontology.tib.eu/gesah/used_in> <https://sah.tib.eu/individual/8f032cf00ca342678ed8c21a60c2be23> <http://vitro.mannlib.cornell.edu/default/vitro-kb-2> .
+52407a52430
+> <http://ontology.tib.eu/gesah/Graphite_Pencil> <http://ontology.tib.eu/gesah/used_in> <https://sah.tib.eu/individual/ee019bad50ec4f5f8eb0aeb8dc8a7230> <http://vitro.mannlib.cornell.edu/default/vitro-kb-2> .
+54765a54789
+> <http://ontology.tib.eu/gesah/Inventor> <http://ontology.tib.eu/gesah/is_role_type_of> <https://sah.tib.eu/individual/48faefcf89b64bac9cdf541a46975d45_n58008> <http://vitro.mannlib.cornell.edu/default/vitro-kb-inf> .
+54941a54966
+> <http://ontology.tib.eu/gesah/Inventor> <http://ontology.tib.eu/gesah/is_role_type_of> <https://sah.tib.eu/individual/9dcbb75b5d1a40168da93108b61164db_n58008> <http://vitro.mannlib.cornell.edu/default/vitro-kb-inf> .
+54986a55012
+> <http://ontology.tib.eu/gesah/Inventor> <http://ontology.tib.eu/gesah/is_role_type_of> <https://sah.tib.eu/individual/b7595aaebf864ac295d26b2ecfc0cd43_n58008> <http://vitro.mannlib.cornell.edu/default/vitro-kb-inf> .
+55040a55067
+> <http://ontology.tib.eu/gesah/Inventor> <http://ontology.tib.eu/gesah/is_role_type_of> <https://sah.tib.eu/individual/d19022a48068423c8917fb272c8f4777_n58008> <http://vitro.mannlib.cornell.edu/default/vitro-kb-inf> .
+61575a61603
+> <http://ontology.tib.eu/gesah/Paper> <http://ontology.tib.eu/gesah/incorporated_in> <https://sah.tib.eu/individual/2ba9a300f76844108dcaad8f63aef8a5> <http://vitro.mannlib.cornell.edu/default/vitro-kb-2> .
+63631a63660
+> <http://ontology.tib.eu/gesah/Paper> <http://ontology.tib.eu/gesah/incorporated_in> <https://sah.tib.eu/individual/7d55e6c201064069972e27de0c1df02a> <http://vitro.mannlib.cornell.edu/default/vitro-kb-inf> .
+64554a64584
+> <http://ontology.tib.eu/gesah/Paper> <http://ontology.tib.eu/gesah/incorporated_in> <https://sah.tib.eu/individual/a1dc22e6415d45bc9d7143b38db1c152> <http://vitro.mannlib.cornell.edu/default/vitro-kb-inf> .
+66675a66706
+> <http://ontology.tib.eu/gesah/Paper> <http://ontology.tib.eu/gesah/incorporated_in> <https://sah.tib.eu/individual/f81687b9cb2c4da0b07ef9cc50c447c1> <http://vitro.mannlib.cornell.edu/default/vitro-kb-inf> .
+66844a66876
+> <http://ontology.tib.eu/gesah/Paper> <http://ontology.tib.eu/gesah/incorporated_in> <https://sah.tib.eu/individual/ff5010b765674ad78a47af9f61658ec4> <http://vitro.mannlib.cornell.edu/default/vitro-kb-inf> .
+75408a75441
+> <http://ontology.tib.eu/gesah/Publisher> <http://ontology.tib.eu/gesah/is_role_type_of> <https://sah.tib.eu/individual/749cb68c398d427592ad0c053f0f0396_n45597> <http://vitro.mannlib.cornell.edu/default/vitro-kb-inf> .
+75478a75512
+> <http://ontology.tib.eu/gesah/Publisher> <http://ontology.tib.eu/gesah/is_role_type_of> <https://sah.tib.eu/individual/957b9b8c41ba4f47b43aa773f279b456_n45597> <http://vitro.mannlib.cornell.edu/default/vitro-kb-inf> .
+75528a75563
+> <http://ontology.tib.eu/gesah/Publisher> <http://ontology.tib.eu/gesah/is_role_type_of> <https://sah.tib.eu/individual/b2d7392a96c640dea5ae85b1d5b336fd_n45597> <http://vitro.mannlib.cornell.edu/default/vitro-kb-inf> .
+75539a75575
+> <http://ontology.tib.eu/gesah/Publisher> <http://ontology.tib.eu/gesah/is_role_type_of> <https://sah.tib.eu/individual/b72df119c065426cb7e8e6457d3c951e_n45597> <http://vitro.mannlib.cornell.edu/default/vitro-kb-inf> .
+99801c99837
+< <https://sah.tib.eu/individual/01398fbdc95e4b30b08e483d384b06f2> <http://www.w3.org/2000/01/rdf-schema#label> "Italienisches Reiseskizzenbuch [Alexander von Tritschler] Part 0015"@de-DE <http://vitro.mannlib.cornell.edu/default/vitro-kb-2> .
 ---
-> <https://sah.tib.eu/individual/06af9d4644cf4b14ac2f670ef5065618> <http://ontology.tib.eu/gesah/secondary_literature> "Christian Hülsen, Das Speculum Romanae Magnificentiae des Antonio Lafreri, in: Collectanea variae doctrinae Leoni S. Olschki, München 1921, S. 121-170, Nr. 13d"^^<http://www.w3.org/2000/01/rdf-schema#Literal> <http://vitro.mannlib.cornell.edu/default/vitro-kb-2> .
-140384d140387
-< <https://sah.tib.eu/individual/1178601a4e77465f8c0a6d4e0b1cd912> <http://ontology.tib.eu/gesah/realized_in> <https://sah.tib.eu/individual/bb83cb8eaa6042f991d14fe3988969fa> <http://vitro.mannlib.cornell.edu/default/vitro-kb-inf> .
-1116084,1116090d1116086
-< <https://sah.tib.eu/individual/bb83cb8eaa6042f991d14fe3988969fa> <http://ontology.tib.eu/gesah/realizes> <https://sah.tib.eu/individual/1178601a4e77465f8c0a6d4e0b1cd912> <http://vitro.mannlib.cornell.edu/default/vitro-kb-2> .
-< <https://sah.tib.eu/individual/bb83cb8eaa6042f991d14fe3988969fa> <http://vitro.mannlib.cornell.edu/ns/vitro/0.7#mostSpecificType> <http://ontology.tib.eu/gesah/Activity> <http://vitro.mannlib.cornell.edu/default/vitro-kb-inf> .
-< <https://sah.tib.eu/individual/bb83cb8eaa6042f991d14fe3988969fa> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ontology.tib.eu/gesah/Activity> <http://vitro.mannlib.cornell.edu/default/vitro-kb-2> .
-< <https://sah.tib.eu/individual/bb83cb8eaa6042f991d14fe3988969fa> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.obolibrary.org/obo/BFO_0000001> <http://vitro.mannlib.cornell.edu/default/vitro-kb-inf> .
-< <https://sah.tib.eu/individual/bb83cb8eaa6042f991d14fe3988969fa> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.obolibrary.org/obo/BFO_0000003> <http://vitro.mannlib.cornell.edu/default/vitro-kb-inf> .
-< <https://sah.tib.eu/individual/bb83cb8eaa6042f991d14fe3988969fa> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.obolibrary.org/obo/BFO_0000015> <http://vitro.mannlib.cornell.edu/default/vitro-kb-inf> .
-< <https://sah.tib.eu/individual/bb83cb8eaa6042f991d14fe3988969fa> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Thing> <http://vitro.mannlib.cornell.edu/default/vitro-kb-inf> .
-1204492a1204489
-> <https://sah.tib.eu/individual/composite_volume_samvokua_1869125207> <http://ontology.tib.eu/gesah/has_geographic_assignment> <http://ontology.tib.eu/gesah/Flemish> <http://vitro.mannlib.cornell.edu/default/vitro-kb-2> .
-1204528d1204524
-< <https://sah.tib.eu/individual/composite_volume_samvokua_1869125207> <http://ontology.tib.eu/gesah/some-output> <https://sah.tib.eu/individual/bb83cb8eaa6042f991d14fe3988969fa> <http://vitro.mannlib.cornell.edu/default/vitro-kb-2> .
-2081295a2081292
-> <https://sah.tib.eu/individual/n37428> <http://ontology.tib.eu/gesah/has_material> <http://ontology.tib.eu/gesah/Paper> <http://vitro.mannlib.cornell.edu/default/vitro-kb-2> .
-2081298a2081296
-> <https://sah.tib.eu/individual/n37428> <http://ontology.tib.eu/gesah/uses_technique> <http://ontology.tib.eu/gesah/Copper_Engraving> <http://vitro.mannlib.cornell.edu/default/vitro-kb-2> .
-2142492a2142491
-> <https://sah.tib.eu/individual/n45278> <http://ontology.tib.eu/gesah/GND_ID> "7560600-8" <http://vitro.mannlib.cornell.edu/default/vitro-kb-2> .
+> <https://sah.tib.eu/individual/01398fbdc95e4b30b08e483d384b06f2> <http://www.w3.org/2000/01/rdf-schema#label> "[Alexander von Tritschler, Italienisches Reiseskizzenbuch], fol. 8v"@de-DE <http://vitro.mannlib.cornell.edu/default/vitro-kb-2> .
+138532a138569
+> <https://sah.tib.eu/individual/10c08fcc81484a849ce9e23810193b8c> <http://ontology.tib.eu/gesah/depicts> <https://sah.tib.eu/individual/n135929> <http://vitro.mannlib.cornell.edu/default/vitro-kb-2> .
+138534a138572
+> <https://sah.tib.eu/individual/10c08fcc81484a849ce9e23810193b8c> <http://ontology.tib.eu/gesah/depicts> <https://sah.tib.eu/individual/n31401> <http://vitro.mannlib.cornell.edu/default/vitro-kb-2> .
+141033a141072,141097
+> <https://sah.tib.eu/individual/11c57e788e6145a999a73739f615ec52> <http://ontology.tib.eu/gesah/current_inventory_number> "gr 2 Haupt 1096" <http://vitro.mannlib.cornell.edu/default/vitro-kb-2> .
+> <https://sah.tib.eu/individual/11c57e788e6145a999a73739f615ec52> <http://ontology.tib.eu/gesah/has_current_holding_institution> <https://sah.tib.eu/individual/n3212> <http://vitro.mannlib.cornell.edu/default/vitro-kb-2> .
+> <https://sah.tib.eu/individual/11c57e788e6145a999a73739f615ec52> <http://ontology.tib.eu/gesah/has_digital_representation> <https://sah.tib.eu/individual/samvokua_1869125207_image_106_digrep> <http://vitro.mannlib.cornell.edu/default/vitro-kb-2> .
+> <https://sah.tib.eu/individual/11c57e788e6145a999a73739f615ec52> <http://ontology.tib.eu/gesah/has_digital_representation> <https://sah.tib.eu/individual/samvokua_1869125207_image_107_digrep> <http://vitro.mannlib.cornell.edu/default/vitro-kb-2> .
+> <https://sah.tib.eu/individual/11c57e788e6145a999a73739f615ec52> <http://ontology.tib.eu/gesah/has_digital_representation> <https://sah.tib.eu/individual/samvokua_1869125207_image_108_digrep> <http://vitro.mannlib.cornell.edu/default/vitro-kb-2> .
+> <https://sah.tib.eu/individual/11c57e788e6145a999a73739f615ec52> <http://ontology.tib.eu/gesah/has_geographic_assignment> <http://ontology.tib.eu/gesah/Flemish> <http://vitro.mannlib.cornell.edu/default/vitro-kb-2> .
+> <https://sah.tib.eu/individual/11c57e788e6145a999a73739f615ec52> <http://ontology.tib.eu/gesah/has_main_image> <https://sah.tib.eu/individual/samvokua_1869125207_image_107_digrep> <http://vitro.mannlib.cornell.edu/default/vitro-kb-2> .
+> <https://sah.tib.eu/individual/11c57e788e6145a999a73739f615ec52> <http://ontology.tib.eu/gesah/has_object_category_generic_term> <https://sah.tib.eu/individual/n2242> <http://vitro.mannlib.cornell.edu/default/vitro-kb-2> .
+> <https://sah.tib.eu/individual/11c57e788e6145a999a73739f615ec52> <http://ontology.tib.eu/gesah/hide> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> <http://vitro.mannlib.cornell.edu/default/vitro-kb-2> .
+> <https://sah.tib.eu/individual/11c57e788e6145a999a73739f615ec52> <http://ontology.tib.eu/gesah/is_part_of_collection> <https://sah.tib.eu/individual/n34147> <http://vitro.mannlib.cornell.edu/default/vitro-kb-2> .
+> <https://sah.tib.eu/individual/11c57e788e6145a999a73739f615ec52> <http://ontology.tib.eu/gesah/is_part_of> <https://sah.tib.eu/individual/composite_volume_samvokua_1869125207> <http://vitro.mannlib.cornell.edu/default/vitro-kb-2> .
+> <https://sah.tib.eu/individual/11c57e788e6145a999a73739f615ec52> <http://ontology.tib.eu/gesah/metadata_right> <https://sah.tib.eu/individual/n25518> <http://vitro.mannlib.cornell.edu/default/vitro-kb-2> .
+> <https://sah.tib.eu/individual/11c57e788e6145a999a73739f615ec52> <http://ontology.tib.eu/gesah/object_of_edition> <https://sah.tib.eu/individual/957b9b8c41ba4f47b43aa773f279b456> <http://vitro.mannlib.cornell.edu/default/vitro-kb-2> .
+> <https://sah.tib.eu/individual/11c57e788e6145a999a73739f615ec52> <http://ontology.tib.eu/gesah/object_of_publication> <https://sah.tib.eu/individual/957b9b8c41ba4f47b43aa773f279b456> <http://vitro.mannlib.cornell.edu/default/vitro-kb-2> .
+> <https://sah.tib.eu/individual/11c57e788e6145a999a73739f615ec52> <http://ontology.tib.eu/gesah/output_of_creation> <https://sah.tib.eu/individual/b7595aaebf864ac295d26b2ecfc0cd43> <http://vitro.mannlib.cornell.edu/default/vitro-kb-2> .
+> <https://sah.tib.eu/individual/11c57e788e6145a999a73739f615ec52> <http://ontology.tib.eu/gesah/output_of_production> <https://sah.tib.eu/individual/ff5010b765674ad78a47af9f61658ec4> <http://vitro.mannlib.cornell.edu/default/vitro-kb-2> .
+> <https://sah.tib.eu/individual/11c57e788e6145a999a73739f615ec52> <http://ontology.tib.eu/gesah/record_author_initials> "BR" <http://vitro.mannlib.cornell.edu/default/vitro-kb-2> .
+> <https://sah.tib.eu/individual/11c57e788e6145a999a73739f615ec52> <http://vitro.mannlib.cornell.edu/ns/vitro/0.7#mostSpecificType> <http://ontology.tib.eu/gesah/Print> <http://vitro.mannlib.cornell.edu/default/vitro-kb-inf> .
+> <https://sah.tib.eu/individual/11c57e788e6145a999a73739f615ec52> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ontology.tib.eu/gesah/Cultural_Object> <http://vitro.mannlib.cornell.edu/default/vitro-kb-inf> .
+> <https://sah.tib.eu/individual/11c57e788e6145a999a73739f615ec52> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ontology.tib.eu/gesah/Print> <http://vitro.mannlib.cornell.edu/default/vitro-kb-2> .
+> <https://sah.tib.eu/individual/11c57e788e6145a999a73739f615ec52> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.obolibrary.org/obo/BFO_0000001> <http://vitro.mannlib.cornell.edu/default/vitro-kb-inf> .
+> <https://sah.tib.eu/individual/11c57e788e6145a999a73739f615ec52> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.obolibrary.org/obo/BFO_0000002> <http://vitro.mannlib.cornell.edu/default/vitro-kb-inf> .
+> <https://sah.tib.eu/individual/11c57e788e6145a999a73739f615ec52> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.obolibrary.org/obo/BFO_0000031> <http://vitro.mannlib.cornell.edu/default/vitro-kb-inf> .
+> <https://sah.tib.eu/individual/11c57e788e6145a999a73739f615ec52> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.obolibrary.org/obo/IAO_0000030> <http://vitro.mannlib.cornell.edu/default/vitro-kb-inf> .
+> <https://sah.tib.eu/individual/11c57e788e6145a999a73739f615ec52> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Thing> <http://vitro.mannlib.cornell.edu/default/vitro-kb-inf> .
+> <https://sah.tib.eu/individual/11c57e788e6145a999a73739f615ec52> <http://www.w3.org/2000/01/rdf-schema#label> "Sammlung von Kupferstichen aus verschiedenen Werken (Speculum) Part 0002"@de-DE <http://vitro.mannlib.cornell.edu/default/vitro-kb-2> .
+204378a204443
+> <https://sah.tib.eu/individual/2ba9a300f76844108dcaad8f63aef8a5> <http://ontology.tib.eu/gesah/has_material> <http://ontology.tib.eu/gesah/Paper> <http://vitro.mannlib.cornell.edu/default/vitro-kb-2> .
+204379a204445,204446
+> <https://sah.tib.eu/individual/2ba9a300f76844108dcaad8f63aef8a5> <http://ontology.tib.eu/gesah/uses_technique> <http://ontology.tib.eu/gesah/Brush> <http://vitro.mannlib.cornell.edu/default/vitro-kb-2> .
+> <https://sah.tib.eu/individual/2ba9a300f76844108dcaad8f63aef8a5> <http://ontology.tib.eu/gesah/uses_technique> <https://sah.tib.eu/individual/n32479> <http://vitro.mannlib.cornell.edu/default/vitro-kb-2> .
+204389c204456
+< <https://sah.tib.eu/individual/2ba9a300f76844108dcaad8f63aef8a5_n129916> <http://vivoweb.org/ontology/core#dateTime> "1856-01-01T00:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> <http://vitro.mannlib.cornell.edu/default/vitro-kb-2> .
+---
+> <https://sah.tib.eu/individual/2ba9a300f76844108dcaad8f63aef8a5_n129916> <http://vivoweb.org/ontology/core#dateTime> "1857-01-01T00:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> <http://vitro.mannlib.cornell.edu/default/vitro-kb-2> .
+223940c224007
+< <https://sah.tib.eu/individual/33f76718696f4b198c760f5b2f751eb7> <http://www.w3.org/2000/01/rdf-schema#label> "Italienisches Reiseskizzenbuch [Alexander von Tritschler] Part 0012"@de-DE <http://vitro.mannlib.cornell.edu/default/vitro-kb-2> .
+---
+> <https://sah.tib.eu/individual/33f76718696f4b198c760f5b2f751eb7> <http://www.w3.org/2000/01/rdf-schema#label> "[Alexander von Tritschler, Italienisches Reiseskizzenbuch], fol. 7r"@de-DE <http://vitro.mannlib.cornell.edu/default/vitro-kb-2> .
+262391c262458,262461
+< <https://sah.tib.eu/individual/4431d9be6d9e423286f67b7cd63c5b7b> <http://ontology.tib.eu/gesah/current_inventory_number> "gr 2 Haupt 1605" <http://vitro.mannlib.cornell.edu/default/vitro-kb-2> .
+---
+> <https://sah.tib.eu/individual/4431d9be6d9e423286f67b7cd63c5b7b> <http://ontology.tib.eu/gesah/current_inventory_number> "gr 2 Haupt 1605: 5v" <http://vitro.mannlib.cornell.edu/default/vitro-kb-2> .
+> <https://sah.tib.eu/individual/4431d9be6d9e423286f67b7cd63c5b7b> <http://ontology.tib.eu/gesah/depicted_object_localisied_in> <https://sah.tib.eu/individual/n25983> <http://vitro.mannlib.cornell.edu/default/vitro-kb-2> .
+> <https://sah.tib.eu/individual/4431d9be6d9e423286f67b7cd63c5b7b> <http://ontology.tib.eu/gesah/depicts> <https://sah.tib.eu/individual/n10838> <http://vitro.mannlib.cornell.edu/default/vitro-kb-2> .
+> <https://sah.tib.eu/individual/4431d9be6d9e423286f67b7cd63c5b7b> <http://ontology.tib.eu/gesah/depicts> <https://sah.tib.eu/individual/n53345> <http://vitro.mannlib.cornell.edu/default/vitro-kb-2> .
+262392a262463
+> <https://sah.tib.eu/individual/4431d9be6d9e423286f67b7cd63c5b7b> <http://ontology.tib.eu/gesah/has_depiction_type> <http://ontology.tib.eu/gesah/Detail> <http://vitro.mannlib.cornell.edu/default/vitro-kb-2> .
+262397c262468,262469
+< <https://sah.tib.eu/individual/4431d9be6d9e423286f67b7cd63c5b7b> <http://ontology.tib.eu/gesah/has_object_category_generic_term> <https://sah.tib.eu/individual/n2242> <http://vitro.mannlib.cornell.edu/default/vitro-kb-2> .
+---
+> <https://sah.tib.eu/individual/4431d9be6d9e423286f67b7cd63c5b7b> <http://ontology.tib.eu/gesah/has_object_category_generic_term> <https://sah.tib.eu/individual/n30923> <http://vitro.mannlib.cornell.edu/default/vitro-kb-2> .
+> <https://sah.tib.eu/individual/4431d9be6d9e423286f67b7cd63c5b7b> <http://ontology.tib.eu/gesah/has_object_category_narrower_term> <https://sah.tib.eu/individual/n37142> <http://vitro.mannlib.cornell.edu/default/vitro-kb-2> .
+262400d262471
+< <https://sah.tib.eu/individual/4431d9be6d9e423286f67b7cd63c5b7b> <http://ontology.tib.eu/gesah/hide> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> <http://vitro.mannlib.cornell.edu/default/vitro-kb-2> .
+262414c262485
+< <https://sah.tib.eu/individual/4431d9be6d9e423286f67b7cd63c5b7b> <http://www.w3.org/2000/01/rdf-schema#label> "Italienisches Reiseskizzenbuch [Alexander von Tritschler] Part 0009"@de-DE <http://vitro.mannlib.cornell.edu/default/vitro-kb-2> .
+---
+> <https://sah.tib.eu/individual/4431d9be6d9e423286f67b7cd63c5b7b> <http://www.w3.org/2000/01/rdf-schema#label> "Pompeji, Verschiedene Tiere und Mischwesen [Alexander von Tritschler, Italienisches Reiseskizzenbuch], fol. 5v"@de-DE <http://vitro.mannlib.cornell.edu/default/vitro-kb-2> .
+273728a273800,273819
+> <https://sah.tib.eu/individual/48faefcf89b64bac9cdf541a46975d45> <http://ontology.tib.eu/gesah/has_creation_output> <https://sah.tib.eu/individual/a83bcebd056a454f8748263852e286c5> <http://vitro.mannlib.cornell.edu/default/vitro-kb-inf> .
+> <https://sah.tib.eu/individual/48faefcf89b64bac9cdf541a46975d45> <http://ontology.tib.eu/gesah/realizes> <https://sah.tib.eu/individual/48faefcf89b64bac9cdf541a46975d45_n58008> <http://vitro.mannlib.cornell.edu/default/vitro-kb-2> .
+> <https://sah.tib.eu/individual/48faefcf89b64bac9cdf541a46975d45> <http://vitro.mannlib.cornell.edu/ns/vitro/0.7#mostSpecificType> <http://ontology.tib.eu/gesah/Creation> <http://vitro.mannlib.cornell.edu/default/vitro-kb-inf> .
+> <https://sah.tib.eu/individual/48faefcf89b64bac9cdf541a46975d45> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ontology.tib.eu/gesah/Activity> <http://vitro.mannlib.cornell.edu/default/vitro-kb-inf> .
+> <https://sah.tib.eu/individual/48faefcf89b64bac9cdf541a46975d45> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ontology.tib.eu/gesah/Creation> <http://vitro.mannlib.cornell.edu/default/vitro-kb-2> .
+> <https://sah.tib.eu/individual/48faefcf89b64bac9cdf541a46975d45> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.obolibrary.org/obo/BFO_0000001> <http://vitro.mannlib.cornell.edu/default/vitro-kb-inf> .
+> <https://sah.tib.eu/individual/48faefcf89b64bac9cdf541a46975d45> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.obolibrary.org/obo/BFO_0000003> <http://vitro.mannlib.cornell.edu/default/vitro-kb-inf> .
+> <https://sah.tib.eu/individual/48faefcf89b64bac9cdf541a46975d45> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.obolibrary.org/obo/BFO_0000015> <http://vitro.mannlib.cornell.edu/default/vitro-kb-inf> .
+> <https://sah.tib.eu/individual/48faefcf89b64bac9cdf541a46975d45> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Thing> <http://vitro.mannlib.cornell.edu/default/vitro-kb-inf> .
+> <https://sah.tib.eu/individual/48faefcf89b64bac9cdf541a46975d45_n58008> <http://ontology.tib.eu/gesah/has_role_type> <http://ontology.tib.eu/gesah/Inventor> <http://vitro.mannlib.cornell.edu/default/vitro-kb-2> .
+> <https://sah.tib.eu/individual/48faefcf89b64bac9cdf541a46975d45_n58008> <http://ontology.tib.eu/gesah/has_type_of_attribution> <https://sah.tib.eu/individual/n24108> <http://vitro.mannlib.cornell.edu/default/vitro-kb-2> .
+> <https://sah.tib.eu/individual/48faefcf89b64bac9cdf541a46975d45_n58008> <http://ontology.tib.eu/gesah/is_role_of> <https://sah.tib.eu/individual/n58481> <http://vitro.mannlib.cornell.edu/default/vitro-kb-2> .
+> <https://sah.tib.eu/individual/48faefcf89b64bac9cdf541a46975d45_n58008> <http://ontology.tib.eu/gesah/realized_in> <https://sah.tib.eu/individual/48faefcf89b64bac9cdf541a46975d45> <http://vitro.mannlib.cornell.edu/default/vitro-kb-inf> .
+> <https://sah.tib.eu/individual/48faefcf89b64bac9cdf541a46975d45_n58008> <http://vitro.mannlib.cornell.edu/ns/vitro/0.7#mostSpecificType> <http://purl.obolibrary.org/obo/BFO_0000023> <http://vitro.mannlib.cornell.edu/default/vitro-kb-inf> .
+> <https://sah.tib.eu/individual/48faefcf89b64bac9cdf541a46975d45_n58008> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.obolibrary.org/obo/BFO_0000001> <http://vitro.mannlib.cornell.edu/default/vitro-kb-inf> .
+> <https://sah.tib.eu/individual/48faefcf89b64bac9cdf541a46975d45_n58008> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.obolibrary.org/obo/BFO_0000002> <http://vitro.mannlib.cornell.edu/default/vitro-kb-inf> .
+> <https://sah.tib.eu/individual/48faefcf89b64bac9cdf541a46975d45_n58008> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.obolibrary.org/obo/BFO_0000017> <http://vitro.mannlib.cornell.edu/default/vitro-kb-inf> .
+> <https://sah.tib.eu/individual/48faefcf89b64bac9cdf541a46975d45_n58008> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.obolibrary.org/obo/BFO_0000020> <http://vitro.mannlib.cornell.edu/default/vitro-kb-inf> .
+> <https://sah.tib.eu/individual/48faefcf89b64bac9cdf541a46975d45_n58008> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.obolibrary.org/obo/BFO_0000023> <http://vitro.mannlib.cornell.edu/default/vitro-kb-2> .
+> <https://sah.tib.eu/individual/48faefcf89b64bac9cdf541a46975d45_n58008> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Thing> <http://vitro.mannlib.cornell.edu/default/vitro-kb-inf> .
+275746a275838,275863
+> <https://sah.tib.eu/individual/49ee783a4d484da6ae48678ad09aa33c> <http://ontology.tib.eu/gesah/current_inventory_number> "gr 2 Haupt 1096" <http://vitro.mannlib.cornell.edu/default/vitro-kb-2> .
+> <https://sah.tib.eu/individual/49ee783a4d484da6ae48678ad09aa33c> <http://ontology.tib.eu/gesah/has_current_holding_institution> <https://sah.tib.eu/individual/n3212> <http://vitro.mannlib.cornell.edu/default/vitro-kb-2> .
+> <https://sah.tib.eu/individual/49ee783a4d484da6ae48678ad09aa33c> <http://ontology.tib.eu/gesah/has_digital_representation> <https://sah.tib.eu/individual/samvokua_1869125207_image_112_digrep> <http://vitro.mannlib.cornell.edu/default/vitro-kb-2> .
+> <https://sah.tib.eu/individual/49ee783a4d484da6ae48678ad09aa33c> <http://ontology.tib.eu/gesah/has_digital_representation> <https://sah.tib.eu/individual/samvokua_1869125207_image_113_digrep> <http://vitro.mannlib.cornell.edu/default/vitro-kb-2> .
+> <https://sah.tib.eu/individual/49ee783a4d484da6ae48678ad09aa33c> <http://ontology.tib.eu/gesah/has_digital_representation> <https://sah.tib.eu/individual/samvokua_1869125207_image_114_digrep> <http://vitro.mannlib.cornell.edu/default/vitro-kb-2> .
+> <https://sah.tib.eu/individual/49ee783a4d484da6ae48678ad09aa33c> <http://ontology.tib.eu/gesah/has_geographic_assignment> <http://ontology.tib.eu/gesah/Flemish> <http://vitro.mannlib.cornell.edu/default/vitro-kb-2> .
+> <https://sah.tib.eu/individual/49ee783a4d484da6ae48678ad09aa33c> <http://ontology.tib.eu/gesah/has_main_image> <https://sah.tib.eu/individual/samvokua_1869125207_image_113_digrep> <http://vitro.mannlib.cornell.edu/default/vitro-kb-2> .
+> <https://sah.tib.eu/individual/49ee783a4d484da6ae48678ad09aa33c> <http://ontology.tib.eu/gesah/has_object_category_generic_term> <https://sah.tib.eu/individual/n2242> <http://vitro.mannlib.cornell.edu/default/vitro-kb-2> .
+> <https://sah.tib.eu/individual/49ee783a4d484da6ae48678ad09aa33c> <http://ontology.tib.eu/gesah/hide> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> <http://vitro.mannlib.cornell.edu/default/vitro-kb-2> .
+> <https://sah.tib.eu/individual/49ee783a4d484da6ae48678ad09aa33c> <http://ontology.tib.eu/gesah/is_part_of_collection> <https://sah.tib.eu/individual/n34147> <http://vitro.mannlib.cornell.edu/default/vitro-kb-2> .
+> <https://sah.tib.eu/individual/49ee783a4d484da6ae48678ad09aa33c> <http://ontology.tib.eu/gesah/is_part_of> <https://sah.tib.eu/individual/composite_volume_samvokua_1869125207> <http://vitro.mannlib.cornell.edu/default/vitro-kb-2> .
+> <https://sah.tib.eu/individual/49ee783a4d484da6ae48678ad09aa33c> <http://ontology.tib.eu/gesah/metadata_right> <https://sah.tib.eu/individual/n25518> <http://vitro.mannlib.cornell.edu/default/vitro-kb-2> .
+> <https://sah.tib.eu/individual/49ee783a4d484da6ae48678ad09aa33c> <http://ontology.tib.eu/gesah/object_of_edition> <https://sah.tib.eu/individual/b72df119c065426cb7e8e6457d3c951e> <http://vitro.mannlib.cornell.edu/default/vitro-kb-2> .
+> <https://sah.tib.eu/individual/49ee783a4d484da6ae48678ad09aa33c> <http://ontology.tib.eu/gesah/object_of_publication> <https://sah.tib.eu/individual/b72df119c065426cb7e8e6457d3c951e> <http://vitro.mannlib.cornell.edu/default/vitro-kb-2> .
+> <https://sah.tib.eu/individual/49ee783a4d484da6ae48678ad09aa33c> <http://ontology.tib.eu/gesah/output_of_creation> <https://sah.tib.eu/individual/9dcbb75b5d1a40168da93108b61164db> <http://vitro.mannlib.cornell.edu/default/vitro-kb-2> .
+> <https://sah.tib.eu/individual/49ee783a4d484da6ae48678ad09aa33c> <http://ontology.tib.eu/gesah/output_of_production> <https://sah.tib.eu/individual/f81687b9cb2c4da0b07ef9cc50c447c1> <http://vitro.mannlib.cornell.edu/default/vitro-kb-2> .
+> <https://sah.tib.eu/individual/49ee783a4d484da6ae48678ad09aa33c> <http://ontology.tib.eu/gesah/record_author_initials> "BR" <http://vitro.mannlib.cornell.edu/default/vitro-kb-2> .
+> <https://sah.tib.eu/individual/49ee783a4d484da6ae48678ad09aa33c> <http://vitro.mannlib.cornell.edu/ns/vitro/0.7#mostSpecificType> <http://ontology.tib.eu/gesah/Print> <http://vitro.mannlib.cornell.edu/default/vitro-kb-inf> .
+> <https://sah.tib.eu/individual/49ee783a4d484da6ae48678ad09aa33c> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ontology.tib.eu/gesah/Cultural_Object> <http://vitro.mannlib.cornell.edu/default/vitro-kb-inf> .
+> <https://sah.tib.eu/individual/49ee783a4d484da6ae48678ad09aa33c> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ontology.tib.eu/gesah/Print> <http://vitro.mannlib.cornell.edu/default/vitro-kb-2> .
+> <https://sah.tib.eu/individual/49ee783a4d484da6ae48678ad09aa33c> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.obolibrary.org/obo/BFO_0000001> <http://vitro.mannlib.cornell.edu/default/vitro-kb-inf> .
+> <https://sah.tib.eu/individual/49ee783a4d484da6ae48678ad09aa33c> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.obolibrary.org/obo/BFO_0000002> <http://vitro.mannlib.cornell.edu/default/vitro-kb-inf> .
+> <https://sah.tib.eu/individual/49ee783a4d484da6ae48678ad09aa33c> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.obolibrary.org/obo/BFO_0000031> <http://vitro.mannlib.cornell.edu/default/vitro-kb-inf> .
+> <https://sah.tib.eu/individual/49ee783a4d484da6ae48678ad09aa33c> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.obolibrary.org/obo/IAO_0000030> <http://vitro.mannlib.cornell.edu/default/vitro-kb-inf> .
+> <https://sah.tib.eu/individual/49ee783a4d484da6ae48678ad09aa33c> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Thing> <http://vitro.mannlib.cornell.edu/default/vitro-kb-inf> .
+> <https://sah.tib.eu/individual/49ee783a4d484da6ae48678ad09aa33c> <http://www.w3.org/2000/01/rdf-schema#label> "Sammlung von Kupferstichen aus verschiedenen Werken (Speculum) Part 0004"@de-DE <http://vitro.mannlib.cornell.edu/default/vitro-kb-2> .
+282710c282827
+< <https://sah.tib.eu/individual/4cc0500e75a14dc29c08777414885e38> <http://ontology.tib.eu/gesah/current_inventory_number> "gr 2 Haupt 1605" <http://vitro.mannlib.cornell.edu/default/vitro-kb-2> .
+---
+> <https://sah.tib.eu/individual/4cc0500e75a14dc29c08777414885e38> <http://ontology.tib.eu/gesah/current_inventory_number> "gr 2 Haupt 1605: 10r" <http://vitro.mannlib.cornell.edu/default/vitro-kb-2> .
+282733c282850
+< <https://sah.tib.eu/individual/4cc0500e75a14dc29c08777414885e38> <http://www.w3.org/2000/01/rdf-schema#label> "Italienisches Reiseskizzenbuch [Alexander von Tritschler] Part 0018"@de-DE <http://vitro.mannlib.cornell.edu/default/vitro-kb-2> .
+---
+> <https://sah.tib.eu/individual/4cc0500e75a14dc29c08777414885e38> <http://www.w3.org/2000/01/rdf-schema#label> "[Alexander von Tritschler, Italienisches Reiseskizzenbuch], fol. 10r"@de-DE <http://vitro.mannlib.cornell.edu/default/vitro-kb-2> .
+282996c283113
+< <https://sah.tib.eu/individual/4cdd6efea2ef48b282b38a3d8928e349> <http://ontology.tib.eu/gesah/current_inventory_number> "gr 2 Haupt 1605" <http://vitro.mannlib.cornell.edu/default/vitro-kb-2> .
+---
+> <https://sah.tib.eu/individual/4cdd6efea2ef48b282b38a3d8928e349> <http://ontology.tib.eu/gesah/current_inventory_number> "gr 2 Haupt 1605: 11v" <http://vitro.mannlib.cornell.edu/default/vitro-kb-2> .
+283019c283136
+< <https://sah.tib.eu/individual/4cdd6efea2ef48b282b38a3d8928e349> <http://www.w3.org/2000/01/rdf-schema#label> "Italienisches Reiseskizzenbuch [Alexander von Tritschler] Part 0021"@de-DE <http://vitro.mannlib.cornell.edu/default/vitro-kb-2> .
+---
+> <https://sah.tib.eu/individual/4cdd6efea2ef48b282b38a3d8928e349> <http://www.w3.org/2000/01/rdf-schema#label> "[Alexander von Tritschler, Italienisches Reiseskizzenbuch], fol. 11v"@de-DE <http://vitro.mannlib.cornell.edu/default/vitro-kb-2> .
+311997a312115
+> <https://sah.tib.eu/individual/59177905a5f049cab13a54f8bf790745> <http://ontology.tib.eu/gesah/depicts> <https://sah.tib.eu/individual/n31401> <http://vitro.mannlib.cornell.edu/default/vitro-kb-2> .
+321718a321837
+> <https://sah.tib.eu/individual/5d110f6909a64d6c9f4716b10225e4a7> <http://ontology.tib.eu/gesah/has_material> <https://sah.tib.eu/individual/n22763> <http://vitro.mannlib.cornell.edu/default/vitro-kb-2> .
+321719a321839
+> <https://sah.tib.eu/individual/5d110f6909a64d6c9f4716b10225e4a7> <http://ontology.tib.eu/gesah/uses_technique> <http://ontology.tib.eu/gesah/Graphite_Pencil> <http://vitro.mannlib.cornell.edu/default/vitro-kb-2> .
+321747c321867
+< <https://sah.tib.eu/individual/5d110f6909a64d6c9f4716b10225e4a7_n65332> <http://vivoweb.org/ontology/core#dateTime> "1857-01-01T00:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> <http://vitro.mannlib.cornell.edu/default/vitro-kb-2> .
+---
+> <https://sah.tib.eu/individual/5d110f6909a64d6c9f4716b10225e4a7_n65332> <http://vivoweb.org/ontology/core#dateTime> "1856-01-01T00:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> <http://vitro.mannlib.cornell.edu/default/vitro-kb-2> .
+334328c334448
+< <https://sah.tib.eu/individual/6218da57b3824f63985d549493bb5f71> <http://ontology.tib.eu/gesah/current_inventory_number> "gr 2 Haupt 1605" <http://vitro.mannlib.cornell.edu/default/vitro-kb-2> .
+---
+> <https://sah.tib.eu/individual/6218da57b3824f63985d549493bb5f71> <http://ontology.tib.eu/gesah/current_inventory_number> "gr 2 Haupt 1605: 9v" <http://vitro.mannlib.cornell.edu/default/vitro-kb-2> .
+334351c334471
+< <https://sah.tib.eu/individual/6218da57b3824f63985d549493bb5f71> <http://www.w3.org/2000/01/rdf-schema#label> "Italienisches Reiseskizzenbuch [Alexander von Tritschler] Part 0017"@de-DE <http://vitro.mannlib.cornell.edu/default/vitro-kb-2> .
+---
+> <https://sah.tib.eu/individual/6218da57b3824f63985d549493bb5f71> <http://www.w3.org/2000/01/rdf-schema#label> "[Alexander von Tritschler, Italienisches Reiseskizzenbuch], fol. 9v"@de-DE <http://vitro.mannlib.cornell.edu/default/vitro-kb-2> .
+343642a343763
+> <https://sah.tib.eu/individual/65f301be6688460aa6b779da0b89ef23> <http://ontology.tib.eu/gesah/depicts> <https://sah.tib.eu/individual/n135929> <http://vitro.mannlib.cornell.edu/default/vitro-kb-2> .
+343644a343766
+> <https://sah.tib.eu/individual/65f301be6688460aa6b779da0b89ef23> <http://ontology.tib.eu/gesah/depicts> <https://sah.tib.eu/individual/n31401> <http://vitro.mannlib.cornell.edu/default/vitro-kb-2> .
+351396a351519
+> <https://sah.tib.eu/individual/692a2ae20b8f4f15803e39bd5deaf816> <http://ontology.tib.eu/gesah/has_material> <https://sah.tib.eu/individual/n22763> <http://vitro.mannlib.cornell.edu/default/vitro-kb-2> .
+351397a351521
+> <https://sah.tib.eu/individual/692a2ae20b8f4f15803e39bd5deaf816> <http://ontology.tib.eu/gesah/uses_technique> <http://ontology.tib.eu/gesah/Graphite_Pencil> <http://vitro.mannlib.cornell.edu/default/vitro-kb-2> .
+351425c351549
+< <https://sah.tib.eu/individual/692a2ae20b8f4f15803e39bd5deaf816_n65332> <http://vivoweb.org/ontology/core#dateTime> "1857-01-01T00:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> <http://vitro.mannlib.cornell.edu/default/vitro-kb-2> .
+---
+> <https://sah.tib.eu/individual/692a2ae20b8f4f15803e39bd5deaf816_n65332> <http://vivoweb.org/ontology/core#dateTime> "1856-01-01T00:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> <http://vitro.mannlib.cornell.edu/default/vitro-kb-2> .
+378330a378455,378502
+> <https://sah.tib.eu/individual/749cb68c398d427592ad0c053f0f0396> <http://ontology.tib.eu/gesah/has_edition_object> <https://sah.tib.eu/individual/a83bcebd056a454f8748263852e286c5> <http://vitro.mannlib.cornell.edu/default/vitro-kb-inf> .
+> <https://sah.tib.eu/individual/749cb68c398d427592ad0c053f0f0396> <http://ontology.tib.eu/gesah/realizes> <https://sah.tib.eu/individual/749cb68c398d427592ad0c053f0f0396_n45597> <http://vitro.mannlib.cornell.edu/default/vitro-kb-2> .
+> <https://sah.tib.eu/individual/749cb68c398d427592ad0c053f0f0396> <http://vitro.mannlib.cornell.edu/ns/vitro/0.7#mostSpecificType> <http://ontology.tib.eu/gesah/Edition> <http://vitro.mannlib.cornell.edu/default/vitro-kb-inf> .
+> <https://sah.tib.eu/individual/749cb68c398d427592ad0c053f0f0396> <http://vivoweb.org/ontology/core#dateTimeInterval> <https://sah.tib.eu/individual/749cb68c398d427592ad0c053f0f0396_n44608> <http://vitro.mannlib.cornell.edu/default/vitro-kb-2> .
+> <https://sah.tib.eu/individual/749cb68c398d427592ad0c053f0f0396> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ontology.tib.eu/gesah/Activity> <http://vitro.mannlib.cornell.edu/default/vitro-kb-inf> .
+> <https://sah.tib.eu/individual/749cb68c398d427592ad0c053f0f0396> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ontology.tib.eu/gesah/Edition> <http://vitro.mannlib.cornell.edu/default/vitro-kb-2> .
+> <https://sah.tib.eu/individual/749cb68c398d427592ad0c053f0f0396> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.obolibrary.org/obo/BFO_0000001> <http://vitro.mannlib.cornell.edu/default/vitro-kb-inf> .
+> <https://sah.tib.eu/individual/749cb68c398d427592ad0c053f0f0396> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.obolibrary.org/obo/BFO_0000003> <http://vitro.mannlib.cornell.edu/default/vitro-kb-inf> .
+> <https://sah.tib.eu/individual/749cb68c398d427592ad0c053f0f0396> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.obolibrary.org/obo/BFO_0000015> <http://vitro.mannlib.cornell.edu/default/vitro-kb-inf> .
+> <https://sah.tib.eu/individual/749cb68c398d427592ad0c053f0f0396> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Thing> <http://vitro.mannlib.cornell.edu/default/vitro-kb-inf> .
+> <https://sah.tib.eu/individual/749cb68c398d427592ad0c053f0f0396_n33356> <http://vitro.mannlib.cornell.edu/ns/vitro/0.7#mostSpecificType> <http://vivoweb.org/ontology/core#DateTimeValue> <http://vitro.mannlib.cornell.edu/default/vitro-kb-inf> .
+> <https://sah.tib.eu/individual/749cb68c398d427592ad0c053f0f0396_n33356> <http://vivoweb.org/ontology/core#dateTime> "1600-01-01T00:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> <http://vitro.mannlib.cornell.edu/default/vitro-kb-2> .
+> <https://sah.tib.eu/individual/749cb68c398d427592ad0c053f0f0396_n33356> <http://vivoweb.org/ontology/core#dateTimePrecision> <http://vivoweb.org/ontology/core#yearPrecision> <http://vitro.mannlib.cornell.edu/default/vitro-kb-2> .
+> <https://sah.tib.eu/individual/749cb68c398d427592ad0c053f0f0396_n33356> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.obolibrary.org/obo/BFO_0000001> <http://vitro.mannlib.cornell.edu/default/vitro-kb-inf> .
+> <https://sah.tib.eu/individual/749cb68c398d427592ad0c053f0f0396_n33356> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.obolibrary.org/obo/BFO_0000003> <http://vitro.mannlib.cornell.edu/default/vitro-kb-inf> .
+> <https://sah.tib.eu/individual/749cb68c398d427592ad0c053f0f0396_n33356> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.obolibrary.org/obo/BFO_0000008> <http://vitro.mannlib.cornell.edu/default/vitro-kb-inf> .
+> <https://sah.tib.eu/individual/749cb68c398d427592ad0c053f0f0396_n33356> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.obolibrary.org/obo/BFO_0000148> <http://vitro.mannlib.cornell.edu/default/vitro-kb-inf> .
+> <https://sah.tib.eu/individual/749cb68c398d427592ad0c053f0f0396_n33356> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core#DateTimeValue> <http://vitro.mannlib.cornell.edu/default/vitro-kb-2> .
+> <https://sah.tib.eu/individual/749cb68c398d427592ad0c053f0f0396_n33356> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Thing> <http://vitro.mannlib.cornell.edu/default/vitro-kb-inf> .
+> <https://sah.tib.eu/individual/749cb68c398d427592ad0c053f0f0396_n35778> <http://vitro.mannlib.cornell.edu/ns/vitro/0.7#mostSpecificType> <http://vivoweb.org/ontology/core#DateTimeValue> <http://vitro.mannlib.cornell.edu/default/vitro-kb-inf> .
+> <https://sah.tib.eu/individual/749cb68c398d427592ad0c053f0f0396_n35778> <http://vivoweb.org/ontology/core#dateTime> "1600-01-01T00:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> <http://vitro.mannlib.cornell.edu/default/vitro-kb-2> .
+> <https://sah.tib.eu/individual/749cb68c398d427592ad0c053f0f0396_n35778> <http://vivoweb.org/ontology/core#dateTimePrecision> <http://vivoweb.org/ontology/core#yearPrecision> <http://vitro.mannlib.cornell.edu/default/vitro-kb-2> .
+> <https://sah.tib.eu/individual/749cb68c398d427592ad0c053f0f0396_n35778> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.obolibrary.org/obo/BFO_0000001> <http://vitro.mannlib.cornell.edu/default/vitro-kb-inf> .
+> <https://sah.tib.eu/individual/749cb68c398d427592ad0c053f0f0396_n35778> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.obolibrary.org/obo/BFO_0000003> <http://vitro.mannlib.cornell.edu/default/vitro-kb-inf> .
+> <https://sah.tib.eu/individual/749cb68c398d427592ad0c053f0f0396_n35778> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.obolibrary.org/obo/BFO_0000008> <http://vitro.mannlib.cornell.edu/default/vitro-kb-inf> .
+> <https://sah.tib.eu/individual/749cb68c398d427592ad0c053f0f0396_n35778> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.obolibrary.org/obo/BFO_0000148> <http://vitro.mannlib.cornell.edu/default/vitro-kb-inf> .
+> <https://sah.tib.eu/individual/749cb68c398d427592ad0c053f0f0396_n35778> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core#DateTimeValue> <http://vitro.mannlib.cornell.edu/default/vitro-kb-2> .
+> <https://sah.tib.eu/individual/749cb68c398d427592ad0c053f0f0396_n35778> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Thing> <http://vitro.mannlib.cornell.edu/default/vitro-kb-inf> .
+> <https://sah.tib.eu/individual/749cb68c398d427592ad0c053f0f0396_n44608> <http://vitro.mannlib.cornell.edu/ns/vitro/0.7#mostSpecificType> <http://vivoweb.org/ontology/core#DateTimeInterval> <http://vitro.mannlib.cornell.edu/default/vitro-kb-inf> .
+> <https://sah.tib.eu/individual/749cb68c398d427592ad0c053f0f0396_n44608> <http://vivoweb.org/ontology/core#end> <https://sah.tib.eu/individual/749cb68c398d427592ad0c053f0f0396_n33356> <http://vitro.mannlib.cornell.edu/default/vitro-kb-2> .
+> <https://sah.tib.eu/individual/749cb68c398d427592ad0c053f0f0396_n44608> <http://vivoweb.org/ontology/core#start> <https://sah.tib.eu/individual/749cb68c398d427592ad0c053f0f0396_n35778> <http://vitro.mannlib.cornell.edu/default/vitro-kb-2> .
+> <https://sah.tib.eu/individual/749cb68c398d427592ad0c053f0f0396_n44608> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.obolibrary.org/obo/BFO_0000001> <http://vitro.mannlib.cornell.edu/default/vitro-kb-inf> .
+> <https://sah.tib.eu/individual/749cb68c398d427592ad0c053f0f0396_n44608> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.obolibrary.org/obo/BFO_0000003> <http://vitro.mannlib.cornell.edu/default/vitro-kb-inf> .
+> <https://sah.tib.eu/individual/749cb68c398d427592ad0c053f0f0396_n44608> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.obolibrary.org/obo/BFO_0000008> <http://vitro.mannlib.cornell.edu/default/vitro-kb-inf> .
+> <https://sah.tib.eu/individual/749cb68c398d427592ad0c053f0f0396_n44608> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.obolibrary.org/obo/BFO_0000038> <http://vitro.mannlib.cornell.edu/default/vitro-kb-inf> .
+> <https://sah.tib.eu/individual/749cb68c398d427592ad0c053f0f0396_n44608> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core#DateTimeInterval> <http://vitro.mannlib.cornell.edu/default/vitro-kb-2> .
+> <https://sah.tib.eu/individual/749cb68c398d427592ad0c053f0f0396_n44608> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Thing> <http://vitro.mannlib.cornell.edu/default/vitro-kb-inf> .
+> <https://sah.tib.eu/individual/749cb68c398d427592ad0c053f0f0396_n45597> <http://ontology.tib.eu/gesah/has_role_type> <http://ontology.tib.eu/gesah/Publisher> <http://vitro.mannlib.cornell.edu/default/vitro-kb-2> .
+> <https://sah.tib.eu/individual/749cb68c398d427592ad0c053f0f0396_n45597> <http://ontology.tib.eu/gesah/has_type_of_attribution> <https://sah.tib.eu/individual/n24108> <http://vitro.mannlib.cornell.edu/default/vitro-kb-2> .
+> <https://sah.tib.eu/individual/749cb68c398d427592ad0c053f0f0396_n45597> <http://ontology.tib.eu/gesah/is_role_of> <https://sah.tib.eu/individual/n58481> <http://vitro.mannlib.cornell.edu/default/vitro-kb-2> .
+> <https://sah.tib.eu/individual/749cb68c398d427592ad0c053f0f0396_n45597> <http://ontology.tib.eu/gesah/realized_in> <https://sah.tib.eu/individual/749cb68c398d427592ad0c053f0f0396> <http://vitro.mannlib.cornell.edu/default/vitro-kb-inf> .
+> <https://sah.tib.eu/individual/749cb68c398d427592ad0c053f0f0396_n45597> <http://vitro.mannlib.cornell.edu/ns/vitro/0.7#mostSpecificType> <http://purl.obolibrary.org/obo/BFO_0000023> <http://vitro.mannlib.cornell.edu/default/vitro-kb-inf> .
+> <https://sah.tib.eu/individual/749cb68c398d427592ad0c053f0f0396_n45597> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.obolibrary.org/obo/BFO_0000001> <http://vitro.mannlib.cornell.edu/default/vitro-kb-inf> .
+> <https://sah.tib.eu/individual/749cb68c398d427592ad0c053f0f0396_n45597> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.obolibrary.org/obo/BFO_0000002> <http://vitro.mannlib.cornell.edu/default/vitro-kb-inf> .
+> <https://sah.tib.eu/individual/749cb68c398d427592ad0c053f0f0396_n45597> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.obolibrary.org/obo/BFO_0000017> <http://vitro.mannlib.cornell.edu/default/vitro-kb-inf> .
+> <https://sah.tib.eu/individual/749cb68c398d427592ad0c053f0f0396_n45597> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.obolibrary.org/obo/BFO_0000020> <http://vitro.mannlib.cornell.edu/default/vitro-kb-inf> .
+> <https://sah.tib.eu/individual/749cb68c398d427592ad0c053f0f0396_n45597> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.obolibrary.org/obo/BFO_0000023> <http://vitro.mannlib.cornell.edu/default/vitro-kb-2> .
+> <https://sah.tib.eu/individual/749cb68c398d427592ad0c053f0f0396_n45597> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Thing> <http://vitro.mannlib.cornell.edu/default/vitro-kb-inf> .
+399253c399425,399429
+< <https://sah.tib.eu/individual/7cae7f255c684e81a3fce792e8c55cd3> <http://ontology.tib.eu/gesah/current_inventory_number> "gr 2 Haupt 1605" <http://vitro.mannlib.cornell.edu/default/vitro-kb-2> .
+---
+> <https://sah.tib.eu/individual/7cae7f255c684e81a3fce792e8c55cd3> <http://ontology.tib.eu/gesah/current_inventory_number> "gr 2 Haupt 1605: 4r" <http://vitro.mannlib.cornell.edu/default/vitro-kb-2> .
+> <https://sah.tib.eu/individual/7cae7f255c684e81a3fce792e8c55cd3> <http://ontology.tib.eu/gesah/depicted_object_localisied_in> <https://sah.tib.eu/individual/n25983> <http://vitro.mannlib.cornell.edu/default/vitro-kb-2> .
+> <https://sah.tib.eu/individual/7cae7f255c684e81a3fce792e8c55cd3> <http://ontology.tib.eu/gesah/depicts> <https://sah.tib.eu/individual/n135929> <http://vitro.mannlib.cornell.edu/default/vitro-kb-2> .
+> <https://sah.tib.eu/individual/7cae7f255c684e81a3fce792e8c55cd3> <http://ontology.tib.eu/gesah/depicts> <https://sah.tib.eu/individual/n18255> <http://vitro.mannlib.cornell.edu/default/vitro-kb-2> .
+> <https://sah.tib.eu/individual/7cae7f255c684e81a3fce792e8c55cd3> <http://ontology.tib.eu/gesah/depicts> <https://sah.tib.eu/individual/n31401> <http://vitro.mannlib.cornell.edu/default/vitro-kb-2> .
+399254a399431
+> <https://sah.tib.eu/individual/7cae7f255c684e81a3fce792e8c55cd3> <http://ontology.tib.eu/gesah/has_depiction_type> <http://ontology.tib.eu/gesah/Detail> <http://vitro.mannlib.cornell.edu/default/vitro-kb-2> .
+399259c399436,399437
+< <https://sah.tib.eu/individual/7cae7f255c684e81a3fce792e8c55cd3> <http://ontology.tib.eu/gesah/has_object_category_generic_term> <https://sah.tib.eu/individual/n2242> <http://vitro.mannlib.cornell.edu/default/vitro-kb-2> .
+---
+> <https://sah.tib.eu/individual/7cae7f255c684e81a3fce792e8c55cd3> <http://ontology.tib.eu/gesah/has_object_category_generic_term> <https://sah.tib.eu/individual/n30923> <http://vitro.mannlib.cornell.edu/default/vitro-kb-2> .
+> <https://sah.tib.eu/individual/7cae7f255c684e81a3fce792e8c55cd3> <http://ontology.tib.eu/gesah/has_object_category_narrower_term> <https://sah.tib.eu/individual/n37142> <http://vitro.mannlib.cornell.edu/default/vitro-kb-2> .
+399262d399439
+< <https://sah.tib.eu/individual/7cae7f255c684e81a3fce792e8c55cd3> <http://ontology.tib.eu/gesah/hide> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> <http://vitro.mannlib.cornell.edu/default/vitro-kb-2> .
+399276c399453
+< <https://sah.tib.eu/individual/7cae7f255c684e81a3fce792e8c55cd3> <http://www.w3.org/2000/01/rdf-schema#label> "Italienisches Reiseskizzenbuch [Alexander von Tritschler] Part 0006"@de-DE <http://vitro.mannlib.cornell.edu/default/vitro-kb-2> .
+---
+> <https://sah.tib.eu/individual/7cae7f255c684e81a3fce792e8c55cd3> <http://www.w3.org/2000/01/rdf-schema#label> "Pompeji, Faun und zwei Mänaden [Alexander von Tritschler, Italienisches Reiseskizzenbuch ], fol. 4r"@de-DE <http://vitro.mannlib.cornell.edu/default/vitro-kb-2> .
+399374c399551,399554
+< <https://sah.tib.eu/individual/7cb3d7432cae443e8c2a963398e17623> <http://ontology.tib.eu/gesah/current_inventory_number> "gr 2 Haupt 1605" <http://vitro.mannlib.cornell.edu/default/vitro-kb-2> .
+---
+> <https://sah.tib.eu/individual/7cb3d7432cae443e8c2a963398e17623> <http://ontology.tib.eu/gesah/current_inventory_number> "gr 2 Haupt 1605: 4v" <http://vitro.mannlib.cornell.edu/default/vitro-kb-2> .
+> <https://sah.tib.eu/individual/7cb3d7432cae443e8c2a963398e17623> <http://ontology.tib.eu/gesah/depicted_object_localisied_in> <https://sah.tib.eu/individual/n25983> <http://vitro.mannlib.cornell.edu/default/vitro-kb-2> .
+> <https://sah.tib.eu/individual/7cb3d7432cae443e8c2a963398e17623> <http://ontology.tib.eu/gesah/depicts> <https://sah.tib.eu/individual/n10838> <http://vitro.mannlib.cornell.edu/default/vitro-kb-2> .
+> <https://sah.tib.eu/individual/7cb3d7432cae443e8c2a963398e17623> <http://ontology.tib.eu/gesah/depicts> <https://sah.tib.eu/individual/n53345> <http://vitro.mannlib.cornell.edu/default/vitro-kb-2> .
+399375a399556
+> <https://sah.tib.eu/individual/7cb3d7432cae443e8c2a963398e17623> <http://ontology.tib.eu/gesah/has_depiction_type> <http://ontology.tib.eu/gesah/Detail> <http://vitro.mannlib.cornell.edu/default/vitro-kb-2> .
+399380c399561,399562
+< <https://sah.tib.eu/individual/7cb3d7432cae443e8c2a963398e17623> <http://ontology.tib.eu/gesah/has_object_category_generic_term> <https://sah.tib.eu/individual/n2242> <http://vitro.mannlib.cornell.edu/default/vitro-kb-2> .
+---
+> <https://sah.tib.eu/individual/7cb3d7432cae443e8c2a963398e17623> <http://ontology.tib.eu/gesah/has_object_category_generic_term> <https://sah.tib.eu/individual/n30923> <http://vitro.mannlib.cornell.edu/default/vitro-kb-2> .
+> <https://sah.tib.eu/individual/7cb3d7432cae443e8c2a963398e17623> <http://ontology.tib.eu/gesah/has_object_category_narrower_term> <https://sah.tib.eu/individual/n37142> <http://vitro.mannlib.cornell.edu/default/vitro-kb-2> .
+399383d399564
+< <https://sah.tib.eu/individual/7cb3d7432cae443e8c2a963398e17623> <http://ontology.tib.eu/gesah/hide> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> <http://vitro.mannlib.cornell.edu/default/vitro-kb-2> .
+399397c399578
+< <https://sah.tib.eu/individual/7cb3d7432cae443e8c2a963398e17623> <http://www.w3.org/2000/01/rdf-schema#label> "Italienisches Reiseskizzenbuch [Alexander von Tritschler] Part 0007"@de-DE <http://vitro.mannlib.cornell.edu/default/vitro-kb-2> .
+---
+> <https://sah.tib.eu/individual/7cb3d7432cae443e8c2a963398e17623> <http://www.w3.org/2000/01/rdf-schema#label> "Pompeji, Chimäre [Alexander von Tritschler, Italienisches Reiseskizzenbuch ], fol. 4v"@de-DE <http://vitro.mannlib.cornell.edu/default/vitro-kb-2> .
+400908a401090,401112
+> <https://sah.tib.eu/individual/7d55e6c201064069972e27de0c1df02a> <http://ontology.tib.eu/gesah/has_material> <http://ontology.tib.eu/gesah/Paper> <http://vitro.mannlib.cornell.edu/default/vitro-kb-2> .
+> <https://sah.tib.eu/individual/7d55e6c201064069972e27de0c1df02a> <http://ontology.tib.eu/gesah/has_place> <https://sah.tib.eu/individual/n19865> <http://vitro.mannlib.cornell.edu/default/vitro-kb-2> .
+> <https://sah.tib.eu/individual/7d55e6c201064069972e27de0c1df02a> <http://ontology.tib.eu/gesah/has_production_output> <https://sah.tib.eu/individual/b4ee8e9eedf54cc1ada59b6f48774fe0> <http://vitro.mannlib.cornell.edu/default/vitro-kb-inf> .
+> <https://sah.tib.eu/individual/7d55e6c201064069972e27de0c1df02a> <http://ontology.tib.eu/gesah/realizes> <https://sah.tib.eu/individual/7d55e6c201064069972e27de0c1df02a_n116700> <http://vitro.mannlib.cornell.edu/default/vitro-kb-2> .
+> <https://sah.tib.eu/individual/7d55e6c201064069972e27de0c1df02a> <http://ontology.tib.eu/gesah/uses_technique> <http://ontology.tib.eu/gesah/Copper_Engraving> <http://vitro.mannlib.cornell.edu/default/vitro-kb-2> .
+> <https://sah.tib.eu/individual/7d55e6c201064069972e27de0c1df02a> <http://vitro.mannlib.cornell.edu/ns/vitro/0.7#mostSpecificType> <http://ontology.tib.eu/gesah/Production> <http://vitro.mannlib.cornell.edu/default/vitro-kb-inf> .
+> <https://sah.tib.eu/individual/7d55e6c201064069972e27de0c1df02a> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ontology.tib.eu/gesah/Activity> <http://vitro.mannlib.cornell.edu/default/vitro-kb-inf> .
+> <https://sah.tib.eu/individual/7d55e6c201064069972e27de0c1df02a> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ontology.tib.eu/gesah/Production> <http://vitro.mannlib.cornell.edu/default/vitro-kb-2> .
+> <https://sah.tib.eu/individual/7d55e6c201064069972e27de0c1df02a> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.obolibrary.org/obo/BFO_0000001> <http://vitro.mannlib.cornell.edu/default/vitro-kb-inf> .
+> <https://sah.tib.eu/individual/7d55e6c201064069972e27de0c1df02a> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.obolibrary.org/obo/BFO_0000003> <http://vitro.mannlib.cornell.edu/default/vitro-kb-inf> .
+> <https://sah.tib.eu/individual/7d55e6c201064069972e27de0c1df02a> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.obolibrary.org/obo/BFO_0000015> <http://vitro.mannlib.cornell.edu/default/vitro-kb-inf> .
+> <https://sah.tib.eu/individual/7d55e6c201064069972e27de0c1df02a> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Thing> <http://vitro.mannlib.cornell.edu/default/vitro-kb-inf> .
+> <https://sah.tib.eu/individual/7d55e6c201064069972e27de0c1df02a_n116700> <http://ontology.tib.eu/gesah/has_role_type> <http://ontology.tib.eu/gesah/Engraver> <http://vitro.mannlib.cornell.edu/default/vitro-kb-2> .
+> <https://sah.tib.eu/individual/7d55e6c201064069972e27de0c1df02a_n116700> <http://ontology.tib.eu/gesah/has_type_of_attribution> <https://sah.tib.eu/individual/n2597> <http://vitro.mannlib.cornell.edu/default/vitro-kb-2> .
+> <https://sah.tib.eu/individual/7d55e6c201064069972e27de0c1df02a_n116700> <http://ontology.tib.eu/gesah/is_role_of> <https://sah.tib.eu/individual/n127423> <http://vitro.mannlib.cornell.edu/default/vitro-kb-2> .
+> <https://sah.tib.eu/individual/7d55e6c201064069972e27de0c1df02a_n116700> <http://ontology.tib.eu/gesah/realized_in> <https://sah.tib.eu/individual/7d55e6c201064069972e27de0c1df02a> <http://vitro.mannlib.cornell.edu/default/vitro-kb-inf> .
+> <https://sah.tib.eu/individual/7d55e6c201064069972e27de0c1df02a_n116700> <http://vitro.mannlib.cornell.edu/ns/vitro/0.7#mostSpecificType> <http://purl.obolibrary.org/obo/BFO_0000023> <http://vitro.mannlib.cornell.edu/default/vitro-kb-inf> .
+> <https://sah.tib.eu/individual/7d55e6c201064069972e27de0c1df02a_n116700> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.obolibrary.org/obo/BFO_0000001> <http://vitro.mannlib.cornell.edu/default/vitro-kb-inf> .
+> <https://sah.tib.eu/individual/7d55e6c201064069972e27de0c1df02a_n116700> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.obolibrary.org/obo/BFO_0000002> <http://vitro.mannlib.cornell.edu/default/vitro-kb-inf> .
+> <https://sah.tib.eu/individual/7d55e6c201064069972e27de0c1df02a_n116700> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.obolibrary.org/obo/BFO_0000017> <http://vitro.mannlib.cornell.edu/default/vitro-kb-inf> .
+> <https://sah.tib.eu/individual/7d55e6c201064069972e27de0c1df02a_n116700> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.obolibrary.org/obo/BFO_0000020> <http://vitro.mannlib.cornell.edu/default/vitro-kb-inf> .
+> <https://sah.tib.eu/individual/7d55e6c201064069972e27de0c1df02a_n116700> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.obolibrary.org/obo/BFO_0000023> <http://vitro.mannlib.cornell.edu/default/vitro-kb-2> .
+> <https://sah.tib.eu/individual/7d55e6c201064069972e27de0c1df02a_n116700> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Thing> <http://vitro.mannlib.cornell.edu/default/vitro-kb-inf> .
+468468a468673
+> <https://sah.tib.eu/individual/8f032cf00ca342678ed8c21a60c2be23> <http://ontology.tib.eu/gesah/has_material> <https://sah.tib.eu/individual/n22763> <http://vitro.mannlib.cornell.edu/default/vitro-kb-2> .
+468469a468675
+> <https://sah.tib.eu/individual/8f032cf00ca342678ed8c21a60c2be23> <http://ontology.tib.eu/gesah/uses_technique> <http://ontology.tib.eu/gesah/Graphite_Pencil> <http://vitro.mannlib.cornell.edu/default/vitro-kb-2> .
+468497c468703
+< <https://sah.tib.eu/individual/8f032cf00ca342678ed8c21a60c2be23_n65332> <http://vivoweb.org/ontology/core#dateTime> "1857-01-01T00:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> <http://vitro.mannlib.cornell.edu/default/vitro-kb-2> .
+---
+> <https://sah.tib.eu/individual/8f032cf00ca342678ed8c21a60c2be23_n65332> <http://vivoweb.org/ontology/core#dateTime> "1856-01-01T00:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> <http://vitro.mannlib.cornell.edu/default/vitro-kb-2> .
+484437a484644,484691
+> <https://sah.tib.eu/individual/957b9b8c41ba4f47b43aa773f279b456> <http://ontology.tib.eu/gesah/has_edition_object> <https://sah.tib.eu/individual/11c57e788e6145a999a73739f615ec52> <http://vitro.mannlib.cornell.edu/default/vitro-kb-inf> .
+> <https://sah.tib.eu/individual/957b9b8c41ba4f47b43aa773f279b456> <http://ontology.tib.eu/gesah/realizes> <https://sah.tib.eu/individual/957b9b8c41ba4f47b43aa773f279b456_n45597> <http://vitro.mannlib.cornell.edu/default/vitro-kb-2> .
+> <https://sah.tib.eu/individual/957b9b8c41ba4f47b43aa773f279b456> <http://vitro.mannlib.cornell.edu/ns/vitro/0.7#mostSpecificType> <http://ontology.tib.eu/gesah/Edition> <http://vitro.mannlib.cornell.edu/default/vitro-kb-inf> .
+> <https://sah.tib.eu/individual/957b9b8c41ba4f47b43aa773f279b456> <http://vivoweb.org/ontology/core#dateTimeInterval> <https://sah.tib.eu/individual/957b9b8c41ba4f47b43aa773f279b456_n44608> <http://vitro.mannlib.cornell.edu/default/vitro-kb-2> .
+> <https://sah.tib.eu/individual/957b9b8c41ba4f47b43aa773f279b456> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ontology.tib.eu/gesah/Activity> <http://vitro.mannlib.cornell.edu/default/vitro-kb-inf> .
+> <https://sah.tib.eu/individual/957b9b8c41ba4f47b43aa773f279b456> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ontology.tib.eu/gesah/Edition> <http://vitro.mannlib.cornell.edu/default/vitro-kb-2> .
+> <https://sah.tib.eu/individual/957b9b8c41ba4f47b43aa773f279b456> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.obolibrary.org/obo/BFO_0000001> <http://vitro.mannlib.cornell.edu/default/vitro-kb-inf> .
+> <https://sah.tib.eu/individual/957b9b8c41ba4f47b43aa773f279b456> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.obolibrary.org/obo/BFO_0000003> <http://vitro.mannlib.cornell.edu/default/vitro-kb-inf> .
+> <https://sah.tib.eu/individual/957b9b8c41ba4f47b43aa773f279b456> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.obolibrary.org/obo/BFO_0000015> <http://vitro.mannlib.cornell.edu/default/vitro-kb-inf> .
+> <https://sah.tib.eu/individual/957b9b8c41ba4f47b43aa773f279b456> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Thing> <http://vitro.mannlib.cornell.edu/default/vitro-kb-inf> .
+> <https://sah.tib.eu/individual/957b9b8c41ba4f47b43aa773f279b456_n33356> <http://vitro.mannlib.cornell.edu/ns/vitro/0.7#mostSpecificType> <http://vivoweb.org/ontology/core#DateTimeValue> <http://vitro.mannlib.cornell.edu/default/vitro-kb-inf> .
+> <https://sah.tib.eu/individual/957b9b8c41ba4f47b43aa773f279b456_n33356> <http://vivoweb.org/ontology/core#dateTime> "1600-01-01T00:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> <http://vitro.mannlib.cornell.edu/default/vitro-kb-2> .
+> <https://sah.tib.eu/individual/957b9b8c41ba4f47b43aa773f279b456_n33356> <http://vivoweb.org/ontology/core#dateTimePrecision> <http://vivoweb.org/ontology/core#yearPrecision> <http://vitro.mannlib.cornell.edu/default/vitro-kb-2> .
+> <https://sah.tib.eu/individual/957b9b8c41ba4f47b43aa773f279b456_n33356> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.obolibrary.org/obo/BFO_0000001> <http://vitro.mannlib.cornell.edu/default/vitro-kb-inf> .
+> <https://sah.tib.eu/individual/957b9b8c41ba4f47b43aa773f279b456_n33356> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.obolibrary.org/obo/BFO_0000003> <http://vitro.mannlib.cornell.edu/default/vitro-kb-inf> .
+> <https://sah.tib.eu/individual/957b9b8c41ba4f47b43aa773f279b456_n33356> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.obolibrary.org/obo/BFO_0000008> <http://vitro.mannlib.cornell.edu/default/vitro-kb-inf> .
+> <https://sah.tib.eu/individual/957b9b8c41ba4f47b43aa773f279b456_n33356> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.obolibrary.org/obo/BFO_0000148> <http://vitro.mannlib.cornell.edu/default/vitro-kb-inf> .
+> <https://sah.tib.eu/individual/957b9b8c41ba4f47b43aa773f279b456_n33356> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core#DateTimeValue> <http://vitro.mannlib.cornell.edu/default/vitro-kb-2> .
+> <https://sah.tib.eu/individual/957b9b8c41ba4f47b43aa773f279b456_n33356> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Thing> <http://vitro.mannlib.cornell.edu/default/vitro-kb-inf> .
+> <https://sah.tib.eu/individual/957b9b8c41ba4f47b43aa773f279b456_n35778> <http://vitro.mannlib.cornell.edu/ns/vitro/0.7#mostSpecificType> <http://vivoweb.org/ontology/core#DateTimeValue> <http://vitro.mannlib.cornell.edu/default/vitro-kb-inf> .
+> <https://sah.tib.eu/individual/957b9b8c41ba4f47b43aa773f279b456_n35778> <http://vivoweb.org/ontology/core#dateTime> "1600-01-01T00:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> <http://vitro.mannlib.cornell.edu/default/vitro-kb-2> .
+> <https://sah.tib.eu/individual/957b9b8c41ba4f47b43aa773f279b456_n35778> <http://vivoweb.org/ontology/core#dateTimePrecision> <http://vivoweb.org/ontology/core#yearPrecision> <http://vitro.mannlib.cornell.edu/default/vitro-kb-2> .
+> <https://sah.tib.eu/individual/957b9b8c41ba4f47b43aa773f279b456_n35778> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.obolibrary.org/obo/BFO_0000001> <http://vitro.mannlib.cornell.edu/default/vitro-kb-inf> .
+> <https://sah.tib.eu/individual/957b9b8c41ba4f47b43aa773f279b456_n35778> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.obolibrary.org/obo/BFO_0000003> <http://vitro.mannlib.cornell.edu/default/vitro-kb-inf> .
+> <https://sah.tib.eu/individual/957b9b8c41ba4f47b43aa773f279b456_n35778> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.obolibrary.org/obo/BFO_0000008> <http://vitro.mannlib.cornell.edu/default/vitro-kb-inf> .
+> <https://sah.tib.eu/individual/957b9b8c41ba4f47b43aa773f279b456_n35778> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.obolibrary.org/obo/BFO_0000148> <http://vitro.mannlib.cornell.edu/default/vitro-kb-inf> .
+> <https://sah.tib.eu/individual/957b9b8c41ba4f47b43aa773f279b456_n35778> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core#DateTimeValue> <http://vitro.mannlib.cornell.edu/default/vitro-kb-2> .
+> <https://sah.tib.eu/individual/957b9b8c41ba4f47b43aa773f279b456_n35778> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Thing> <http://vitro.mannlib.cornell.edu/default/vitro-kb-inf> .
+> <https://sah.tib.eu/individual/957b9b8c41ba4f47b43aa773f279b456_n44608> <http://vitro.mannlib.cornell.edu/ns/vitro/0.7#mostSpecificType> <http://vivoweb.org/ontology/core#DateTimeInterval> <http://vitro.mannlib.cornell.edu/default/vitro-kb-inf> .
+> <https://sah.tib.eu/individual/957b9b8c41ba4f47b43aa773f279b456_n44608> <http://vivoweb.org/ontology/core#end> <https://sah.tib.eu/individual/957b9b8c41ba4f47b43aa773f279b456_n33356> <http://vitro.mannlib.cornell.edu/default/vitro-kb-2> .
+> <https://sah.tib.eu/individual/957b9b8c41ba4f47b43aa773f279b456_n44608> <http://vivoweb.org/ontology/core#start> <https://sah.tib.eu/individual/957b9b8c41ba4f47b43aa773f279b456_n35778> <http://vitro.mannlib.cornell.edu/default/vitro-kb-2> .
+> <https://sah.tib.eu/individual/957b9b8c41ba4f47b43aa773f279b456_n44608> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.obolibrary.org/obo/BFO_0000001> <http://vitro.mannlib.cornell.edu/default/vitro-kb-inf> .
+> <https://sah.tib.eu/individual/957b9b8c41ba4f47b43aa773f279b456_n44608> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.obolibrary.org/obo/BFO_0000003> <http://vitro.mannlib.cornell.edu/default/vitro-kb-inf> .
+> <https://sah.tib.eu/individual/957b9b8c41ba4f47b43aa773f279b456_n44608> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.obolibrary.org/obo/BFO_0000008> <http://vitro.mannlib.cornell.edu/default/vitro-kb-inf> .
+> <https://sah.tib.eu/individual/957b9b8c41ba4f47b43aa773f279b456_n44608> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.obolibrary.org/obo/BFO_0000038> <http://vitro.mannlib.cornell.edu/default/vitro-kb-inf> .
+> <https://sah.tib.eu/individual/957b9b8c41ba4f47b43aa773f279b456_n44608> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core#DateTimeInterval> <http://vitro.mannlib.cornell.edu/default/vitro-kb-2> .
+> <https://sah.tib.eu/individual/957b9b8c41ba4f47b43aa773f279b456_n44608> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Thing> <http://vitro.mannlib.cornell.edu/default/vitro-kb-inf> .
+> <https://sah.tib.eu/individual/957b9b8c41ba4f47b43aa773f279b456_n45597> <http://ontology.tib.eu/gesah/has_role_type> <http://ontology.tib.eu/gesah/Publisher> <http://vitro.mannlib.cornell.edu/default/vitro-kb-2> .
+> <https://sah.tib.eu/individual/957b9b8c41ba4f47b43aa773f279b456_n45597> <http://ontology.tib.eu/gesah/has_type_of_attribution> <https://sah.tib.eu/individual/n24108> <http://vitro.mannlib.cornell.edu/default/vitro-kb-2> .
+> <https://sah.tib.eu/individual/957b9b8c41ba4f47b43aa773f279b456_n45597> <http://ontology.tib.eu/gesah/is_role_of> <https://sah.tib.eu/individual/n58481> <http://vitro.mannlib.cornell.edu/default/vitro-kb-2> .
+> <https://sah.tib.eu/individual/957b9b8c41ba4f47b43aa773f279b456_n45597> <http://ontology.tib.eu/gesah/realized_in> <https://sah.tib.eu/individual/957b9b8c41ba4f47b43aa773f279b456> <http://vitro.mannlib.cornell.edu/default/vitro-kb-inf> .
+> <https://sah.tib.eu/individual/957b9b8c41ba4f47b43aa773f279b456_n45597> <http://vitro.mannlib.cornell.edu/ns/vitro/0.7#mostSpecificType> <http://purl.obolibrary.org/obo/BFO_0000023> <http://vitro.mannlib.cornell.edu/default/vitro-kb-inf> .
+> <https://sah.tib.eu/individual/957b9b8c41ba4f47b43aa773f279b456_n45597> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.obolibrary.org/obo/BFO_0000001> <http://vitro.mannlib.cornell.edu/default/vitro-kb-inf> .
+> <https://sah.tib.eu/individual/957b9b8c41ba4f47b43aa773f279b456_n45597> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.obolibrary.org/obo/BFO_0000002> <http://vitro.mannlib.cornell.edu/default/vitro-kb-inf> .
+> <https://sah.tib.eu/individual/957b9b8c41ba4f47b43aa773f279b456_n45597> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.obolibrary.org/obo/BFO_0000017> <http://vitro.mannlib.cornell.edu/default/vitro-kb-inf> .
+> <https://sah.tib.eu/individual/957b9b8c41ba4f47b43aa773f279b456_n45597> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.obolibrary.org/obo/BFO_0000020> <http://vitro.mannlib.cornell.edu/default/vitro-kb-inf> .
+> <https://sah.tib.eu/individual/957b9b8c41ba4f47b43aa773f279b456_n45597> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.obolibrary.org/obo/BFO_0000023> <http://vitro.mannlib.cornell.edu/default/vitro-kb-2> .
+> <https://sah.tib.eu/individual/957b9b8c41ba4f47b43aa773f279b456_n45597> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Thing> <http://vitro.mannlib.cornell.edu/default/vitro-kb-inf> .
+504093a504348,504367
+> <https://sah.tib.eu/individual/9dcbb75b5d1a40168da93108b61164db> <http://ontology.tib.eu/gesah/has_creation_output> <https://sah.tib.eu/individual/49ee783a4d484da6ae48678ad09aa33c> <http://vitro.mannlib.cornell.edu/default/vitro-kb-inf> .
+> <https://sah.tib.eu/individual/9dcbb75b5d1a40168da93108b61164db> <http://ontology.tib.eu/gesah/realizes> <https://sah.tib.eu/individual/9dcbb75b5d1a40168da93108b61164db_n58008> <http://vitro.mannlib.cornell.edu/default/vitro-kb-2> .
+> <https://sah.tib.eu/individual/9dcbb75b5d1a40168da93108b61164db> <http://vitro.mannlib.cornell.edu/ns/vitro/0.7#mostSpecificType> <http://ontology.tib.eu/gesah/Creation> <http://vitro.mannlib.cornell.edu/default/vitro-kb-inf> .
+> <https://sah.tib.eu/individual/9dcbb75b5d1a40168da93108b61164db> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ontology.tib.eu/gesah/Activity> <http://vitro.mannlib.cornell.edu/default/vitro-kb-inf> .
+> <https://sah.tib.eu/individual/9dcbb75b5d1a40168da93108b61164db> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ontology.tib.eu/gesah/Creation> <http://vitro.mannlib.cornell.edu/default/vitro-kb-2> .
+> <https://sah.tib.eu/individual/9dcbb75b5d1a40168da93108b61164db> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.obolibrary.org/obo/BFO_0000001> <http://vitro.mannlib.cornell.edu/default/vitro-kb-inf> .
+> <https://sah.tib.eu/individual/9dcbb75b5d1a40168da93108b61164db> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.obolibrary.org/obo/BFO_0000003> <http://vitro.mannlib.cornell.edu/default/vitro-kb-inf> .
+> <https://sah.tib.eu/individual/9dcbb75b5d1a40168da93108b61164db> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.obolibrary.org/obo/BFO_0000015> <http://vitro.mannlib.cornell.edu/default/vitro-kb-inf> .
+> <https://sah.tib.eu/individual/9dcbb75b5d1a40168da93108b61164db> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Thing> <http://vitro.mannlib.cornell.edu/default/vitro-kb-inf> .
+> <https://sah.tib.eu/individual/9dcbb75b5d1a40168da93108b61164db_n58008> <http://ontology.tib.eu/gesah/has_role_type> <http://ontology.tib.eu/gesah/Inventor> <http://vitro.mannlib.cornell.edu/default/vitro-kb-2> .
+> <https://sah.tib.eu/individual/9dcbb75b5d1a40168da93108b61164db_n58008> <http://ontology.tib.eu/gesah/has_type_of_attribution> <https://sah.tib.eu/individual/n24108> <http://vitro.mannlib.cornell.edu/default/vitro-kb-2> .
+> <https://sah.tib.eu/individual/9dcbb75b5d1a40168da93108b61164db_n58008> <http://ontology.tib.eu/gesah/is_role_of> <https://sah.tib.eu/individual/n58481> <http://vitro.mannlib.cornell.edu/default/vitro-kb-2> .
+> <https://sah.tib.eu/individual/9dcbb75b5d1a40168da93108b61164db_n58008> <http://ontology.tib.eu/gesah/realized_in> <https://sah.tib.eu/individual/9dcbb75b5d1a40168da93108b61164db> <http://vitro.mannlib.cornell.edu/default/vitro-kb-inf> .
+> <https://sah.tib.eu/individual/9dcbb75b5d1a40168da93108b61164db_n58008> <http://vitro.mannlib.cornell.edu/ns/vitro/0.7#mostSpecificType> <http://purl.obolibrary.org/obo/BFO_0000023> <http://vitro.mannlib.cornell.edu/default/vitro-kb-inf> .
+> <https://sah.tib.eu/individual/9dcbb75b5d1a40168da93108b61164db_n58008> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.obolibrary.org/obo/BFO_0000001> <http://vitro.mannlib.cornell.edu/default/vitro-kb-inf> .
+> <https://sah.tib.eu/individual/9dcbb75b5d1a40168da93108b61164db_n58008> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.obolibrary.org/obo/BFO_0000002> <http://vitro.mannlib.cornell.edu/default/vitro-kb-inf> .
+> <https://sah.tib.eu/individual/9dcbb75b5d1a40168da93108b61164db_n58008> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.obolibrary.org/obo/BFO_0000017> <http://vitro.mannlib.cornell.edu/default/vitro-kb-inf> .
+> <https://sah.tib.eu/individual/9dcbb75b5d1a40168da93108b61164db_n58008> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.obolibrary.org/obo/BFO_0000020> <http://vitro.mannlib.cornell.edu/default/vitro-kb-inf> .
+> <https://sah.tib.eu/individual/9dcbb75b5d1a40168da93108b61164db_n58008> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.obolibrary.org/obo/BFO_0000023> <http://vitro.mannlib.cornell.edu/default/vitro-kb-2> .
+> <https://sah.tib.eu/individual/9dcbb75b5d1a40168da93108b61164db_n58008> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Thing> <http://vitro.mannlib.cornell.edu/default/vitro-kb-inf> .
+505835c506109,506111
+< <https://sah.tib.eu/individual/9e96d0da3ccb4734bd5c561cc10ed55a> <http://ontology.tib.eu/gesah/current_inventory_number> "gr 2 Haupt 1605" <http://vitro.mannlib.cornell.edu/default/vitro-kb-2> .
+---
+> <https://sah.tib.eu/individual/9e96d0da3ccb4734bd5c561cc10ed55a> <http://ontology.tib.eu/gesah/current_inventory_number> "gr 2 Haupt 1605: 20r" <http://vitro.mannlib.cornell.edu/default/vitro-kb-2> .
+> <https://sah.tib.eu/individual/9e96d0da3ccb4734bd5c561cc10ed55a> <http://ontology.tib.eu/gesah/depicted_object_localisied_in> <https://sah.tib.eu/individual/n25983> <http://vitro.mannlib.cornell.edu/default/vitro-kb-2> .
+> <https://sah.tib.eu/individual/9e96d0da3ccb4734bd5c561cc10ed55a> <http://ontology.tib.eu/gesah/depicts> <https://sah.tib.eu/individual/n135929> <http://vitro.mannlib.cornell.edu/default/vitro-kb-2> .
+505841a506118
+> <https://sah.tib.eu/individual/9e96d0da3ccb4734bd5c561cc10ed55a> <http://ontology.tib.eu/gesah/has_object_category_narrower_term> <https://sah.tib.eu/individual/n37142> <http://vitro.mannlib.cornell.edu/default/vitro-kb-2> .
+505844d506120
+< <https://sah.tib.eu/individual/9e96d0da3ccb4734bd5c561cc10ed55a> <http://ontology.tib.eu/gesah/hide> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> <http://vitro.mannlib.cornell.edu/default/vitro-kb-2> .
+505858c506134
+< <https://sah.tib.eu/individual/9e96d0da3ccb4734bd5c561cc10ed55a> <http://www.w3.org/2000/01/rdf-schema#label> "Italienisches Reiseskizzenbuch [Alexander von Tritschler] Part 0038"@de-DE <http://vitro.mannlib.cornell.edu/default/vitro-kb-2> .
+---
+> <https://sah.tib.eu/individual/9e96d0da3ccb4734bd5c561cc10ed55a> <http://www.w3.org/2000/01/rdf-schema#label> "Pompeji, Wandmalereien aus der Villa des Cicero [Alexander von Tritschler, Italienisches Reiseskizzenbuch], fol. 20r"@de-DE <http://vitro.mannlib.cornell.edu/default/vitro-kb-2> .
+507006a507283
+> <https://sah.tib.eu/individual/9f0d37a375c240ff816b902f74d04de6> <http://ontology.tib.eu/gesah/depicts> <https://sah.tib.eu/individual/n135929> <http://vitro.mannlib.cornell.edu/default/vitro-kb-2> .
+507007a507285
+> <https://sah.tib.eu/individual/9f0d37a375c240ff816b902f74d04de6> <http://ontology.tib.eu/gesah/depicts> <https://sah.tib.eu/individual/n31401> <http://vitro.mannlib.cornell.edu/default/vitro-kb-2> .
+513291a513570,513592
+> <https://sah.tib.eu/individual/a1dc22e6415d45bc9d7143b38db1c152> <http://ontology.tib.eu/gesah/has_material> <http://ontology.tib.eu/gesah/Paper> <http://vitro.mannlib.cornell.edu/default/vitro-kb-2> .
+> <https://sah.tib.eu/individual/a1dc22e6415d45bc9d7143b38db1c152> <http://ontology.tib.eu/gesah/has_place> <https://sah.tib.eu/individual/n19865> <http://vitro.mannlib.cornell.edu/default/vitro-kb-2> .
+> <https://sah.tib.eu/individual/a1dc22e6415d45bc9d7143b38db1c152> <http://ontology.tib.eu/gesah/has_production_output> <https://sah.tib.eu/individual/a83bcebd056a454f8748263852e286c5> <http://vitro.mannlib.cornell.edu/default/vitro-kb-inf> .
+> <https://sah.tib.eu/individual/a1dc22e6415d45bc9d7143b38db1c152> <http://ontology.tib.eu/gesah/realizes> <https://sah.tib.eu/individual/a1dc22e6415d45bc9d7143b38db1c152_n116700> <http://vitro.mannlib.cornell.edu/default/vitro-kb-2> .
+> <https://sah.tib.eu/individual/a1dc22e6415d45bc9d7143b38db1c152> <http://ontology.tib.eu/gesah/uses_technique> <http://ontology.tib.eu/gesah/Copper_Engraving> <http://vitro.mannlib.cornell.edu/default/vitro-kb-2> .
+> <https://sah.tib.eu/individual/a1dc22e6415d45bc9d7143b38db1c152> <http://vitro.mannlib.cornell.edu/ns/vitro/0.7#mostSpecificType> <http://ontology.tib.eu/gesah/Production> <http://vitro.mannlib.cornell.edu/default/vitro-kb-inf> .
+> <https://sah.tib.eu/individual/a1dc22e6415d45bc9d7143b38db1c152> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ontology.tib.eu/gesah/Activity> <http://vitro.mannlib.cornell.edu/default/vitro-kb-inf> .
+> <https://sah.tib.eu/individual/a1dc22e6415d45bc9d7143b38db1c152> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ontology.tib.eu/gesah/Production> <http://vitro.mannlib.cornell.edu/default/vitro-kb-2> .
+> <https://sah.tib.eu/individual/a1dc22e6415d45bc9d7143b38db1c152> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.obolibrary.org/obo/BFO_0000001> <http://vitro.mannlib.cornell.edu/default/vitro-kb-inf> .
+> <https://sah.tib.eu/individual/a1dc22e6415d45bc9d7143b38db1c152> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.obolibrary.org/obo/BFO_0000003> <http://vitro.mannlib.cornell.edu/default/vitro-kb-inf> .
+> <https://sah.tib.eu/individual/a1dc22e6415d45bc9d7143b38db1c152> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.obolibrary.org/obo/BFO_0000015> <http://vitro.mannlib.cornell.edu/default/vitro-kb-inf> .
+> <https://sah.tib.eu/individual/a1dc22e6415d45bc9d7143b38db1c152> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Thing> <http://vitro.mannlib.cornell.edu/default/vitro-kb-inf> .
+> <https://sah.tib.eu/individual/a1dc22e6415d45bc9d7143b38db1c152_n116700> <http://ontology.tib.eu/gesah/has_role_type> <http://ontology.tib.eu/gesah/Engraver> <http://vitro.mannlib.cornell.edu/default/vitro-kb-2> .
+> <https://sah.tib.eu/individual/a1dc22e6415d45bc9d7143b38db1c152_n116700> <http://ontology.tib.eu/gesah/has_type_of_attribution> <https://sah.tib.eu/individual/n2597> <http://vitro.mannlib.cornell.edu/default/vitro-kb-2> .
+> <https://sah.tib.eu/individual/a1dc22e6415d45bc9d7143b38db1c152_n116700> <http://ontology.tib.eu/gesah/is_role_of> <https://sah.tib.eu/individual/n127423> <http://vitro.mannlib.cornell.edu/default/vitro-kb-2> .
+> <https://sah.tib.eu/individual/a1dc22e6415d45bc9d7143b38db1c152_n116700> <http://ontology.tib.eu/gesah/realized_in> <https://sah.tib.eu/individual/a1dc22e6415d45bc9d7143b38db1c152> <http://vitro.mannlib.cornell.edu/default/vitro-kb-inf> .
+> <https://sah.tib.eu/individual/a1dc22e6415d45bc9d7143b38db1c152_n116700> <http://vitro.mannlib.cornell.edu/ns/vitro/0.7#mostSpecificType> <http://purl.obolibrary.org/obo/BFO_0000023> <http://vitro.mannlib.cornell.edu/default/vitro-kb-inf> .
+> <https://sah.tib.eu/individual/a1dc22e6415d45bc9d7143b38db1c152_n116700> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.obolibrary.org/obo/BFO_0000001> <http://vitro.mannlib.cornell.edu/default/vitro-kb-inf> .
+> <https://sah.tib.eu/individual/a1dc22e6415d45bc9d7143b38db1c152_n116700> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.obolibrary.org/obo/BFO_0000002> <http://vitro.mannlib.cornell.edu/default/vitro-kb-inf> .
+> <https://sah.tib.eu/individual/a1dc22e6415d45bc9d7143b38db1c152_n116700> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.obolibrary.org/obo/BFO_0000017> <http://vitro.mannlib.cornell.edu/default/vitro-kb-inf> .
+> <https://sah.tib.eu/individual/a1dc22e6415d45bc9d7143b38db1c152_n116700> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.obolibrary.org/obo/BFO_0000020> <http://vitro.mannlib.cornell.edu/default/vitro-kb-inf> .
+> <https://sah.tib.eu/individual/a1dc22e6415d45bc9d7143b38db1c152_n116700> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.obolibrary.org/obo/BFO_0000023> <http://vitro.mannlib.cornell.edu/default/vitro-kb-2> .
+> <https://sah.tib.eu/individual/a1dc22e6415d45bc9d7143b38db1c152_n116700> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Thing> <http://vitro.mannlib.cornell.edu/default/vitro-kb-inf> .
+517863c518164
+< <https://sah.tib.eu/individual/a3d3ed18ab2e446fa3537aca5f215969> <http://www.w3.org/2000/01/rdf-schema#label> "[Alexander von Tritschler, Italienisches Reiseskizzenbuch ], fol. 38v"@de-DE <http://vitro.mannlib.cornell.edu/default/vitro-kb-2> .
+---
+> <https://sah.tib.eu/individual/a3d3ed18ab2e446fa3537aca5f215969> <http://www.w3.org/2000/01/rdf-schema#label> "[Alexander von Tritschler, Italienisches Reiseskizzenbuch], fol. 38v"@de-DE <http://vitro.mannlib.cornell.edu/default/vitro-kb-2> .
+528677a528979,529004
+> <https://sah.tib.eu/individual/a83bcebd056a454f8748263852e286c5> <http://ontology.tib.eu/gesah/current_inventory_number> "gr 2 Haupt 1096" <http://vitro.mannlib.cornell.edu/default/vitro-kb-2> .
+> <https://sah.tib.eu/individual/a83bcebd056a454f8748263852e286c5> <http://ontology.tib.eu/gesah/has_current_holding_institution> <https://sah.tib.eu/individual/n3212> <http://vitro.mannlib.cornell.edu/default/vitro-kb-2> .
+> <https://sah.tib.eu/individual/a83bcebd056a454f8748263852e286c5> <http://ontology.tib.eu/gesah/has_digital_representation> <https://sah.tib.eu/individual/samvokua_1869125207_image_25_digrep> <http://vitro.mannlib.cornell.edu/default/vitro-kb-2> .
+> <https://sah.tib.eu/individual/a83bcebd056a454f8748263852e286c5> <http://ontology.tib.eu/gesah/has_digital_representation> <https://sah.tib.eu/individual/samvokua_1869125207_image_26_digrep> <http://vitro.mannlib.cornell.edu/default/vitro-kb-2> .
+> <https://sah.tib.eu/individual/a83bcebd056a454f8748263852e286c5> <http://ontology.tib.eu/gesah/has_digital_representation> <https://sah.tib.eu/individual/samvokua_1869125207_image_27_digrep> <http://vitro.mannlib.cornell.edu/default/vitro-kb-2> .
+> <https://sah.tib.eu/individual/a83bcebd056a454f8748263852e286c5> <http://ontology.tib.eu/gesah/has_geographic_assignment> <http://ontology.tib.eu/gesah/Flemish> <http://vitro.mannlib.cornell.edu/default/vitro-kb-2> .
+> <https://sah.tib.eu/individual/a83bcebd056a454f8748263852e286c5> <http://ontology.tib.eu/gesah/has_main_image> <https://sah.tib.eu/individual/samvokua_1869125207_image_26_digrep> <http://vitro.mannlib.cornell.edu/default/vitro-kb-2> .
+> <https://sah.tib.eu/individual/a83bcebd056a454f8748263852e286c5> <http://ontology.tib.eu/gesah/has_object_category_generic_term> <https://sah.tib.eu/individual/n2242> <http://vitro.mannlib.cornell.edu/default/vitro-kb-2> .
+> <https://sah.tib.eu/individual/a83bcebd056a454f8748263852e286c5> <http://ontology.tib.eu/gesah/hide> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> <http://vitro.mannlib.cornell.edu/default/vitro-kb-2> .
+> <https://sah.tib.eu/individual/a83bcebd056a454f8748263852e286c5> <http://ontology.tib.eu/gesah/is_part_of_collection> <https://sah.tib.eu/individual/n34147> <http://vitro.mannlib.cornell.edu/default/vitro-kb-2> .
+> <https://sah.tib.eu/individual/a83bcebd056a454f8748263852e286c5> <http://ontology.tib.eu/gesah/is_part_of> <https://sah.tib.eu/individual/composite_volume_samvokua_1869125207> <http://vitro.mannlib.cornell.edu/default/vitro-kb-2> .
+> <https://sah.tib.eu/individual/a83bcebd056a454f8748263852e286c5> <http://ontology.tib.eu/gesah/metadata_right> <https://sah.tib.eu/individual/n25518> <http://vitro.mannlib.cornell.edu/default/vitro-kb-2> .
+> <https://sah.tib.eu/individual/a83bcebd056a454f8748263852e286c5> <http://ontology.tib.eu/gesah/object_of_edition> <https://sah.tib.eu/individual/749cb68c398d427592ad0c053f0f0396> <http://vitro.mannlib.cornell.edu/default/vitro-kb-2> .
+> <https://sah.tib.eu/individual/a83bcebd056a454f8748263852e286c5> <http://ontology.tib.eu/gesah/object_of_publication> <https://sah.tib.eu/individual/749cb68c398d427592ad0c053f0f0396> <http://vitro.mannlib.cornell.edu/default/vitro-kb-2> .
+> <https://sah.tib.eu/individual/a83bcebd056a454f8748263852e286c5> <http://ontology.tib.eu/gesah/output_of_creation> <https://sah.tib.eu/individual/48faefcf89b64bac9cdf541a46975d45> <http://vitro.mannlib.cornell.edu/default/vitro-kb-2> .
+> <https://sah.tib.eu/individual/a83bcebd056a454f8748263852e286c5> <http://ontology.tib.eu/gesah/output_of_production> <https://sah.tib.eu/individual/a1dc22e6415d45bc9d7143b38db1c152> <http://vitro.mannlib.cornell.edu/default/vitro-kb-2> .
+> <https://sah.tib.eu/individual/a83bcebd056a454f8748263852e286c5> <http://ontology.tib.eu/gesah/record_author_initials> "BR" <http://vitro.mannlib.cornell.edu/default/vitro-kb-2> .
+> <https://sah.tib.eu/individual/a83bcebd056a454f8748263852e286c5> <http://vitro.mannlib.cornell.edu/ns/vitro/0.7#mostSpecificType> <http://ontology.tib.eu/gesah/Print> <http://vitro.mannlib.cornell.edu/default/vitro-kb-inf> .
+> <https://sah.tib.eu/individual/a83bcebd056a454f8748263852e286c5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ontology.tib.eu/gesah/Cultural_Object> <http://vitro.mannlib.cornell.edu/default/vitro-kb-inf> .
+> <https://sah.tib.eu/individual/a83bcebd056a454f8748263852e286c5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ontology.tib.eu/gesah/Print> <http://vitro.mannlib.cornell.edu/default/vitro-kb-2> .
+> <https://sah.tib.eu/individual/a83bcebd056a454f8748263852e286c5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.obolibrary.org/obo/BFO_0000001> <http://vitro.mannlib.cornell.edu/default/vitro-kb-inf> .
+> <https://sah.tib.eu/individual/a83bcebd056a454f8748263852e286c5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.obolibrary.org/obo/BFO_0000002> <http://vitro.mannlib.cornell.edu/default/vitro-kb-inf> .
+> <https://sah.tib.eu/individual/a83bcebd056a454f8748263852e286c5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.obolibrary.org/obo/BFO_0000031> <http://vitro.mannlib.cornell.edu/default/vitro-kb-inf> .
+> <https://sah.tib.eu/individual/a83bcebd056a454f8748263852e286c5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.obolibrary.org/obo/IAO_0000030> <http://vitro.mannlib.cornell.edu/default/vitro-kb-inf> .
+> <https://sah.tib.eu/individual/a83bcebd056a454f8748263852e286c5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Thing> <http://vitro.mannlib.cornell.edu/default/vitro-kb-inf> .
+> <https://sah.tib.eu/individual/a83bcebd056a454f8748263852e286c5> <http://www.w3.org/2000/01/rdf-schema#label> "Sammlung von Kupferstichen aus verschiedenen Werken (Speculum) Part 0001"@de-DE <http://vitro.mannlib.cornell.edu/default/vitro-kb-2> .
+804916a805244,805291
+> <https://sah.tib.eu/individual/b2d7392a96c640dea5ae85b1d5b336fd> <http://ontology.tib.eu/gesah/has_edition_object> <https://sah.tib.eu/individual/b4ee8e9eedf54cc1ada59b6f48774fe0> <http://vitro.mannlib.cornell.edu/default/vitro-kb-inf> .
+> <https://sah.tib.eu/individual/b2d7392a96c640dea5ae85b1d5b336fd> <http://ontology.tib.eu/gesah/realizes> <https://sah.tib.eu/individual/b2d7392a96c640dea5ae85b1d5b336fd_n45597> <http://vitro.mannlib.cornell.edu/default/vitro-kb-2> .
+> <https://sah.tib.eu/individual/b2d7392a96c640dea5ae85b1d5b336fd> <http://vitro.mannlib.cornell.edu/ns/vitro/0.7#mostSpecificType> <http://ontology.tib.eu/gesah/Edition> <http://vitro.mannlib.cornell.edu/default/vitro-kb-inf> .
+> <https://sah.tib.eu/individual/b2d7392a96c640dea5ae85b1d5b336fd> <http://vivoweb.org/ontology/core#dateTimeInterval> <https://sah.tib.eu/individual/b2d7392a96c640dea5ae85b1d5b336fd_n44608> <http://vitro.mannlib.cornell.edu/default/vitro-kb-2> .
+> <https://sah.tib.eu/individual/b2d7392a96c640dea5ae85b1d5b336fd> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ontology.tib.eu/gesah/Activity> <http://vitro.mannlib.cornell.edu/default/vitro-kb-inf> .
+> <https://sah.tib.eu/individual/b2d7392a96c640dea5ae85b1d5b336fd> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ontology.tib.eu/gesah/Edition> <http://vitro.mannlib.cornell.edu/default/vitro-kb-2> .
+> <https://sah.tib.eu/individual/b2d7392a96c640dea5ae85b1d5b336fd> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.obolibrary.org/obo/BFO_0000001> <http://vitro.mannlib.cornell.edu/default/vitro-kb-inf> .
+> <https://sah.tib.eu/individual/b2d7392a96c640dea5ae85b1d5b336fd> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.obolibrary.org/obo/BFO_0000003> <http://vitro.mannlib.cornell.edu/default/vitro-kb-inf> .
+> <https://sah.tib.eu/individual/b2d7392a96c640dea5ae85b1d5b336fd> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.obolibrary.org/obo/BFO_0000015> <http://vitro.mannlib.cornell.edu/default/vitro-kb-inf> .
+> <https://sah.tib.eu/individual/b2d7392a96c640dea5ae85b1d5b336fd> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Thing> <http://vitro.mannlib.cornell.edu/default/vitro-kb-inf> .
+> <https://sah.tib.eu/individual/b2d7392a96c640dea5ae85b1d5b336fd_n33356> <http://vitro.mannlib.cornell.edu/ns/vitro/0.7#mostSpecificType> <http://vivoweb.org/ontology/core#DateTimeValue> <http://vitro.mannlib.cornell.edu/default/vitro-kb-inf> .
+> <https://sah.tib.eu/individual/b2d7392a96c640dea5ae85b1d5b336fd_n33356> <http://vivoweb.org/ontology/core#dateTime> "1600-01-01T00:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> <http://vitro.mannlib.cornell.edu/default/vitro-kb-2> .
+> <https://sah.tib.eu/individual/b2d7392a96c640dea5ae85b1d5b336fd_n33356> <http://vivoweb.org/ontology/core#dateTimePrecision> <http://vivoweb.org/ontology/core#yearPrecision> <http://vitro.mannlib.cornell.edu/default/vitro-kb-2> .
+> <https://sah.tib.eu/individual/b2d7392a96c640dea5ae85b1d5b336fd_n33356> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.obolibrary.org/obo/BFO_0000001> <http://vitro.mannlib.cornell.edu/default/vitro-kb-inf> .
+> <https://sah.tib.eu/individual/b2d7392a96c640dea5ae85b1d5b336fd_n33356> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.obolibrary.org/obo/BFO_0000003> <http://vitro.mannlib.cornell.edu/default/vitro-kb-inf> .
+> <https://sah.tib.eu/individual/b2d7392a96c640dea5ae85b1d5b336fd_n33356> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.obolibrary.org/obo/BFO_0000008> <http://vitro.mannlib.cornell.edu/default/vitro-kb-inf> .
+> <https://sah.tib.eu/individual/b2d7392a96c640dea5ae85b1d5b336fd_n33356> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.obolibrary.org/obo/BFO_0000148> <http://vitro.mannlib.cornell.edu/default/vitro-kb-inf> .
+> <https://sah.tib.eu/individual/b2d7392a96c640dea5ae85b1d5b336fd_n33356> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core#DateTimeValue> <http://vitro.mannlib.cornell.edu/default/vitro-kb-2> .
+> <https://sah.tib.eu/individual/b2d7392a96c640dea5ae85b1d5b336fd_n33356> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Thing> <http://vitro.mannlib.cornell.edu/default/vitro-kb-inf> .
+> <https://sah.tib.eu/individual/b2d7392a96c640dea5ae85b1d5b336fd_n35778> <http://vitro.mannlib.cornell.edu/ns/vitro/0.7#mostSpecificType> <http://vivoweb.org/ontology/core#DateTimeValue> <http://vitro.mannlib.cornell.edu/default/vitro-kb-inf> .
+> <https://sah.tib.eu/individual/b2d7392a96c640dea5ae85b1d5b336fd_n35778> <http://vivoweb.org/ontology/core#dateTime> "1600-01-01T00:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> <http://vitro.mannlib.cornell.edu/default/vitro-kb-2> .
+> <https://sah.tib.eu/individual/b2d7392a96c640dea5ae85b1d5b336fd_n35778> <http://vivoweb.org/ontology/core#dateTimePrecision> <http://vivoweb.org/ontology/core#yearPrecision> <http://vitro.mannlib.cornell.edu/default/vitro-kb-2> .
+> <https://sah.tib.eu/individual/b2d7392a96c640dea5ae85b1d5b336fd_n35778> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.obolibrary.org/obo/BFO_0000001> <http://vitro.mannlib.cornell.edu/default/vitro-kb-inf> .
+> <https://sah.tib.eu/individual/b2d7392a96c640dea5ae85b1d5b336fd_n35778> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.obolibrary.org/obo/BFO_0000003> <http://vitro.mannlib.cornell.edu/default/vitro-kb-inf> .
+> <https://sah.tib.eu/individual/b2d7392a96c640dea5ae85b1d5b336fd_n35778> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.obolibrary.org/obo/BFO_0000008> <http://vitro.mannlib.cornell.edu/default/vitro-kb-inf> .
+> <https://sah.tib.eu/individual/b2d7392a96c640dea5ae85b1d5b336fd_n35778> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.obolibrary.org/obo/BFO_0000148> <http://vitro.mannlib.cornell.edu/default/vitro-kb-inf> .
+> <https://sah.tib.eu/individual/b2d7392a96c640dea5ae85b1d5b336fd_n35778> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core#DateTimeValue> <http://vitro.mannlib.cornell.edu/default/vitro-kb-2> .
+> <https://sah.tib.eu/individual/b2d7392a96c640dea5ae85b1d5b336fd_n35778> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Thing> <http://vitro.mannlib.cornell.edu/default/vitro-kb-inf> .
+> <https://sah.tib.eu/individual/b2d7392a96c640dea5ae85b1d5b336fd_n44608> <http://vitro.mannlib.cornell.edu/ns/vitro/0.7#mostSpecificType> <http://vivoweb.org/ontology/core#DateTimeInterval> <http://vitro.mannlib.cornell.edu/default/vitro-kb-inf> .
+> <https://sah.tib.eu/individual/b2d7392a96c640dea5ae85b1d5b336fd_n44608> <http://vivoweb.org/ontology/core#end> <https://sah.tib.eu/individual/b2d7392a96c640dea5ae85b1d5b336fd_n33356> <http://vitro.mannlib.cornell.edu/default/vitro-kb-2> .
+> <https://sah.tib.eu/individual/b2d7392a96c640dea5ae85b1d5b336fd_n44608> <http://vivoweb.org/ontology/core#start> <https://sah.tib.eu/individual/b2d7392a96c640dea5ae85b1d5b336fd_n35778> <http://vitro.mannlib.cornell.edu/default/vitro-kb-2> .
+> <https://sah.tib.eu/individual/b2d7392a96c640dea5ae85b1d5b336fd_n44608> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.obolibrary.org/obo/BFO_0000001> <http://vitro.mannlib.cornell.edu/default/vitro-kb-inf> .
+> <https://sah.tib.eu/individual/b2d7392a96c640dea5ae85b1d5b336fd_n44608> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.obolibrary.org/obo/BFO_0000003> <http://vitro.mannlib.cornell.edu/default/vitro-kb-inf> .
+> <https://sah.tib.eu/individual/b2d7392a96c640dea5ae85b1d5b336fd_n44608> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.obolibrary.org/obo/BFO_0000008> <http://vitro.mannlib.cornell.edu/default/vitro-kb-inf> .
+> <https://sah.tib.eu/individual/b2d7392a96c640dea5ae85b1d5b336fd_n44608> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.obolibrary.org/obo/BFO_0000038> <http://vitro.mannlib.cornell.edu/default/vitro-kb-inf> .
+> <https://sah.tib.eu/individual/b2d7392a96c640dea5ae85b1d5b336fd_n44608> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core#DateTimeInterval> <http://vitro.mannlib.cornell.edu/default/vitro-kb-2> .
+> <https://sah.tib.eu/individual/b2d7392a96c640dea5ae85b1d5b336fd_n44608> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Thing> <http://vitro.mannlib.cornell.edu/default/vitro-kb-inf> .
+> <https://sah.tib.eu/individual/b2d7392a96c640dea5ae85b1d5b336fd_n45597> <http://ontology.tib.eu/gesah/has_role_type> <http://ontology.tib.eu/gesah/Publisher> <http://vitro.mannlib.cornell.edu/default/vitro-kb-2> .
+> <https://sah.tib.eu/individual/b2d7392a96c640dea5ae85b1d5b336fd_n45597> <http://ontology.tib.eu/gesah/has_type_of_attribution> <https://sah.tib.eu/individual/n24108> <http://vitro.mannlib.cornell.edu/default/vitro-kb-2> .
+> <https://sah.tib.eu/individual/b2d7392a96c640dea5ae85b1d5b336fd_n45597> <http://ontology.tib.eu/gesah/is_role_of> <https://sah.tib.eu/individual/n58481> <http://vitro.mannlib.cornell.edu/default/vitro-kb-2> .
+> <https://sah.tib.eu/individual/b2d7392a96c640dea5ae85b1d5b336fd_n45597> <http://ontology.tib.eu/gesah/realized_in> <https://sah.tib.eu/individual/b2d7392a96c640dea5ae85b1d5b336fd> <http://vitro.mannlib.cornell.edu/default/vitro-kb-inf> .
+> <https://sah.tib.eu/individual/b2d7392a96c640dea5ae85b1d5b336fd_n45597> <http://vitro.mannlib.cornell.edu/ns/vitro/0.7#mostSpecificType> <http://purl.obolibrary.org/obo/BFO_0000023> <http://vitro.mannlib.cornell.edu/default/vitro-kb-inf> .
+> <https://sah.tib.eu/individual/b2d7392a96c640dea5ae85b1d5b336fd_n45597> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.obolibrary.org/obo/BFO_0000001> <http://vitro.mannlib.cornell.edu/default/vitro-kb-inf> .
+> <https://sah.tib.eu/individual/b2d7392a96c640dea5ae85b1d5b336fd_n45597> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.obolibrary.org/obo/BFO_0000002> <http://vitro.mannlib.cornell.edu/default/vitro-kb-inf> .
+> <https://sah.tib.eu/individual/b2d7392a96c640dea5ae85b1d5b336fd_n45597> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.obolibrary.org/obo/BFO_0000017> <http://vitro.mannlib.cornell.edu/default/vitro-kb-inf> .
+> <https://sah.tib.eu/individual/b2d7392a96c640dea5ae85b1d5b336fd_n45597> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.obolibrary.org/obo/BFO_0000020> <http://vitro.mannlib.cornell.edu/default/vitro-kb-inf> .
+> <https://sah.tib.eu/individual/b2d7392a96c640dea5ae85b1d5b336fd_n45597> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.obolibrary.org/obo/BFO_0000023> <http://vitro.mannlib.cornell.edu/default/vitro-kb-2> .
+> <https://sah.tib.eu/individual/b2d7392a96c640dea5ae85b1d5b336fd_n45597> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Thing> <http://vitro.mannlib.cornell.edu/default/vitro-kb-inf> .
+810300a810676,810701
+> <https://sah.tib.eu/individual/b4ee8e9eedf54cc1ada59b6f48774fe0> <http://ontology.tib.eu/gesah/current_inventory_number> "gr 2 Haupt 1096" <http://vitro.mannlib.cornell.edu/default/vitro-kb-2> .
+> <https://sah.tib.eu/individual/b4ee8e9eedf54cc1ada59b6f48774fe0> <http://ontology.tib.eu/gesah/has_current_holding_institution> <https://sah.tib.eu/individual/n3212> <http://vitro.mannlib.cornell.edu/default/vitro-kb-2> .
+> <https://sah.tib.eu/individual/b4ee8e9eedf54cc1ada59b6f48774fe0> <http://ontology.tib.eu/gesah/has_digital_representation> <https://sah.tib.eu/individual/samvokua_1869125207_image_109_digrep> <http://vitro.mannlib.cornell.edu/default/vitro-kb-2> .
+> <https://sah.tib.eu/individual/b4ee8e9eedf54cc1ada59b6f48774fe0> <http://ontology.tib.eu/gesah/has_digital_representation> <https://sah.tib.eu/individual/samvokua_1869125207_image_110_digrep> <http://vitro.mannlib.cornell.edu/default/vitro-kb-2> .
+> <https://sah.tib.eu/individual/b4ee8e9eedf54cc1ada59b6f48774fe0> <http://ontology.tib.eu/gesah/has_digital_representation> <https://sah.tib.eu/individual/samvokua_1869125207_image_111_digrep> <http://vitro.mannlib.cornell.edu/default/vitro-kb-2> .
+> <https://sah.tib.eu/individual/b4ee8e9eedf54cc1ada59b6f48774fe0> <http://ontology.tib.eu/gesah/has_geographic_assignment> <http://ontology.tib.eu/gesah/Flemish> <http://vitro.mannlib.cornell.edu/default/vitro-kb-2> .
+> <https://sah.tib.eu/individual/b4ee8e9eedf54cc1ada59b6f48774fe0> <http://ontology.tib.eu/gesah/has_main_image> <https://sah.tib.eu/individual/samvokua_1869125207_image_110_digrep> <http://vitro.mannlib.cornell.edu/default/vitro-kb-2> .
+> <https://sah.tib.eu/individual/b4ee8e9eedf54cc1ada59b6f48774fe0> <http://ontology.tib.eu/gesah/has_object_category_generic_term> <https://sah.tib.eu/individual/n2242> <http://vitro.mannlib.cornell.edu/default/vitro-kb-2> .
+> <https://sah.tib.eu/individual/b4ee8e9eedf54cc1ada59b6f48774fe0> <http://ontology.tib.eu/gesah/hide> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> <http://vitro.mannlib.cornell.edu/default/vitro-kb-2> .
+> <https://sah.tib.eu/individual/b4ee8e9eedf54cc1ada59b6f48774fe0> <http://ontology.tib.eu/gesah/is_part_of_collection> <https://sah.tib.eu/individual/n34147> <http://vitro.mannlib.cornell.edu/default/vitro-kb-2> .
+> <https://sah.tib.eu/individual/b4ee8e9eedf54cc1ada59b6f48774fe0> <http://ontology.tib.eu/gesah/is_part_of> <https://sah.tib.eu/individual/composite_volume_samvokua_1869125207> <http://vitro.mannlib.cornell.edu/default/vitro-kb-2> .
+> <https://sah.tib.eu/individual/b4ee8e9eedf54cc1ada59b6f48774fe0> <http://ontology.tib.eu/gesah/metadata_right> <https://sah.tib.eu/individual/n25518> <http://vitro.mannlib.cornell.edu/default/vitro-kb-2> .
+> <https://sah.tib.eu/individual/b4ee8e9eedf54cc1ada59b6f48774fe0> <http://ontology.tib.eu/gesah/object_of_edition> <https://sah.tib.eu/individual/b2d7392a96c640dea5ae85b1d5b336fd> <http://vitro.mannlib.cornell.edu/default/vitro-kb-2> .
+> <https://sah.tib.eu/individual/b4ee8e9eedf54cc1ada59b6f48774fe0> <http://ontology.tib.eu/gesah/object_of_publication> <https://sah.tib.eu/individual/b2d7392a96c640dea5ae85b1d5b336fd> <http://vitro.mannlib.cornell.edu/default/vitro-kb-2> .
+> <https://sah.tib.eu/individual/b4ee8e9eedf54cc1ada59b6f48774fe0> <http://ontology.tib.eu/gesah/output_of_creation> <https://sah.tib.eu/individual/d19022a48068423c8917fb272c8f4777> <http://vitro.mannlib.cornell.edu/default/vitro-kb-2> .
+> <https://sah.tib.eu/individual/b4ee8e9eedf54cc1ada59b6f48774fe0> <http://ontology.tib.eu/gesah/output_of_production> <https://sah.tib.eu/individual/7d55e6c201064069972e27de0c1df02a> <http://vitro.mannlib.cornell.edu/default/vitro-kb-2> .
+> <https://sah.tib.eu/individual/b4ee8e9eedf54cc1ada59b6f48774fe0> <http://ontology.tib.eu/gesah/record_author_initials> "BR" <http://vitro.mannlib.cornell.edu/default/vitro-kb-2> .
+> <https://sah.tib.eu/individual/b4ee8e9eedf54cc1ada59b6f48774fe0> <http://vitro.mannlib.cornell.edu/ns/vitro/0.7#mostSpecificType> <http://ontology.tib.eu/gesah/Print> <http://vitro.mannlib.cornell.edu/default/vitro-kb-inf> .
+> <https://sah.tib.eu/individual/b4ee8e9eedf54cc1ada59b6f48774fe0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ontology.tib.eu/gesah/Cultural_Object> <http://vitro.mannlib.cornell.edu/default/vitro-kb-inf> .
+> <https://sah.tib.eu/individual/b4ee8e9eedf54cc1ada59b6f48774fe0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ontology.tib.eu/gesah/Print> <http://vitro.mannlib.cornell.edu/default/vitro-kb-2> .
+> <https://sah.tib.eu/individual/b4ee8e9eedf54cc1ada59b6f48774fe0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.obolibrary.org/obo/BFO_0000001> <http://vitro.mannlib.cornell.edu/default/vitro-kb-inf> .
+> <https://sah.tib.eu/individual/b4ee8e9eedf54cc1ada59b6f48774fe0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.obolibrary.org/obo/BFO_0000002> <http://vitro.mannlib.cornell.edu/default/vitro-kb-inf> .
+> <https://sah.tib.eu/individual/b4ee8e9eedf54cc1ada59b6f48774fe0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.obolibrary.org/obo/BFO_0000031> <http://vitro.mannlib.cornell.edu/default/vitro-kb-inf> .
+> <https://sah.tib.eu/individual/b4ee8e9eedf54cc1ada59b6f48774fe0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.obolibrary.org/obo/IAO_0000030> <http://vitro.mannlib.cornell.edu/default/vitro-kb-inf> .
+> <https://sah.tib.eu/individual/b4ee8e9eedf54cc1ada59b6f48774fe0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Thing> <http://vitro.mannlib.cornell.edu/default/vitro-kb-inf> .
+> <https://sah.tib.eu/individual/b4ee8e9eedf54cc1ada59b6f48774fe0> <http://www.w3.org/2000/01/rdf-schema#label> "Sammlung von Kupferstichen aus verschiedenen Werken (Speculum) Part 0003"@de-DE <http://vitro.mannlib.cornell.edu/default/vitro-kb-2> .
+815420a815822,815869
+> <https://sah.tib.eu/individual/b72df119c065426cb7e8e6457d3c951e> <http://ontology.tib.eu/gesah/has_edition_object> <https://sah.tib.eu/individual/49ee783a4d484da6ae48678ad09aa33c> <http://vitro.mannlib.cornell.edu/default/vitro-kb-inf> .
+> <https://sah.tib.eu/individual/b72df119c065426cb7e8e6457d3c951e> <http://ontology.tib.eu/gesah/realizes> <https://sah.tib.eu/individual/b72df119c065426cb7e8e6457d3c951e_n45597> <http://vitro.mannlib.cornell.edu/default/vitro-kb-2> .
+> <https://sah.tib.eu/individual/b72df119c065426cb7e8e6457d3c951e> <http://vitro.mannlib.cornell.edu/ns/vitro/0.7#mostSpecificType> <http://ontology.tib.eu/gesah/Edition> <http://vitro.mannlib.cornell.edu/default/vitro-kb-inf> .
+> <https://sah.tib.eu/individual/b72df119c065426cb7e8e6457d3c951e> <http://vivoweb.org/ontology/core#dateTimeInterval> <https://sah.tib.eu/individual/b72df119c065426cb7e8e6457d3c951e_n44608> <http://vitro.mannlib.cornell.edu/default/vitro-kb-2> .
+> <https://sah.tib.eu/individual/b72df119c065426cb7e8e6457d3c951e> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ontology.tib.eu/gesah/Activity> <http://vitro.mannlib.cornell.edu/default/vitro-kb-inf> .
+> <https://sah.tib.eu/individual/b72df119c065426cb7e8e6457d3c951e> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ontology.tib.eu/gesah/Edition> <http://vitro.mannlib.cornell.edu/default/vitro-kb-2> .
+> <https://sah.tib.eu/individual/b72df119c065426cb7e8e6457d3c951e> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.obolibrary.org/obo/BFO_0000001> <http://vitro.mannlib.cornell.edu/default/vitro-kb-inf> .
+> <https://sah.tib.eu/individual/b72df119c065426cb7e8e6457d3c951e> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.obolibrary.org/obo/BFO_0000003> <http://vitro.mannlib.cornell.edu/default/vitro-kb-inf> .
+> <https://sah.tib.eu/individual/b72df119c065426cb7e8e6457d3c951e> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.obolibrary.org/obo/BFO_0000015> <http://vitro.mannlib.cornell.edu/default/vitro-kb-inf> .
+> <https://sah.tib.eu/individual/b72df119c065426cb7e8e6457d3c951e> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Thing> <http://vitro.mannlib.cornell.edu/default/vitro-kb-inf> .
+> <https://sah.tib.eu/individual/b72df119c065426cb7e8e6457d3c951e_n33356> <http://vitro.mannlib.cornell.edu/ns/vitro/0.7#mostSpecificType> <http://vivoweb.org/ontology/core#DateTimeValue> <http://vitro.mannlib.cornell.edu/default/vitro-kb-inf> .
+> <https://sah.tib.eu/individual/b72df119c065426cb7e8e6457d3c951e_n33356> <http://vivoweb.org/ontology/core#dateTime> "1600-01-01T00:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> <http://vitro.mannlib.cornell.edu/default/vitro-kb-2> .
+> <https://sah.tib.eu/individual/b72df119c065426cb7e8e6457d3c951e_n33356> <http://vivoweb.org/ontology/core#dateTimePrecision> <http://vivoweb.org/ontology/core#yearPrecision> <http://vitro.mannlib.cornell.edu/default/vitro-kb-2> .
+> <https://sah.tib.eu/individual/b72df119c065426cb7e8e6457d3c951e_n33356> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.obolibrary.org/obo/BFO_0000001> <http://vitro.mannlib.cornell.edu/default/vitro-kb-inf> .
+> <https://sah.tib.eu/individual/b72df119c065426cb7e8e6457d3c951e_n33356> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.obolibrary.org/obo/BFO_0000003> <http://vitro.mannlib.cornell.edu/default/vitro-kb-inf> .
+> <https://sah.tib.eu/individual/b72df119c065426cb7e8e6457d3c951e_n33356> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.obolibrary.org/obo/BFO_0000008> <http://vitro.mannlib.cornell.edu/default/vitro-kb-inf> .
+> <https://sah.tib.eu/individual/b72df119c065426cb7e8e6457d3c951e_n33356> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.obolibrary.org/obo/BFO_0000148> <http://vitro.mannlib.cornell.edu/default/vitro-kb-inf> .
+> <https://sah.tib.eu/individual/b72df119c065426cb7e8e6457d3c951e_n33356> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core#DateTimeValue> <http://vitro.mannlib.cornell.edu/default/vitro-kb-2> .
+> <https://sah.tib.eu/individual/b72df119c065426cb7e8e6457d3c951e_n33356> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Thing> <http://vitro.mannlib.cornell.edu/default/vitro-kb-inf> .
+> <https://sah.tib.eu/individual/b72df119c065426cb7e8e6457d3c951e_n35778> <http://vitro.mannlib.cornell.edu/ns/vitro/0.7#mostSpecificType> <http://vivoweb.org/ontology/core#DateTimeValue> <http://vitro.mannlib.cornell.edu/default/vitro-kb-inf> .
+> <https://sah.tib.eu/individual/b72df119c065426cb7e8e6457d3c951e_n35778> <http://vivoweb.org/ontology/core#dateTime> "1600-01-01T00:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> <http://vitro.mannlib.cornell.edu/default/vitro-kb-2> .
+> <https://sah.tib.eu/individual/b72df119c065426cb7e8e6457d3c951e_n35778> <http://vivoweb.org/ontology/core#dateTimePrecision> <http://vivoweb.org/ontology/core#yearPrecision> <http://vitro.mannlib.cornell.edu/default/vitro-kb-2> .
+> <https://sah.tib.eu/individual/b72df119c065426cb7e8e6457d3c951e_n35778> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.obolibrary.org/obo/BFO_0000001> <http://vitro.mannlib.cornell.edu/default/vitro-kb-inf> .
+> <https://sah.tib.eu/individual/b72df119c065426cb7e8e6457d3c951e_n35778> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.obolibrary.org/obo/BFO_0000003> <http://vitro.mannlib.cornell.edu/default/vitro-kb-inf> .
+> <https://sah.tib.eu/individual/b72df119c065426cb7e8e6457d3c951e_n35778> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.obolibrary.org/obo/BFO_0000008> <http://vitro.mannlib.cornell.edu/default/vitro-kb-inf> .
+> <https://sah.tib.eu/individual/b72df119c065426cb7e8e6457d3c951e_n35778> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.obolibrary.org/obo/BFO_0000148> <http://vitro.mannlib.cornell.edu/default/vitro-kb-inf> .
+> <https://sah.tib.eu/individual/b72df119c065426cb7e8e6457d3c951e_n35778> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core#DateTimeValue> <http://vitro.mannlib.cornell.edu/default/vitro-kb-2> .
+> <https://sah.tib.eu/individual/b72df119c065426cb7e8e6457d3c951e_n35778> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Thing> <http://vitro.mannlib.cornell.edu/default/vitro-kb-inf> .
+> <https://sah.tib.eu/individual/b72df119c065426cb7e8e6457d3c951e_n44608> <http://vitro.mannlib.cornell.edu/ns/vitro/0.7#mostSpecificType> <http://vivoweb.org/ontology/core#DateTimeInterval> <http://vitro.mannlib.cornell.edu/default/vitro-kb-inf> .
+> <https://sah.tib.eu/individual/b72df119c065426cb7e8e6457d3c951e_n44608> <http://vivoweb.org/ontology/core#end> <https://sah.tib.eu/individual/b72df119c065426cb7e8e6457d3c951e_n33356> <http://vitro.mannlib.cornell.edu/default/vitro-kb-2> .
+> <https://sah.tib.eu/individual/b72df119c065426cb7e8e6457d3c951e_n44608> <http://vivoweb.org/ontology/core#start> <https://sah.tib.eu/individual/b72df119c065426cb7e8e6457d3c951e_n35778> <http://vitro.mannlib.cornell.edu/default/vitro-kb-2> .
+> <https://sah.tib.eu/individual/b72df119c065426cb7e8e6457d3c951e_n44608> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.obolibrary.org/obo/BFO_0000001> <http://vitro.mannlib.cornell.edu/default/vitro-kb-inf> .
+> <https://sah.tib.eu/individual/b72df119c065426cb7e8e6457d3c951e_n44608> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.obolibrary.org/obo/BFO_0000003> <http://vitro.mannlib.cornell.edu/default/vitro-kb-inf> .
+> <https://sah.tib.eu/individual/b72df119c065426cb7e8e6457d3c951e_n44608> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.obolibrary.org/obo/BFO_0000008> <http://vitro.mannlib.cornell.edu/default/vitro-kb-inf> .
+> <https://sah.tib.eu/individual/b72df119c065426cb7e8e6457d3c951e_n44608> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.obolibrary.org/obo/BFO_0000038> <http://vitro.mannlib.cornell.edu/default/vitro-kb-inf> .
+> <https://sah.tib.eu/individual/b72df119c065426cb7e8e6457d3c951e_n44608> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core#DateTimeInterval> <http://vitro.mannlib.cornell.edu/default/vitro-kb-2> .
+> <https://sah.tib.eu/individual/b72df119c065426cb7e8e6457d3c951e_n44608> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Thing> <http://vitro.mannlib.cornell.edu/default/vitro-kb-inf> .
+> <https://sah.tib.eu/individual/b72df119c065426cb7e8e6457d3c951e_n45597> <http://ontology.tib.eu/gesah/has_role_type> <http://ontology.tib.eu/gesah/Publisher> <http://vitro.mannlib.cornell.edu/default/vitro-kb-2> .
+> <https://sah.tib.eu/individual/b72df119c065426cb7e8e6457d3c951e_n45597> <http://ontology.tib.eu/gesah/has_type_of_attribution> <https://sah.tib.eu/individual/n24108> <http://vitro.mannlib.cornell.edu/default/vitro-kb-2> .
+> <https://sah.tib.eu/individual/b72df119c065426cb7e8e6457d3c951e_n45597> <http://ontology.tib.eu/gesah/is_role_of> <https://sah.tib.eu/individual/n58481> <http://vitro.mannlib.cornell.edu/default/vitro-kb-2> .
+> <https://sah.tib.eu/individual/b72df119c065426cb7e8e6457d3c951e_n45597> <http://ontology.tib.eu/gesah/realized_in> <https://sah.tib.eu/individual/b72df119c065426cb7e8e6457d3c951e> <http://vitro.mannlib.cornell.edu/default/vitro-kb-inf> .
+> <https://sah.tib.eu/individual/b72df119c065426cb7e8e6457d3c951e_n45597> <http://vitro.mannlib.cornell.edu/ns/vitro/0.7#mostSpecificType> <http://purl.obolibrary.org/obo/BFO_0000023> <http://vitro.mannlib.cornell.edu/default/vitro-kb-inf> .
+> <https://sah.tib.eu/individual/b72df119c065426cb7e8e6457d3c951e_n45597> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.obolibrary.org/obo/BFO_0000001> <http://vitro.mannlib.cornell.edu/default/vitro-kb-inf> .
+> <https://sah.tib.eu/individual/b72df119c065426cb7e8e6457d3c951e_n45597> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.obolibrary.org/obo/BFO_0000002> <http://vitro.mannlib.cornell.edu/default/vitro-kb-inf> .
+> <https://sah.tib.eu/individual/b72df119c065426cb7e8e6457d3c951e_n45597> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.obolibrary.org/obo/BFO_0000017> <http://vitro.mannlib.cornell.edu/default/vitro-kb-inf> .
+> <https://sah.tib.eu/individual/b72df119c065426cb7e8e6457d3c951e_n45597> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.obolibrary.org/obo/BFO_0000020> <http://vitro.mannlib.cornell.edu/default/vitro-kb-inf> .
+> <https://sah.tib.eu/individual/b72df119c065426cb7e8e6457d3c951e_n45597> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.obolibrary.org/obo/BFO_0000023> <http://vitro.mannlib.cornell.edu/default/vitro-kb-2> .
+> <https://sah.tib.eu/individual/b72df119c065426cb7e8e6457d3c951e_n45597> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Thing> <http://vitro.mannlib.cornell.edu/default/vitro-kb-inf> .
+815843a816293,816312
+> <https://sah.tib.eu/individual/b7595aaebf864ac295d26b2ecfc0cd43> <http://ontology.tib.eu/gesah/has_creation_output> <https://sah.tib.eu/individual/11c57e788e6145a999a73739f615ec52> <http://vitro.mannlib.cornell.edu/default/vitro-kb-inf> .
+> <https://sah.tib.eu/individual/b7595aaebf864ac295d26b2ecfc0cd43> <http://ontology.tib.eu/gesah/realizes> <https://sah.tib.eu/individual/b7595aaebf864ac295d26b2ecfc0cd43_n58008> <http://vitro.mannlib.cornell.edu/default/vitro-kb-2> .
+> <https://sah.tib.eu/individual/b7595aaebf864ac295d26b2ecfc0cd43> <http://vitro.mannlib.cornell.edu/ns/vitro/0.7#mostSpecificType> <http://ontology.tib.eu/gesah/Creation> <http://vitro.mannlib.cornell.edu/default/vitro-kb-inf> .
+> <https://sah.tib.eu/individual/b7595aaebf864ac295d26b2ecfc0cd43> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ontology.tib.eu/gesah/Activity> <http://vitro.mannlib.cornell.edu/default/vitro-kb-inf> .
+> <https://sah.tib.eu/individual/b7595aaebf864ac295d26b2ecfc0cd43> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ontology.tib.eu/gesah/Creation> <http://vitro.mannlib.cornell.edu/default/vitro-kb-2> .
+> <https://sah.tib.eu/individual/b7595aaebf864ac295d26b2ecfc0cd43> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.obolibrary.org/obo/BFO_0000001> <http://vitro.mannlib.cornell.edu/default/vitro-kb-inf> .
+> <https://sah.tib.eu/individual/b7595aaebf864ac295d26b2ecfc0cd43> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.obolibrary.org/obo/BFO_0000003> <http://vitro.mannlib.cornell.edu/default/vitro-kb-inf> .
+> <https://sah.tib.eu/individual/b7595aaebf864ac295d26b2ecfc0cd43> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.obolibrary.org/obo/BFO_0000015> <http://vitro.mannlib.cornell.edu/default/vitro-kb-inf> .
+> <https://sah.tib.eu/individual/b7595aaebf864ac295d26b2ecfc0cd43> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Thing> <http://vitro.mannlib.cornell.edu/default/vitro-kb-inf> .
+> <https://sah.tib.eu/individual/b7595aaebf864ac295d26b2ecfc0cd43_n58008> <http://ontology.tib.eu/gesah/has_role_type> <http://ontology.tib.eu/gesah/Inventor> <http://vitro.mannlib.cornell.edu/default/vitro-kb-2> .
+> <https://sah.tib.eu/individual/b7595aaebf864ac295d26b2ecfc0cd43_n58008> <http://ontology.tib.eu/gesah/has_type_of_attribution> <https://sah.tib.eu/individual/n24108> <http://vitro.mannlib.cornell.edu/default/vitro-kb-2> .
+> <https://sah.tib.eu/individual/b7595aaebf864ac295d26b2ecfc0cd43_n58008> <http://ontology.tib.eu/gesah/is_role_of> <https://sah.tib.eu/individual/n58481> <http://vitro.mannlib.cornell.edu/default/vitro-kb-2> .
+> <https://sah.tib.eu/individual/b7595aaebf864ac295d26b2ecfc0cd43_n58008> <http://ontology.tib.eu/gesah/realized_in> <https://sah.tib.eu/individual/b7595aaebf864ac295d26b2ecfc0cd43> <http://vitro.mannlib.cornell.edu/default/vitro-kb-inf> .
+> <https://sah.tib.eu/individual/b7595aaebf864ac295d26b2ecfc0cd43_n58008> <http://vitro.mannlib.cornell.edu/ns/vitro/0.7#mostSpecificType> <http://purl.obolibrary.org/obo/BFO_0000023> <http://vitro.mannlib.cornell.edu/default/vitro-kb-inf> .
+> <https://sah.tib.eu/individual/b7595aaebf864ac295d26b2ecfc0cd43_n58008> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.obolibrary.org/obo/BFO_0000001> <http://vitro.mannlib.cornell.edu/default/vitro-kb-inf> .
+> <https://sah.tib.eu/individual/b7595aaebf864ac295d26b2ecfc0cd43_n58008> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.obolibrary.org/obo/BFO_0000002> <http://vitro.mannlib.cornell.edu/default/vitro-kb-inf> .
+> <https://sah.tib.eu/individual/b7595aaebf864ac295d26b2ecfc0cd43_n58008> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.obolibrary.org/obo/BFO_0000017> <http://vitro.mannlib.cornell.edu/default/vitro-kb-inf> .
+> <https://sah.tib.eu/individual/b7595aaebf864ac295d26b2ecfc0cd43_n58008> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.obolibrary.org/obo/BFO_0000020> <http://vitro.mannlib.cornell.edu/default/vitro-kb-inf> .
+> <https://sah.tib.eu/individual/b7595aaebf864ac295d26b2ecfc0cd43_n58008> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.obolibrary.org/obo/BFO_0000023> <http://vitro.mannlib.cornell.edu/default/vitro-kb-2> .
+> <https://sah.tib.eu/individual/b7595aaebf864ac295d26b2ecfc0cd43_n58008> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Thing> <http://vitro.mannlib.cornell.edu/default/vitro-kb-inf> .
+1143424a1143894
+> <https://sah.tib.eu/individual/c436558c0b234ac3b096f074731b0a83> <http://ontology.tib.eu/gesah/depicts> <https://sah.tib.eu/individual/n135929> <http://vitro.mannlib.cornell.edu/default/vitro-kb-2> .
+1143425a1143896,1143897
+> <https://sah.tib.eu/individual/c436558c0b234ac3b096f074731b0a83> <http://ontology.tib.eu/gesah/depicts> <https://sah.tib.eu/individual/n31401> <http://vitro.mannlib.cornell.edu/default/vitro-kb-2> .
+> <https://sah.tib.eu/individual/c436558c0b234ac3b096f074731b0a83> <http://ontology.tib.eu/gesah/depicts> <https://sah.tib.eu/individual/n63010> <http://vitro.mannlib.cornell.edu/default/vitro-kb-2> .
+1143449c1143921
+< <https://sah.tib.eu/individual/c436558c0b234ac3b096f074731b0a83> <http://www.w3.org/2000/01/rdf-schema#label> "Pompeji, Centauren und Mänaden [Alexander von Tritschler, Italienisches Reiseskizzenbuch], fol. 6r"@de-DE <http://vitro.mannlib.cornell.edu/default/vitro-kb-2> .
+---
+> <https://sah.tib.eu/individual/c436558c0b234ac3b096f074731b0a83> <http://www.w3.org/2000/01/rdf-schema#label> "Pompeji, Kentauren und Mänaden [Alexander von Tritschler, Italienisches Reiseskizzenbuch], fol. 6r"@de-DE <http://vitro.mannlib.cornell.edu/default/vitro-kb-2> .
+1146201c1146673
+< <https://sah.tib.eu/individual/c55187452d434ad0ab6cca95dbfacdad> <http://www.w3.org/2000/01/rdf-schema#label> "Italienisches Reiseskizzenbuch [Alexander von Tritschler] Part 0057"@de-DE <http://vitro.mannlib.cornell.edu/default/vitro-kb-2> .
+---
+> <https://sah.tib.eu/individual/c55187452d434ad0ab6cca95dbfacdad> <http://www.w3.org/2000/01/rdf-schema#label> "[Alexander von Tritschler, Italienisches Reiseskizzenbuch], fol. 30r"@de-DE <http://vitro.mannlib.cornell.edu/default/vitro-kb-2> .
+1204494a1204967
+> <https://sah.tib.eu/individual/composite_volume_samvokua_1869125207> <http://ontology.tib.eu/gesah/has_part> <https://sah.tib.eu/individual/11c57e788e6145a999a73739f615ec52> <http://vitro.mannlib.cornell.edu/default/vitro-kb-inf> .
+1204496a1204970
+> <https://sah.tib.eu/individual/composite_volume_samvokua_1869125207> <http://ontology.tib.eu/gesah/has_part> <https://sah.tib.eu/individual/49ee783a4d484da6ae48678ad09aa33c> <http://vitro.mannlib.cornell.edu/default/vitro-kb-inf> .
+1204499a1204974,1204975
+> <https://sah.tib.eu/individual/composite_volume_samvokua_1869125207> <http://ontology.tib.eu/gesah/has_part> <https://sah.tib.eu/individual/a83bcebd056a454f8748263852e286c5> <http://vitro.mannlib.cornell.edu/default/vitro-kb-inf> .
+> <https://sah.tib.eu/individual/composite_volume_samvokua_1869125207> <http://ontology.tib.eu/gesah/has_part> <https://sah.tib.eu/individual/b4ee8e9eedf54cc1ada59b6f48774fe0> <http://vitro.mannlib.cornell.edu/default/vitro-kb-inf> .
+1209574a1210051
+> <https://sah.tib.eu/individual/d05fb109799141fe834ac7e1f8d8f830> <http://ontology.tib.eu/gesah/has_depiction_type> <http://ontology.tib.eu/gesah/Detail> <http://vitro.mannlib.cornell.edu/default/vitro-kb-2> .
+1209579c1210056,1210057
+< <https://sah.tib.eu/individual/d05fb109799141fe834ac7e1f8d8f830> <http://ontology.tib.eu/gesah/has_object_category_generic_term> <https://sah.tib.eu/individual/n2242> <http://vitro.mannlib.cornell.edu/default/vitro-kb-2> .
+---
+> <https://sah.tib.eu/individual/d05fb109799141fe834ac7e1f8d8f830> <http://ontology.tib.eu/gesah/has_object_category_generic_term> <https://sah.tib.eu/individual/n30923> <http://vitro.mannlib.cornell.edu/default/vitro-kb-2> .
+> <https://sah.tib.eu/individual/d05fb109799141fe834ac7e1f8d8f830> <http://ontology.tib.eu/gesah/has_object_category_narrower_term> <https://sah.tib.eu/individual/n37142> <http://vitro.mannlib.cornell.edu/default/vitro-kb-2> .
+1209582d1210059
+< <https://sah.tib.eu/individual/d05fb109799141fe834ac7e1f8d8f830> <http://ontology.tib.eu/gesah/hide> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> <http://vitro.mannlib.cornell.edu/default/vitro-kb-2> .
+1212419a1212897,1212916
+> <https://sah.tib.eu/individual/d19022a48068423c8917fb272c8f4777> <http://ontology.tib.eu/gesah/has_creation_output> <https://sah.tib.eu/individual/b4ee8e9eedf54cc1ada59b6f48774fe0> <http://vitro.mannlib.cornell.edu/default/vitro-kb-inf> .
+> <https://sah.tib.eu/individual/d19022a48068423c8917fb272c8f4777> <http://ontology.tib.eu/gesah/realizes> <https://sah.tib.eu/individual/d19022a48068423c8917fb272c8f4777_n58008> <http://vitro.mannlib.cornell.edu/default/vitro-kb-2> .
+> <https://sah.tib.eu/individual/d19022a48068423c8917fb272c8f4777> <http://vitro.mannlib.cornell.edu/ns/vitro/0.7#mostSpecificType> <http://ontology.tib.eu/gesah/Creation> <http://vitro.mannlib.cornell.edu/default/vitro-kb-inf> .
+> <https://sah.tib.eu/individual/d19022a48068423c8917fb272c8f4777> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ontology.tib.eu/gesah/Activity> <http://vitro.mannlib.cornell.edu/default/vitro-kb-inf> .
+> <https://sah.tib.eu/individual/d19022a48068423c8917fb272c8f4777> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ontology.tib.eu/gesah/Creation> <http://vitro.mannlib.cornell.edu/default/vitro-kb-2> .
+> <https://sah.tib.eu/individual/d19022a48068423c8917fb272c8f4777> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.obolibrary.org/obo/BFO_0000001> <http://vitro.mannlib.cornell.edu/default/vitro-kb-inf> .
+> <https://sah.tib.eu/individual/d19022a48068423c8917fb272c8f4777> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.obolibrary.org/obo/BFO_0000003> <http://vitro.mannlib.cornell.edu/default/vitro-kb-inf> .
+> <https://sah.tib.eu/individual/d19022a48068423c8917fb272c8f4777> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.obolibrary.org/obo/BFO_0000015> <http://vitro.mannlib.cornell.edu/default/vitro-kb-inf> .
+> <https://sah.tib.eu/individual/d19022a48068423c8917fb272c8f4777> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Thing> <http://vitro.mannlib.cornell.edu/default/vitro-kb-inf> .
+> <https://sah.tib.eu/individual/d19022a48068423c8917fb272c8f4777_n58008> <http://ontology.tib.eu/gesah/has_role_type> <http://ontology.tib.eu/gesah/Inventor> <http://vitro.mannlib.cornell.edu/default/vitro-kb-2> .
+> <https://sah.tib.eu/individual/d19022a48068423c8917fb272c8f4777_n58008> <http://ontology.tib.eu/gesah/has_type_of_attribution> <https://sah.tib.eu/individual/n24108> <http://vitro.mannlib.cornell.edu/default/vitro-kb-2> .
+> <https://sah.tib.eu/individual/d19022a48068423c8917fb272c8f4777_n58008> <http://ontology.tib.eu/gesah/is_role_of> <https://sah.tib.eu/individual/n58481> <http://vitro.mannlib.cornell.edu/default/vitro-kb-2> .
+> <https://sah.tib.eu/individual/d19022a48068423c8917fb272c8f4777_n58008> <http://ontology.tib.eu/gesah/realized_in> <https://sah.tib.eu/individual/d19022a48068423c8917fb272c8f4777> <http://vitro.mannlib.cornell.edu/default/vitro-kb-inf> .
+> <https://sah.tib.eu/individual/d19022a48068423c8917fb272c8f4777_n58008> <http://vitro.mannlib.cornell.edu/ns/vitro/0.7#mostSpecificType> <http://purl.obolibrary.org/obo/BFO_0000023> <http://vitro.mannlib.cornell.edu/default/vitro-kb-inf> .
+> <https://sah.tib.eu/individual/d19022a48068423c8917fb272c8f4777_n58008> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.obolibrary.org/obo/BFO_0000001> <http://vitro.mannlib.cornell.edu/default/vitro-kb-inf> .
+> <https://sah.tib.eu/individual/d19022a48068423c8917fb272c8f4777_n58008> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.obolibrary.org/obo/BFO_0000002> <http://vitro.mannlib.cornell.edu/default/vitro-kb-inf> .
+> <https://sah.tib.eu/individual/d19022a48068423c8917fb272c8f4777_n58008> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.obolibrary.org/obo/BFO_0000017> <http://vitro.mannlib.cornell.edu/default/vitro-kb-inf> .
+> <https://sah.tib.eu/individual/d19022a48068423c8917fb272c8f4777_n58008> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.obolibrary.org/obo/BFO_0000020> <http://vitro.mannlib.cornell.edu/default/vitro-kb-inf> .
+> <https://sah.tib.eu/individual/d19022a48068423c8917fb272c8f4777_n58008> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.obolibrary.org/obo/BFO_0000023> <http://vitro.mannlib.cornell.edu/default/vitro-kb-2> .
+> <https://sah.tib.eu/individual/d19022a48068423c8917fb272c8f4777_n58008> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Thing> <http://vitro.mannlib.cornell.edu/default/vitro-kb-inf> .
+1233892c1234389,1234393
+< <https://sah.tib.eu/individual/da61bb8c7dfa404788b9dc7762b76271> <http://ontology.tib.eu/gesah/current_inventory_number> "gr 2 Haupt 1605" <http://vitro.mannlib.cornell.edu/default/vitro-kb-2> .
+---
+> <https://sah.tib.eu/individual/da61bb8c7dfa404788b9dc7762b76271> <http://ontology.tib.eu/gesah/current_inventory_number> "gr 2 Haupt 1605: 6v" <http://vitro.mannlib.cornell.edu/default/vitro-kb-2> .
+> <https://sah.tib.eu/individual/da61bb8c7dfa404788b9dc7762b76271> <http://ontology.tib.eu/gesah/depicted_object_localisied_in> <https://sah.tib.eu/individual/n25983> <http://vitro.mannlib.cornell.edu/default/vitro-kb-2> .
+> <https://sah.tib.eu/individual/da61bb8c7dfa404788b9dc7762b76271> <http://ontology.tib.eu/gesah/depicts> <https://sah.tib.eu/individual/n135929> <http://vitro.mannlib.cornell.edu/default/vitro-kb-2> .
+> <https://sah.tib.eu/individual/da61bb8c7dfa404788b9dc7762b76271> <http://ontology.tib.eu/gesah/depicts> <https://sah.tib.eu/individual/n31401> <http://vitro.mannlib.cornell.edu/default/vitro-kb-2> .
+> <https://sah.tib.eu/individual/da61bb8c7dfa404788b9dc7762b76271> <http://ontology.tib.eu/gesah/depicts> <https://sah.tib.eu/individual/n63010> <http://vitro.mannlib.cornell.edu/default/vitro-kb-2> .
+1233893a1234395
+> <https://sah.tib.eu/individual/da61bb8c7dfa404788b9dc7762b76271> <http://ontology.tib.eu/gesah/has_depiction_type> <http://ontology.tib.eu/gesah/Detail> <http://vitro.mannlib.cornell.edu/default/vitro-kb-2> .
+1233898c1234400,1234401
+< <https://sah.tib.eu/individual/da61bb8c7dfa404788b9dc7762b76271> <http://ontology.tib.eu/gesah/has_object_category_generic_term> <https://sah.tib.eu/individual/n2242> <http://vitro.mannlib.cornell.edu/default/vitro-kb-2> .
+---
+> <https://sah.tib.eu/individual/da61bb8c7dfa404788b9dc7762b76271> <http://ontology.tib.eu/gesah/has_object_category_generic_term> <https://sah.tib.eu/individual/n30923> <http://vitro.mannlib.cornell.edu/default/vitro-kb-2> .
+> <https://sah.tib.eu/individual/da61bb8c7dfa404788b9dc7762b76271> <http://ontology.tib.eu/gesah/has_object_category_narrower_term> <https://sah.tib.eu/individual/n37142> <http://vitro.mannlib.cornell.edu/default/vitro-kb-2> .
+1233901d1234403
+< <https://sah.tib.eu/individual/da61bb8c7dfa404788b9dc7762b76271> <http://ontology.tib.eu/gesah/hide> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> <http://vitro.mannlib.cornell.edu/default/vitro-kb-2> .
+1233915c1234417
+< <https://sah.tib.eu/individual/da61bb8c7dfa404788b9dc7762b76271> <http://www.w3.org/2000/01/rdf-schema#label> "Italienisches Reiseskizzenbuch [Alexander von Tritschler] Part 0011"@de-DE <http://vitro.mannlib.cornell.edu/default/vitro-kb-2> .
+---
+> <https://sah.tib.eu/individual/da61bb8c7dfa404788b9dc7762b76271> <http://www.w3.org/2000/01/rdf-schema#label> "Pompeji, Kentaurin mit Faun [Alexander von Tritschler, Italienisches Reiseskizzenbuch], fol. 6v"@de-DE <http://vitro.mannlib.cornell.edu/default/vitro-kb-2> .
+1284990c1285492
+< <https://sah.tib.eu/individual/e85b052c9cb24af1852bbc8f83968c79> <http://ontology.tib.eu/gesah/current_inventory_number> "gr 2 Haupt 1605" <http://vitro.mannlib.cornell.edu/default/vitro-kb-2> .
+---
+> <https://sah.tib.eu/individual/e85b052c9cb24af1852bbc8f83968c79> <http://ontology.tib.eu/gesah/current_inventory_number> "gr 2 Haupt 1605: 10v" <http://vitro.mannlib.cornell.edu/default/vitro-kb-2> .
+1285013c1285515
+< <https://sah.tib.eu/individual/e85b052c9cb24af1852bbc8f83968c79> <http://www.w3.org/2000/01/rdf-schema#label> "Italienisches Reiseskizzenbuch [Alexander von Tritschler] Part 0019"@de-DE <http://vitro.mannlib.cornell.edu/default/vitro-kb-2> .
+---
+> <https://sah.tib.eu/individual/e85b052c9cb24af1852bbc8f83968c79> <http://www.w3.org/2000/01/rdf-schema#label> "[Alexander von Tritschler, Italienisches Reiseskizzenbuch], fol. 10v"@de-DE <http://vitro.mannlib.cornell.edu/default/vitro-kb-2> .
+1302440a1302943
+> <https://sah.tib.eu/individual/ee019bad50ec4f5f8eb0aeb8dc8a7230> <http://ontology.tib.eu/gesah/has_material> <https://sah.tib.eu/individual/n22763> <http://vitro.mannlib.cornell.edu/default/vitro-kb-2> .
+1302441a1302945
+> <https://sah.tib.eu/individual/ee019bad50ec4f5f8eb0aeb8dc8a7230> <http://ontology.tib.eu/gesah/uses_technique> <http://ontology.tib.eu/gesah/Graphite_Pencil> <http://vitro.mannlib.cornell.edu/default/vitro-kb-2> .
+1302469c1302973
+< <https://sah.tib.eu/individual/ee019bad50ec4f5f8eb0aeb8dc8a7230_n65332> <http://vivoweb.org/ontology/core#dateTime> "1857-01-01T00:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> <http://vitro.mannlib.cornell.edu/default/vitro-kb-2> .
+---
+> <https://sah.tib.eu/individual/ee019bad50ec4f5f8eb0aeb8dc8a7230_n65332> <http://vivoweb.org/ontology/core#dateTime> "1856-01-01T00:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> <http://vitro.mannlib.cornell.edu/default/vitro-kb-2> .
+1333079a1333584,1333606
+> <https://sah.tib.eu/individual/f81687b9cb2c4da0b07ef9cc50c447c1> <http://ontology.tib.eu/gesah/has_material> <http://ontology.tib.eu/gesah/Paper> <http://vitro.mannlib.cornell.edu/default/vitro-kb-2> .
+> <https://sah.tib.eu/individual/f81687b9cb2c4da0b07ef9cc50c447c1> <http://ontology.tib.eu/gesah/has_place> <https://sah.tib.eu/individual/n19865> <http://vitro.mannlib.cornell.edu/default/vitro-kb-2> .
+> <https://sah.tib.eu/individual/f81687b9cb2c4da0b07ef9cc50c447c1> <http://ontology.tib.eu/gesah/has_production_output> <https://sah.tib.eu/individual/49ee783a4d484da6ae48678ad09aa33c> <http://vitro.mannlib.cornell.edu/default/vitro-kb-inf> .
+> <https://sah.tib.eu/individual/f81687b9cb2c4da0b07ef9cc50c447c1> <http://ontology.tib.eu/gesah/realizes> <https://sah.tib.eu/individual/f81687b9cb2c4da0b07ef9cc50c447c1_n116700> <http://vitro.mannlib.cornell.edu/default/vitro-kb-2> .
+> <https://sah.tib.eu/individual/f81687b9cb2c4da0b07ef9cc50c447c1> <http://ontology.tib.eu/gesah/uses_technique> <http://ontology.tib.eu/gesah/Copper_Engraving> <http://vitro.mannlib.cornell.edu/default/vitro-kb-2> .
+> <https://sah.tib.eu/individual/f81687b9cb2c4da0b07ef9cc50c447c1> <http://vitro.mannlib.cornell.edu/ns/vitro/0.7#mostSpecificType> <http://ontology.tib.eu/gesah/Production> <http://vitro.mannlib.cornell.edu/default/vitro-kb-inf> .
+> <https://sah.tib.eu/individual/f81687b9cb2c4da0b07ef9cc50c447c1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ontology.tib.eu/gesah/Activity> <http://vitro.mannlib.cornell.edu/default/vitro-kb-inf> .
+> <https://sah.tib.eu/individual/f81687b9cb2c4da0b07ef9cc50c447c1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ontology.tib.eu/gesah/Production> <http://vitro.mannlib.cornell.edu/default/vitro-kb-2> .
+> <https://sah.tib.eu/individual/f81687b9cb2c4da0b07ef9cc50c447c1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.obolibrary.org/obo/BFO_0000001> <http://vitro.mannlib.cornell.edu/default/vitro-kb-inf> .
+> <https://sah.tib.eu/individual/f81687b9cb2c4da0b07ef9cc50c447c1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.obolibrary.org/obo/BFO_0000003> <http://vitro.mannlib.cornell.edu/default/vitro-kb-inf> .
+> <https://sah.tib.eu/individual/f81687b9cb2c4da0b07ef9cc50c447c1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.obolibrary.org/obo/BFO_0000015> <http://vitro.mannlib.cornell.edu/default/vitro-kb-inf> .
+> <https://sah.tib.eu/individual/f81687b9cb2c4da0b07ef9cc50c447c1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Thing> <http://vitro.mannlib.cornell.edu/default/vitro-kb-inf> .
+> <https://sah.tib.eu/individual/f81687b9cb2c4da0b07ef9cc50c447c1_n116700> <http://ontology.tib.eu/gesah/has_role_type> <http://ontology.tib.eu/gesah/Engraver> <http://vitro.mannlib.cornell.edu/default/vitro-kb-2> .
+> <https://sah.tib.eu/individual/f81687b9cb2c4da0b07ef9cc50c447c1_n116700> <http://ontology.tib.eu/gesah/has_type_of_attribution> <https://sah.tib.eu/individual/n2597> <http://vitro.mannlib.cornell.edu/default/vitro-kb-2> .
+> <https://sah.tib.eu/individual/f81687b9cb2c4da0b07ef9cc50c447c1_n116700> <http://ontology.tib.eu/gesah/is_role_of> <https://sah.tib.eu/individual/n127423> <http://vitro.mannlib.cornell.edu/default/vitro-kb-2> .
+> <https://sah.tib.eu/individual/f81687b9cb2c4da0b07ef9cc50c447c1_n116700> <http://ontology.tib.eu/gesah/realized_in> <https://sah.tib.eu/individual/f81687b9cb2c4da0b07ef9cc50c447c1> <http://vitro.mannlib.cornell.edu/default/vitro-kb-inf> .
+> <https://sah.tib.eu/individual/f81687b9cb2c4da0b07ef9cc50c447c1_n116700> <http://vitro.mannlib.cornell.edu/ns/vitro/0.7#mostSpecificType> <http://purl.obolibrary.org/obo/BFO_0000023> <http://vitro.mannlib.cornell.edu/default/vitro-kb-inf> .
+> <https://sah.tib.eu/individual/f81687b9cb2c4da0b07ef9cc50c447c1_n116700> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.obolibrary.org/obo/BFO_0000001> <http://vitro.mannlib.cornell.edu/default/vitro-kb-inf> .
+> <https://sah.tib.eu/individual/f81687b9cb2c4da0b07ef9cc50c447c1_n116700> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.obolibrary.org/obo/BFO_0000002> <http://vitro.mannlib.cornell.edu/default/vitro-kb-inf> .
+> <https://sah.tib.eu/individual/f81687b9cb2c4da0b07ef9cc50c447c1_n116700> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.obolibrary.org/obo/BFO_0000017> <http://vitro.mannlib.cornell.edu/default/vitro-kb-inf> .
+> <https://sah.tib.eu/individual/f81687b9cb2c4da0b07ef9cc50c447c1_n116700> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.obolibrary.org/obo/BFO_0000020> <http://vitro.mannlib.cornell.edu/default/vitro-kb-inf> .
+> <https://sah.tib.eu/individual/f81687b9cb2c4da0b07ef9cc50c447c1_n116700> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.obolibrary.org/obo/BFO_0000023> <http://vitro.mannlib.cornell.edu/default/vitro-kb-2> .
+> <https://sah.tib.eu/individual/f81687b9cb2c4da0b07ef9cc50c447c1_n116700> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Thing> <http://vitro.mannlib.cornell.edu/default/vitro-kb-inf> .
+1336556c1337083
+< <https://sah.tib.eu/individual/f9b5e74a448e479691b7e0b63edcfd53> <http://www.w3.org/2000/01/rdf-schema#label> "Italienisches Reiseskizzenbuch [Alexander von Tritschler] Part 0013"@de-DE <http://vitro.mannlib.cornell.edu/default/vitro-kb-2> .
+---
+> <https://sah.tib.eu/individual/f9b5e74a448e479691b7e0b63edcfd53> <http://www.w3.org/2000/01/rdf-schema#label> "[Alexander von Tritschler, Italienisches Reiseskizzenbuch], fol. 7v"@de-DE <http://vitro.mannlib.cornell.edu/default/vitro-kb-2> .
+1351567a1352095,1352117
+> <https://sah.tib.eu/individual/ff5010b765674ad78a47af9f61658ec4> <http://ontology.tib.eu/gesah/has_material> <http://ontology.tib.eu/gesah/Paper> <http://vitro.mannlib.cornell.edu/default/vitro-kb-2> .
+> <https://sah.tib.eu/individual/ff5010b765674ad78a47af9f61658ec4> <http://ontology.tib.eu/gesah/has_place> <https://sah.tib.eu/individual/n19865> <http://vitro.mannlib.cornell.edu/default/vitro-kb-2> .
+> <https://sah.tib.eu/individual/ff5010b765674ad78a47af9f61658ec4> <http://ontology.tib.eu/gesah/has_production_output> <https://sah.tib.eu/individual/11c57e788e6145a999a73739f615ec52> <http://vitro.mannlib.cornell.edu/default/vitro-kb-inf> .
+> <https://sah.tib.eu/individual/ff5010b765674ad78a47af9f61658ec4> <http://ontology.tib.eu/gesah/realizes> <https://sah.tib.eu/individual/ff5010b765674ad78a47af9f61658ec4_n116700> <http://vitro.mannlib.cornell.edu/default/vitro-kb-2> .
+> <https://sah.tib.eu/individual/ff5010b765674ad78a47af9f61658ec4> <http://ontology.tib.eu/gesah/uses_technique> <http://ontology.tib.eu/gesah/Copper_Engraving> <http://vitro.mannlib.cornell.edu/default/vitro-kb-2> .
+> <https://sah.tib.eu/individual/ff5010b765674ad78a47af9f61658ec4> <http://vitro.mannlib.cornell.edu/ns/vitro/0.7#mostSpecificType> <http://ontology.tib.eu/gesah/Production> <http://vitro.mannlib.cornell.edu/default/vitro-kb-inf> .
+> <https://sah.tib.eu/individual/ff5010b765674ad78a47af9f61658ec4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ontology.tib.eu/gesah/Activity> <http://vitro.mannlib.cornell.edu/default/vitro-kb-inf> .
+> <https://sah.tib.eu/individual/ff5010b765674ad78a47af9f61658ec4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ontology.tib.eu/gesah/Production> <http://vitro.mannlib.cornell.edu/default/vitro-kb-2> .
+> <https://sah.tib.eu/individual/ff5010b765674ad78a47af9f61658ec4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.obolibrary.org/obo/BFO_0000001> <http://vitro.mannlib.cornell.edu/default/vitro-kb-inf> .
+> <https://sah.tib.eu/individual/ff5010b765674ad78a47af9f61658ec4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.obolibrary.org/obo/BFO_0000003> <http://vitro.mannlib.cornell.edu/default/vitro-kb-inf> .
+> <https://sah.tib.eu/individual/ff5010b765674ad78a47af9f61658ec4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.obolibrary.org/obo/BFO_0000015> <http://vitro.mannlib.cornell.edu/default/vitro-kb-inf> .
+> <https://sah.tib.eu/individual/ff5010b765674ad78a47af9f61658ec4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Thing> <http://vitro.mannlib.cornell.edu/default/vitro-kb-inf> .
+> <https://sah.tib.eu/individual/ff5010b765674ad78a47af9f61658ec4_n116700> <http://ontology.tib.eu/gesah/has_role_type> <http://ontology.tib.eu/gesah/Engraver> <http://vitro.mannlib.cornell.edu/default/vitro-kb-2> .
+> <https://sah.tib.eu/individual/ff5010b765674ad78a47af9f61658ec4_n116700> <http://ontology.tib.eu/gesah/has_type_of_attribution> <https://sah.tib.eu/individual/n2597> <http://vitro.mannlib.cornell.edu/default/vitro-kb-2> .
+> <https://sah.tib.eu/individual/ff5010b765674ad78a47af9f61658ec4_n116700> <http://ontology.tib.eu/gesah/is_role_of> <https://sah.tib.eu/individual/n127423> <http://vitro.mannlib.cornell.edu/default/vitro-kb-2> .
+> <https://sah.tib.eu/individual/ff5010b765674ad78a47af9f61658ec4_n116700> <http://ontology.tib.eu/gesah/realized_in> <https://sah.tib.eu/individual/ff5010b765674ad78a47af9f61658ec4> <http://vitro.mannlib.cornell.edu/default/vitro-kb-inf> .
+> <https://sah.tib.eu/individual/ff5010b765674ad78a47af9f61658ec4_n116700> <http://vitro.mannlib.cornell.edu/ns/vitro/0.7#mostSpecificType> <http://purl.obolibrary.org/obo/BFO_0000023> <http://vitro.mannlib.cornell.edu/default/vitro-kb-inf> .
+> <https://sah.tib.eu/individual/ff5010b765674ad78a47af9f61658ec4_n116700> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.obolibrary.org/obo/BFO_0000001> <http://vitro.mannlib.cornell.edu/default/vitro-kb-inf> .
+> <https://sah.tib.eu/individual/ff5010b765674ad78a47af9f61658ec4_n116700> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.obolibrary.org/obo/BFO_0000002> <http://vitro.mannlib.cornell.edu/default/vitro-kb-inf> .
+> <https://sah.tib.eu/individual/ff5010b765674ad78a47af9f61658ec4_n116700> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.obolibrary.org/obo/BFO_0000017> <http://vitro.mannlib.cornell.edu/default/vitro-kb-inf> .
+> <https://sah.tib.eu/individual/ff5010b765674ad78a47af9f61658ec4_n116700> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.obolibrary.org/obo/BFO_0000020> <http://vitro.mannlib.cornell.edu/default/vitro-kb-inf> .
+> <https://sah.tib.eu/individual/ff5010b765674ad78a47af9f61658ec4_n116700> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.obolibrary.org/obo/BFO_0000023> <http://vitro.mannlib.cornell.edu/default/vitro-kb-2> .
+> <https://sah.tib.eu/individual/ff5010b765674ad78a47af9f61658ec4_n116700> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Thing> <http://vitro.mannlib.cornell.edu/default/vitro-kb-inf> .
+1601206a1601757,1601758
+> <https://sah.tib.eu/individual/n10838> <http://ontology.tib.eu/gesah/depicted_in> <https://sah.tib.eu/individual/4431d9be6d9e423286f67b7cd63c5b7b> <http://vitro.mannlib.cornell.edu/default/vitro-kb-2> .
+> <https://sah.tib.eu/individual/n10838> <http://ontology.tib.eu/gesah/depicted_in> <https://sah.tib.eu/individual/7cb3d7432cae443e8c2a963398e17623> <http://vitro.mannlib.cornell.edu/default/vitro-kb-2> .
+1655463a1656016,1656019
+> <https://sah.tib.eu/individual/n127423> <http://ontology.tib.eu/gesah/has_role> <https://sah.tib.eu/individual/7d55e6c201064069972e27de0c1df02a_n116700> <http://vitro.mannlib.cornell.edu/default/vitro-kb-inf> .
+> <https://sah.tib.eu/individual/n127423> <http://ontology.tib.eu/gesah/has_role> <https://sah.tib.eu/individual/a1dc22e6415d45bc9d7143b38db1c152_n116700> <http://vitro.mannlib.cornell.edu/default/vitro-kb-inf> .
+> <https://sah.tib.eu/individual/n127423> <http://ontology.tib.eu/gesah/has_role> <https://sah.tib.eu/individual/f81687b9cb2c4da0b07ef9cc50c447c1_n116700> <http://vitro.mannlib.cornell.edu/default/vitro-kb-inf> .
+> <https://sah.tib.eu/individual/n127423> <http://ontology.tib.eu/gesah/has_role> <https://sah.tib.eu/individual/ff5010b765674ad78a47af9f61658ec4_n116700> <http://vitro.mannlib.cornell.edu/default/vitro-kb-inf> .
+1681166a1681723,1681740
+> <https://sah.tib.eu/individual/n135929> <http://ontology.tib.eu/gesah/depicted_in> <https://sah.tib.eu/individual/10c08fcc81484a849ce9e23810193b8c> <http://vitro.mannlib.cornell.edu/default/vitro-kb-2> .
+> <https://sah.tib.eu/individual/n135929> <http://ontology.tib.eu/gesah/depicted_in> <https://sah.tib.eu/individual/65f301be6688460aa6b779da0b89ef23> <http://vitro.mannlib.cornell.edu/default/vitro-kb-2> .
+> <https://sah.tib.eu/individual/n135929> <http://ontology.tib.eu/gesah/depicted_in> <https://sah.tib.eu/individual/7cae7f255c684e81a3fce792e8c55cd3> <http://vitro.mannlib.cornell.edu/default/vitro-kb-2> .
+> <https://sah.tib.eu/individual/n135929> <http://ontology.tib.eu/gesah/depicted_in> <https://sah.tib.eu/individual/9e96d0da3ccb4734bd5c561cc10ed55a> <http://vitro.mannlib.cornell.edu/default/vitro-kb-2> .
+> <https://sah.tib.eu/individual/n135929> <http://ontology.tib.eu/gesah/depicted_in> <https://sah.tib.eu/individual/9f0d37a375c240ff816b902f74d04de6> <http://vitro.mannlib.cornell.edu/default/vitro-kb-2> .
+> <https://sah.tib.eu/individual/n135929> <http://ontology.tib.eu/gesah/depicted_in> <https://sah.tib.eu/individual/c436558c0b234ac3b096f074731b0a83> <http://vitro.mannlib.cornell.edu/default/vitro-kb-2> .
+> <https://sah.tib.eu/individual/n135929> <http://ontology.tib.eu/gesah/depicted_in> <https://sah.tib.eu/individual/da61bb8c7dfa404788b9dc7762b76271> <http://vitro.mannlib.cornell.edu/default/vitro-kb-2> .
+> <https://sah.tib.eu/individual/n135929> <http://ontology.tib.eu/gesah/depicted_in> <https://sah.tib.eu/individual/n4664> <http://vitro.mannlib.cornell.edu/default/vitro-kb-2> .
+> <https://sah.tib.eu/individual/n135929> <http://ontology.tib.eu/gesah/GND_ID> "7609971-4" <http://vitro.mannlib.cornell.edu/default/vitro-kb-2> .
+> <https://sah.tib.eu/individual/n135929> <http://vitro.mannlib.cornell.edu/ns/vitro/0.7#mostSpecificType> <http://ontology.tib.eu/gesah/Depicted_Place> <http://vitro.mannlib.cornell.edu/default/vitro-kb-inf> .
+> <https://sah.tib.eu/individual/n135929> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ontology.tib.eu/gesah/Depicted_Place> <http://vitro.mannlib.cornell.edu/default/vitro-kb-2> .
+> <https://sah.tib.eu/individual/n135929> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ontology.tib.eu/gesah/Iconography> <http://vitro.mannlib.cornell.edu/default/vitro-kb-inf> .
+> <https://sah.tib.eu/individual/n135929> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.obolibrary.org/obo/BFO_0000001> <http://vitro.mannlib.cornell.edu/default/vitro-kb-inf> .
+> <https://sah.tib.eu/individual/n135929> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.obolibrary.org/obo/BFO_0000002> <http://vitro.mannlib.cornell.edu/default/vitro-kb-inf> .
+> <https://sah.tib.eu/individual/n135929> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.obolibrary.org/obo/BFO_0000004> <http://vitro.mannlib.cornell.edu/default/vitro-kb-inf> .
+> <https://sah.tib.eu/individual/n135929> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Thing> <http://vitro.mannlib.cornell.edu/default/vitro-kb-2> .
+> <https://sah.tib.eu/individual/n135929> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> <http://vitro.mannlib.cornell.edu/default/vitro-kb-inf> .
+> <https://sah.tib.eu/individual/n135929> <http://www.w3.org/2000/01/rdf-schema#label> "Villa des Cicero, Pompeji"@de-DE <http://vitro.mannlib.cornell.edu/default/vitro-kb-2> .
+1800698a1801273
+> <https://sah.tib.eu/individual/n18255> <http://ontology.tib.eu/gesah/depicted_in> <https://sah.tib.eu/individual/7cae7f255c684e81a3fce792e8c55cd3> <http://vitro.mannlib.cornell.edu/default/vitro-kb-2> .
+1822725a1823301
+> <https://sah.tib.eu/individual/n19865> <http://ontology.tib.eu/gesah/is_place_of> <https://sah.tib.eu/individual/7d55e6c201064069972e27de0c1df02a> <http://vitro.mannlib.cornell.edu/default/vitro-kb-inf> .
+1822728a1823305
+> <https://sah.tib.eu/individual/n19865> <http://ontology.tib.eu/gesah/is_place_of> <https://sah.tib.eu/individual/a1dc22e6415d45bc9d7143b38db1c152> <http://vitro.mannlib.cornell.edu/default/vitro-kb-inf> .
+1822738a1823316,1823317
+> <https://sah.tib.eu/individual/n19865> <http://ontology.tib.eu/gesah/is_place_of> <https://sah.tib.eu/individual/f81687b9cb2c4da0b07ef9cc50c447c1> <http://vitro.mannlib.cornell.edu/default/vitro-kb-inf> .
+> <https://sah.tib.eu/individual/n19865> <http://ontology.tib.eu/gesah/is_place_of> <https://sah.tib.eu/individual/ff5010b765674ad78a47af9f61658ec4> <http://vitro.mannlib.cornell.edu/default/vitro-kb-inf> .
+1863594a1864174
+> <https://sah.tib.eu/individual/n2242> <http://ontology.tib.eu/gesah/is_object_category_generic_term_of> <https://sah.tib.eu/individual/11c57e788e6145a999a73739f615ec52> <http://vitro.mannlib.cornell.edu/default/vitro-kb-inf> .
+1863672d1864251
+< <https://sah.tib.eu/individual/n2242> <http://ontology.tib.eu/gesah/is_object_category_generic_term_of> <https://sah.tib.eu/individual/4431d9be6d9e423286f67b7cd63c5b7b> <http://vitro.mannlib.cornell.edu/default/vitro-kb-inf> .
+1863680a1864260
+> <https://sah.tib.eu/individual/n2242> <http://ontology.tib.eu/gesah/is_object_category_generic_term_of> <https://sah.tib.eu/individual/49ee783a4d484da6ae48678ad09aa33c> <http://vitro.mannlib.cornell.edu/default/vitro-kb-inf> .
+1863736,1863737d1864315
+< <https://sah.tib.eu/individual/n2242> <http://ontology.tib.eu/gesah/is_object_category_generic_term_of> <https://sah.tib.eu/individual/7cae7f255c684e81a3fce792e8c55cd3> <http://vitro.mannlib.cornell.edu/default/vitro-kb-inf> .
+< <https://sah.tib.eu/individual/n2242> <http://ontology.tib.eu/gesah/is_object_category_generic_term_of> <https://sah.tib.eu/individual/7cb3d7432cae443e8c2a963398e17623> <http://vitro.mannlib.cornell.edu/default/vitro-kb-inf> .
+1863793a1864372
+> <https://sah.tib.eu/individual/n2242> <http://ontology.tib.eu/gesah/is_object_category_generic_term_of> <https://sah.tib.eu/individual/a83bcebd056a454f8748263852e286c5> <http://vitro.mannlib.cornell.edu/default/vitro-kb-inf> .
+1863815a1864395
+> <https://sah.tib.eu/individual/n2242> <http://ontology.tib.eu/gesah/is_object_category_generic_term_of> <https://sah.tib.eu/individual/b4ee8e9eedf54cc1ada59b6f48774fe0> <http://vitro.mannlib.cornell.edu/default/vitro-kb-inf> .
+1863889d1864468
+< <https://sah.tib.eu/individual/n2242> <http://ontology.tib.eu/gesah/is_object_category_generic_term_of> <https://sah.tib.eu/individual/d05fb109799141fe834ac7e1f8d8f830> <http://vitro.mannlib.cornell.edu/default/vitro-kb-inf> .
+1863902d1864480
+< <https://sah.tib.eu/individual/n2242> <http://ontology.tib.eu/gesah/is_object_category_generic_term_of> <https://sah.tib.eu/individual/da61bb8c7dfa404788b9dc7762b76271> <http://vitro.mannlib.cornell.edu/default/vitro-kb-inf> .
+1873961a1874540
+> <https://sah.tib.eu/individual/n22763> <http://ontology.tib.eu/gesah/incorporated_in> <https://sah.tib.eu/individual/5d110f6909a64d6c9f4716b10225e4a7> <http://vitro.mannlib.cornell.edu/default/vitro-kb-2> .
+1873970a1874550
+> <https://sah.tib.eu/individual/n22763> <http://ontology.tib.eu/gesah/incorporated_in> <https://sah.tib.eu/individual/692a2ae20b8f4f15803e39bd5deaf816> <http://vitro.mannlib.cornell.edu/default/vitro-kb-2> .
+1874001a1874582
+> <https://sah.tib.eu/individual/n22763> <http://ontology.tib.eu/gesah/incorporated_in> <https://sah.tib.eu/individual/8f032cf00ca342678ed8c21a60c2be23> <http://vitro.mannlib.cornell.edu/default/vitro-kb-2> .
+1874058a1874640
+> <https://sah.tib.eu/individual/n22763> <http://ontology.tib.eu/gesah/incorporated_in> <https://sah.tib.eu/individual/ee019bad50ec4f5f8eb0aeb8dc8a7230> <http://vitro.mannlib.cornell.edu/default/vitro-kb-2> .
+1893483a1894066
+> <https://sah.tib.eu/individual/n24108> <http://ontology.tib.eu/gesah/is_attribution_type_of> <https://sah.tib.eu/individual/48faefcf89b64bac9cdf541a46975d45_n58008> <http://vitro.mannlib.cornell.edu/default/vitro-kb-inf> .
+1893556a1894140
+> <https://sah.tib.eu/individual/n24108> <http://ontology.tib.eu/gesah/is_attribution_type_of> <https://sah.tib.eu/individual/749cb68c398d427592ad0c053f0f0396_n45597> <http://vitro.mannlib.cornell.edu/default/vitro-kb-inf> .
+1893623a1894208
+> <https://sah.tib.eu/individual/n24108> <http://ontology.tib.eu/gesah/is_attribution_type_of> <https://sah.tib.eu/individual/957b9b8c41ba4f47b43aa773f279b456_n45597> <http://vitro.mannlib.cornell.edu/default/vitro-kb-inf> .
+1893635a1894221
+> <https://sah.tib.eu/individual/n24108> <http://ontology.tib.eu/gesah/is_attribution_type_of> <https://sah.tib.eu/individual/9dcbb75b5d1a40168da93108b61164db_n58008> <http://vitro.mannlib.cornell.edu/default/vitro-kb-inf> .
+1893666a1894253
+> <https://sah.tib.eu/individual/n24108> <http://ontology.tib.eu/gesah/is_attribution_type_of> <https://sah.tib.eu/individual/b2d7392a96c640dea5ae85b1d5b336fd_n45597> <http://vitro.mannlib.cornell.edu/default/vitro-kb-inf> .
+1893675a1894263,1894264
+> <https://sah.tib.eu/individual/n24108> <http://ontology.tib.eu/gesah/is_attribution_type_of> <https://sah.tib.eu/individual/b72df119c065426cb7e8e6457d3c951e_n45597> <http://vitro.mannlib.cornell.edu/default/vitro-kb-inf> .
+> <https://sah.tib.eu/individual/n24108> <http://ontology.tib.eu/gesah/is_attribution_type_of> <https://sah.tib.eu/individual/b7595aaebf864ac295d26b2ecfc0cd43_n58008> <http://vitro.mannlib.cornell.edu/default/vitro-kb-inf> .
+1893723a1894313
+> <https://sah.tib.eu/individual/n24108> <http://ontology.tib.eu/gesah/is_attribution_type_of> <https://sah.tib.eu/individual/d19022a48068423c8917fb272c8f4777_n58008> <http://vitro.mannlib.cornell.edu/default/vitro-kb-inf> .
+1914457a1915048
+> <https://sah.tib.eu/individual/n25518> <http://ontology.tib.eu/gesah/applies_to_metadata> <https://sah.tib.eu/individual/11c57e788e6145a999a73739f615ec52> <http://vitro.mannlib.cornell.edu/default/vitro-kb-inf> .
+1914623a1915215
+> <https://sah.tib.eu/individual/n25518> <http://ontology.tib.eu/gesah/applies_to_metadata> <https://sah.tib.eu/individual/49ee783a4d484da6ae48678ad09aa33c> <http://vitro.mannlib.cornell.edu/default/vitro-kb-inf> .
+1914845a1915438
+> <https://sah.tib.eu/individual/n25518> <http://ontology.tib.eu/gesah/applies_to_metadata> <https://sah.tib.eu/individual/a83bcebd056a454f8748263852e286c5> <http://vitro.mannlib.cornell.edu/default/vitro-kb-inf> .
+1914881a1915475
+> <https://sah.tib.eu/individual/n25518> <http://ontology.tib.eu/gesah/applies_to_metadata> <https://sah.tib.eu/individual/b4ee8e9eedf54cc1ada59b6f48774fe0> <http://vitro.mannlib.cornell.edu/default/vitro-kb-inf> .
+1934185a1934780
+> <https://sah.tib.eu/individual/n2597> <http://ontology.tib.eu/gesah/is_attribution_type_of> <https://sah.tib.eu/individual/7d55e6c201064069972e27de0c1df02a_n116700> <http://vitro.mannlib.cornell.edu/default/vitro-kb-inf> .
+1934229a1934825
+> <https://sah.tib.eu/individual/n2597> <http://ontology.tib.eu/gesah/is_attribution_type_of> <https://sah.tib.eu/individual/a1dc22e6415d45bc9d7143b38db1c152_n116700> <http://vitro.mannlib.cornell.edu/default/vitro-kb-inf> .
+1934353a1934950
+> <https://sah.tib.eu/individual/n2597> <http://ontology.tib.eu/gesah/is_attribution_type_of> <https://sah.tib.eu/individual/f81687b9cb2c4da0b07ef9cc50c447c1_n116700> <http://vitro.mannlib.cornell.edu/default/vitro-kb-inf> .
+1934356a1934954
+> <https://sah.tib.eu/individual/n2597> <http://ontology.tib.eu/gesah/is_attribution_type_of> <https://sah.tib.eu/individual/ff5010b765674ad78a47af9f61658ec4_n116700> <http://vitro.mannlib.cornell.edu/default/vitro-kb-inf> .
+1935674a1936273
+> <https://sah.tib.eu/individual/n25983> <http://ontology.tib.eu/gesah/localisation_of_depicted_object> <https://sah.tib.eu/individual/4431d9be6d9e423286f67b7cd63c5b7b> <http://vitro.mannlib.cornell.edu/default/vitro-kb-2> .
+1935677a1936277,1936278
+> <https://sah.tib.eu/individual/n25983> <http://ontology.tib.eu/gesah/localisation_of_depicted_object> <https://sah.tib.eu/individual/7cae7f255c684e81a3fce792e8c55cd3> <http://vitro.mannlib.cornell.edu/default/vitro-kb-2> .
+> <https://sah.tib.eu/individual/n25983> <http://ontology.tib.eu/gesah/localisation_of_depicted_object> <https://sah.tib.eu/individual/7cb3d7432cae443e8c2a963398e17623> <http://vitro.mannlib.cornell.edu/default/vitro-kb-2> .
+1935679a1936281
+> <https://sah.tib.eu/individual/n25983> <http://ontology.tib.eu/gesah/localisation_of_depicted_object> <https://sah.tib.eu/individual/9e96d0da3ccb4734bd5c561cc10ed55a> <http://vitro.mannlib.cornell.edu/default/vitro-kb-2> .
+1935685a1936288
+> <https://sah.tib.eu/individual/n25983> <http://ontology.tib.eu/gesah/localisation_of_depicted_object> <https://sah.tib.eu/individual/da61bb8c7dfa404788b9dc7762b76271> <http://vitro.mannlib.cornell.edu/default/vitro-kb-2> .
+1995701a1996305
+> <https://sah.tib.eu/individual/n30923> <http://ontology.tib.eu/gesah/is_object_category_generic_term_of> <https://sah.tib.eu/individual/4431d9be6d9e423286f67b7cd63c5b7b> <http://vitro.mannlib.cornell.edu/default/vitro-kb-2> .
+1995720a1996325,1996326
+> <https://sah.tib.eu/individual/n30923> <http://ontology.tib.eu/gesah/is_object_category_generic_term_of> <https://sah.tib.eu/individual/7cae7f255c684e81a3fce792e8c55cd3> <http://vitro.mannlib.cornell.edu/default/vitro-kb-2> .
+> <https://sah.tib.eu/individual/n30923> <http://ontology.tib.eu/gesah/is_object_category_generic_term_of> <https://sah.tib.eu/individual/7cb3d7432cae443e8c2a963398e17623> <http://vitro.mannlib.cornell.edu/default/vitro-kb-2> .
+1995754a1996361
+> <https://sah.tib.eu/individual/n30923> <http://ontology.tib.eu/gesah/is_object_category_generic_term_of> <https://sah.tib.eu/individual/d05fb109799141fe834ac7e1f8d8f830> <http://vitro.mannlib.cornell.edu/default/vitro-kb-2> .
+1995759a1996367
+> <https://sah.tib.eu/individual/n30923> <http://ontology.tib.eu/gesah/is_object_category_generic_term_of> <https://sah.tib.eu/individual/da61bb8c7dfa404788b9dc7762b76271> <http://vitro.mannlib.cornell.edu/default/vitro-kb-2> .
+2004915a2005524,2005540
+> <https://sah.tib.eu/individual/n31401> <http://ontology.tib.eu/gesah/depicted_in> <https://sah.tib.eu/individual/10c08fcc81484a849ce9e23810193b8c> <http://vitro.mannlib.cornell.edu/default/vitro-kb-2> .
+> <https://sah.tib.eu/individual/n31401> <http://ontology.tib.eu/gesah/depicted_in> <https://sah.tib.eu/individual/59177905a5f049cab13a54f8bf790745> <http://vitro.mannlib.cornell.edu/default/vitro-kb-2> .
+> <https://sah.tib.eu/individual/n31401> <http://ontology.tib.eu/gesah/depicted_in> <https://sah.tib.eu/individual/65f301be6688460aa6b779da0b89ef23> <http://vitro.mannlib.cornell.edu/default/vitro-kb-2> .
+> <https://sah.tib.eu/individual/n31401> <http://ontology.tib.eu/gesah/depicted_in> <https://sah.tib.eu/individual/7cae7f255c684e81a3fce792e8c55cd3> <http://vitro.mannlib.cornell.edu/default/vitro-kb-2> .
+> <https://sah.tib.eu/individual/n31401> <http://ontology.tib.eu/gesah/depicted_in> <https://sah.tib.eu/individual/9f0d37a375c240ff816b902f74d04de6> <http://vitro.mannlib.cornell.edu/default/vitro-kb-2> .
+> <https://sah.tib.eu/individual/n31401> <http://ontology.tib.eu/gesah/depicted_in> <https://sah.tib.eu/individual/c436558c0b234ac3b096f074731b0a83> <http://vitro.mannlib.cornell.edu/default/vitro-kb-2> .
+> <https://sah.tib.eu/individual/n31401> <http://ontology.tib.eu/gesah/depicted_in> <https://sah.tib.eu/individual/da61bb8c7dfa404788b9dc7762b76271> <http://vitro.mannlib.cornell.edu/default/vitro-kb-2> .
+> <https://sah.tib.eu/individual/n31401> <http://ontology.tib.eu/gesah/depicted_in> <https://sah.tib.eu/individual/n4664> <http://vitro.mannlib.cornell.edu/default/vitro-kb-2> .
+> <https://sah.tib.eu/individual/n31401> <http://ontology.tib.eu/gesah/GND_ID> "1053223-7" <http://vitro.mannlib.cornell.edu/default/vitro-kb-2> .
+> <https://sah.tib.eu/individual/n31401> <http://vitro.mannlib.cornell.edu/ns/vitro/0.7#mostSpecificType> <http://xmlns.com/foaf/0.1/Organization> <http://vitro.mannlib.cornell.edu/default/vitro-kb-inf> .
+> <https://sah.tib.eu/individual/n31401> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.obolibrary.org/obo/BFO_0000001> <http://vitro.mannlib.cornell.edu/default/vitro-kb-inf> .
+> <https://sah.tib.eu/individual/n31401> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.obolibrary.org/obo/BFO_0000002> <http://vitro.mannlib.cornell.edu/default/vitro-kb-inf> .
+> <https://sah.tib.eu/individual/n31401> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.obolibrary.org/obo/BFO_0000004> <http://vitro.mannlib.cornell.edu/default/vitro-kb-inf> .
+> <https://sah.tib.eu/individual/n31401> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Thing> <http://vitro.mannlib.cornell.edu/default/vitro-kb-2> .
+> <https://sah.tib.eu/individual/n31401> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Agent> <http://vitro.mannlib.cornell.edu/default/vitro-kb-inf> .
+> <https://sah.tib.eu/individual/n31401> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> <http://vitro.mannlib.cornell.edu/default/vitro-kb-2> .
+> <https://sah.tib.eu/individual/n31401> <http://www.w3.org/2000/01/rdf-schema#label> "Museo Archeologico Nazionale Napoli"@de-DE <http://vitro.mannlib.cornell.edu/default/vitro-kb-2> .
+2019837a2020463
+> <https://sah.tib.eu/individual/n3212> <http://ontology.tib.eu/gesah/is_current_holding_institution_of> <https://sah.tib.eu/individual/11c57e788e6145a999a73739f615ec52> <http://vitro.mannlib.cornell.edu/default/vitro-kb-inf> .
+2020003a2020630
+> <https://sah.tib.eu/individual/n3212> <http://ontology.tib.eu/gesah/is_current_holding_institution_of> <https://sah.tib.eu/individual/49ee783a4d484da6ae48678ad09aa33c> <http://vitro.mannlib.cornell.edu/default/vitro-kb-inf> .
+2020225a2020853
+> <https://sah.tib.eu/individual/n3212> <http://ontology.tib.eu/gesah/is_current_holding_institution_of> <https://sah.tib.eu/individual/a83bcebd056a454f8748263852e286c5> <http://vitro.mannlib.cornell.edu/default/vitro-kb-inf> .
+2020261a2020890
+> <https://sah.tib.eu/individual/n3212> <http://ontology.tib.eu/gesah/is_current_holding_institution_of> <https://sah.tib.eu/individual/b4ee8e9eedf54cc1ada59b6f48774fe0> <http://vitro.mannlib.cornell.edu/default/vitro-kb-inf> .
+2037506a2038136
+> <https://sah.tib.eu/individual/n32479> <http://ontology.tib.eu/gesah/used_in> <https://sah.tib.eu/individual/2ba9a300f76844108dcaad8f63aef8a5> <http://vitro.mannlib.cornell.edu/default/vitro-kb-2> .
+2051798a2052429
+> <https://sah.tib.eu/individual/n34147> <http://ontology.tib.eu/gesah/collection_for> <https://sah.tib.eu/individual/11c57e788e6145a999a73739f615ec52> <http://vitro.mannlib.cornell.edu/default/vitro-kb-inf> .
+2051964a2052596
+> <https://sah.tib.eu/individual/n34147> <http://ontology.tib.eu/gesah/collection_for> <https://sah.tib.eu/individual/49ee783a4d484da6ae48678ad09aa33c> <http://vitro.mannlib.cornell.edu/default/vitro-kb-inf> .
+2052186a2052819
+> <https://sah.tib.eu/individual/n34147> <http://ontology.tib.eu/gesah/collection_for> <https://sah.tib.eu/individual/a83bcebd056a454f8748263852e286c5> <http://vitro.mannlib.cornell.edu/default/vitro-kb-inf> .
+2052222a2052856
+> <https://sah.tib.eu/individual/n34147> <http://ontology.tib.eu/gesah/collection_for> <https://sah.tib.eu/individual/b4ee8e9eedf54cc1ada59b6f48774fe0> <http://vitro.mannlib.cornell.edu/default/vitro-kb-inf> .
+2079024a2079659
+> <https://sah.tib.eu/individual/n37142> <http://ontology.tib.eu/gesah/is_object_category_narrower_term_of> <https://sah.tib.eu/individual/4431d9be6d9e423286f67b7cd63c5b7b> <http://vitro.mannlib.cornell.edu/default/vitro-kb-2> .
+2079032a2079668,2079669
+> <https://sah.tib.eu/individual/n37142> <http://ontology.tib.eu/gesah/is_object_category_narrower_term_of> <https://sah.tib.eu/individual/7cae7f255c684e81a3fce792e8c55cd3> <http://vitro.mannlib.cornell.edu/default/vitro-kb-2> .
+> <https://sah.tib.eu/individual/n37142> <http://ontology.tib.eu/gesah/is_object_category_narrower_term_of> <https://sah.tib.eu/individual/7cb3d7432cae443e8c2a963398e17623> <http://vitro.mannlib.cornell.edu/default/vitro-kb-2> .
+2079038a2079676
+> <https://sah.tib.eu/individual/n37142> <http://ontology.tib.eu/gesah/is_object_category_narrower_term_of> <https://sah.tib.eu/individual/9e96d0da3ccb4734bd5c561cc10ed55a> <http://vitro.mannlib.cornell.edu/default/vitro-kb-2> .
+2079051a2079690
+> <https://sah.tib.eu/individual/n37142> <http://ontology.tib.eu/gesah/is_object_category_narrower_term_of> <https://sah.tib.eu/individual/d05fb109799141fe834ac7e1f8d8f830> <http://vitro.mannlib.cornell.edu/default/vitro-kb-2> .
+2079052a2079692
+> <https://sah.tib.eu/individual/n37142> <http://ontology.tib.eu/gesah/is_object_category_narrower_term_of> <https://sah.tib.eu/individual/da61bb8c7dfa404788b9dc7762b76271> <http://vitro.mannlib.cornell.edu/default/vitro-kb-2> .
+2151351a2151992,2151993
+> <https://sah.tib.eu/individual/n4664> <http://ontology.tib.eu/gesah/depicts> <https://sah.tib.eu/individual/n135929> <http://vitro.mannlib.cornell.edu/default/vitro-kb-2> .
+> <https://sah.tib.eu/individual/n4664> <http://ontology.tib.eu/gesah/depicts> <https://sah.tib.eu/individual/n31401> <http://vitro.mannlib.cornell.edu/default/vitro-kb-2> .
+2151354a2151997
+> <https://sah.tib.eu/individual/n4664> <http://ontology.tib.eu/gesah/has_depiction_type> <http://ontology.tib.eu/gesah/Detail> <http://vitro.mannlib.cornell.edu/default/vitro-kb-2> .
+2204037a2204681,2204682
+> <https://sah.tib.eu/individual/n53345> <http://ontology.tib.eu/gesah/depicted_in> <https://sah.tib.eu/individual/4431d9be6d9e423286f67b7cd63c5b7b> <http://vitro.mannlib.cornell.edu/default/vitro-kb-2> .
+> <https://sah.tib.eu/individual/n53345> <http://ontology.tib.eu/gesah/depicted_in> <https://sah.tib.eu/individual/7cb3d7432cae443e8c2a963398e17623> <http://vitro.mannlib.cornell.edu/default/vitro-kb-2> .
+2239669a2240315,2240322
+> <https://sah.tib.eu/individual/n58481> <http://ontology.tib.eu/gesah/has_role> <https://sah.tib.eu/individual/48faefcf89b64bac9cdf541a46975d45_n58008> <http://vitro.mannlib.cornell.edu/default/vitro-kb-inf> .
+> <https://sah.tib.eu/individual/n58481> <http://ontology.tib.eu/gesah/has_role> <https://sah.tib.eu/individual/749cb68c398d427592ad0c053f0f0396_n45597> <http://vitro.mannlib.cornell.edu/default/vitro-kb-inf> .
+> <https://sah.tib.eu/individual/n58481> <http://ontology.tib.eu/gesah/has_role> <https://sah.tib.eu/individual/957b9b8c41ba4f47b43aa773f279b456_n45597> <http://vitro.mannlib.cornell.edu/default/vitro-kb-inf> .
+> <https://sah.tib.eu/individual/n58481> <http://ontology.tib.eu/gesah/has_role> <https://sah.tib.eu/individual/9dcbb75b5d1a40168da93108b61164db_n58008> <http://vitro.mannlib.cornell.edu/default/vitro-kb-inf> .
+> <https://sah.tib.eu/individual/n58481> <http://ontology.tib.eu/gesah/has_role> <https://sah.tib.eu/individual/b2d7392a96c640dea5ae85b1d5b336fd_n45597> <http://vitro.mannlib.cornell.edu/default/vitro-kb-inf> .
+> <https://sah.tib.eu/individual/n58481> <http://ontology.tib.eu/gesah/has_role> <https://sah.tib.eu/individual/b72df119c065426cb7e8e6457d3c951e_n45597> <http://vitro.mannlib.cornell.edu/default/vitro-kb-inf> .
+> <https://sah.tib.eu/individual/n58481> <http://ontology.tib.eu/gesah/has_role> <https://sah.tib.eu/individual/b7595aaebf864ac295d26b2ecfc0cd43_n58008> <http://vitro.mannlib.cornell.edu/default/vitro-kb-inf> .
+> <https://sah.tib.eu/individual/n58481> <http://ontology.tib.eu/gesah/has_role> <https://sah.tib.eu/individual/d19022a48068423c8917fb272c8f4777_n58008> <http://vitro.mannlib.cornell.edu/default/vitro-kb-inf> .
+2277306a2277960,2277961
+> <https://sah.tib.eu/individual/n63010> <http://ontology.tib.eu/gesah/depicted_in> <https://sah.tib.eu/individual/c436558c0b234ac3b096f074731b0a83> <http://vitro.mannlib.cornell.edu/default/vitro-kb-2> .
+> <https://sah.tib.eu/individual/n63010> <http://ontology.tib.eu/gesah/depicted_in> <https://sah.tib.eu/individual/da61bb8c7dfa404788b9dc7762b76271> <http://vitro.mannlib.cornell.edu/default/vitro-kb-2> .
+2804391a2805047
+> <https://sah.tib.eu/individual/samvokua_1869125207_image_106_digrep> <http://ontology.tib.eu/gesah/is_digital_representation_of> <https://sah.tib.eu/individual/11c57e788e6145a999a73739f615ec52> <http://vitro.mannlib.cornell.edu/default/vitro-kb-inf> .
+2804407a2805064
+> <https://sah.tib.eu/individual/samvokua_1869125207_image_107_digrep> <http://ontology.tib.eu/gesah/is_digital_representation_of> <https://sah.tib.eu/individual/11c57e788e6145a999a73739f615ec52> <http://vitro.mannlib.cornell.edu/default/vitro-kb-inf> .
+2804423a2805081
+> <https://sah.tib.eu/individual/samvokua_1869125207_image_108_digrep> <http://ontology.tib.eu/gesah/is_digital_representation_of> <https://sah.tib.eu/individual/11c57e788e6145a999a73739f615ec52> <http://vitro.mannlib.cornell.edu/default/vitro-kb-inf> .
+2804439a2805098
+> <https://sah.tib.eu/individual/samvokua_1869125207_image_109_digrep> <http://ontology.tib.eu/gesah/is_digital_representation_of> <https://sah.tib.eu/individual/b4ee8e9eedf54cc1ada59b6f48774fe0> <http://vitro.mannlib.cornell.edu/default/vitro-kb-inf> .
+2804472a2805132
+> <https://sah.tib.eu/individual/samvokua_1869125207_image_110_digrep> <http://ontology.tib.eu/gesah/is_digital_representation_of> <https://sah.tib.eu/individual/b4ee8e9eedf54cc1ada59b6f48774fe0> <http://vitro.mannlib.cornell.edu/default/vitro-kb-inf> .
+2804488a2805149
+> <https://sah.tib.eu/individual/samvokua_1869125207_image_111_digrep> <http://ontology.tib.eu/gesah/is_digital_representation_of> <https://sah.tib.eu/individual/b4ee8e9eedf54cc1ada59b6f48774fe0> <http://vitro.mannlib.cornell.edu/default/vitro-kb-inf> .
+2804504a2805166
+> <https://sah.tib.eu/individual/samvokua_1869125207_image_112_digrep> <http://ontology.tib.eu/gesah/is_digital_representation_of> <https://sah.tib.eu/individual/49ee783a4d484da6ae48678ad09aa33c> <http://vitro.mannlib.cornell.edu/default/vitro-kb-inf> .
+2804520a2805183
+> <https://sah.tib.eu/individual/samvokua_1869125207_image_113_digrep> <http://ontology.tib.eu/gesah/is_digital_representation_of> <https://sah.tib.eu/individual/49ee783a4d484da6ae48678ad09aa33c> <http://vitro.mannlib.cornell.edu/default/vitro-kb-inf> .
+2804536a2805200
+> <https://sah.tib.eu/individual/samvokua_1869125207_image_114_digrep> <http://ontology.tib.eu/gesah/is_digital_representation_of> <https://sah.tib.eu/individual/49ee783a4d484da6ae48678ad09aa33c> <http://vitro.mannlib.cornell.edu/default/vitro-kb-inf> .
+2804854a2805519
+> <https://sah.tib.eu/individual/samvokua_1869125207_image_25_digrep> <http://ontology.tib.eu/gesah/is_digital_representation_of> <https://sah.tib.eu/individual/a83bcebd056a454f8748263852e286c5> <http://vitro.mannlib.cornell.edu/default/vitro-kb-inf> .
+2804870a2805536
+> <https://sah.tib.eu/individual/samvokua_1869125207_image_26_digrep> <http://ontology.tib.eu/gesah/is_digital_representation_of> <https://sah.tib.eu/individual/a83bcebd056a454f8748263852e286c5> <http://vitro.mannlib.cornell.edu/default/vitro-kb-inf> .
+2804886a2805553
+> <https://sah.tib.eu/individual/samvokua_1869125207_image_27_digrep> <http://ontology.tib.eu/gesah/is_digital_representation_of> <https://sah.tib.eu/individual/a83bcebd056a454f8748263852e286c5> <http://vitro.mannlib.cornell.edu/default/vitro-kb-inf> .
